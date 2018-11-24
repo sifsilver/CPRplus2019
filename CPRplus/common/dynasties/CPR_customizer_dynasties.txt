@@ -1,0 +1,13 @@
+########################################################################################################################
+#
+# Dynasties for Customizer Cultures - Should not be used in-game 
+# Dynasties are only put here so you won't get "Smith" if you want to play the culture in-game for whatever reason
+#
+# 1000092800-1000092899
+# 
+########################################################################################################################
+
+1000092800 = {
+	name="Urzhailid"
+	culture = urzhailculture
+}

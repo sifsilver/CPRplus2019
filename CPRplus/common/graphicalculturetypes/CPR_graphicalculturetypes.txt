@@ -1,0 +1,133 @@
+# Skin tones are 0 (light), 1 (tan), 2 (dark) and 3 (black)
+
+turkishgfx = {
+	skin_tone = 2
+	christian_portraits = yes
+}
+westafricangfx = {
+	skin_tone = 3
+	christian_portraits = yes
+}
+southindiangfx = {
+	skin_tone = 2
+}
+magyargfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+
+bulgargfx = {
+	skin_tone = 0
+}
+centralasiangfx = {
+	skin_tone = 1
+}
+steppegfx = {
+	skin_tone = 1
+}
+siberiangfx = {
+	skin_tone = 1
+}
+oghuzgfx = {
+	skin_tone = 2
+}
+balticgfx = {
+	skin_tone = 0
+	christian_portraits = yes
+}
+bretongfx = {
+	skin_tone = 0
+}
+bohemiangfx = {
+	skin_tone = 0
+}
+southernberbergfx = {
+	skin_tone = 3
+}
+guanchegfx = {
+	skin_tone = 2
+}
+alangfx = {
+	skin_tone = 1
+}
+georgiangfx = {
+	skin_tone = 1
+}
+norsegaelgfx = {
+	skin_tone = 0
+}
+nubiangfx = {
+	skin_tone = 3
+}
+sogdiangfx = {
+	skin_tone = 1
+}
+uyghurgfx = {
+	skin_tone = 1
+}
+khotanesegfx = {
+	skin_tone = 2
+}
+egyptiangfx = {
+	skin_tone = 2
+}
+basquegfx = {
+	skin_tone = 0
+}
+maghrebgfx = {
+	skin_tone = 2
+}
+sindhigfx = {
+	skin_tone = 2
+}
+northindiangfx = {
+	skin_tone = 2
+}
+assamesegfx = {
+	skin_tone = 2
+}
+lombardgfx = {
+	skin_tone = 0
+}
+siciliangfx = {
+	skin_tone = 1
+}
+dutchgfx = {
+	skin_tone = 0
+}
+khitangfx = {
+	skin_tone = 1
+}
+ashkenazigfx = {
+	skin_tone = 0
+}
+centralindiangfx = {
+	skin_tone = 2
+}
+somaligfx = {
+	skin_tone = 3
+}
+afghangfx = {
+	skin_tone = 2
+}
+kurdishgfx = {
+	skin_tone = 1
+}
+copticgfx = {
+	skin_tone = 2
+}
+assyriangfx = {
+	skin_tone = 1
+}
+finnishgfx = {
+	skin_tone = 0
+}
+bejagfx = {
+	skin_tone = 3
+}
+pecheneggfx = {
+	skin_tone = 2
+}
+tangutgfx = {
+	skin_tone = 1
+}
