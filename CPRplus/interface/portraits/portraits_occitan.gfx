@@ -63,6 +63,47 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_occitan_male_beard_behind"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_behind_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_beard_behind_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_behind_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_beard_behind_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_behind_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_occitan_male_beard"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_1.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_beard_midage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_2.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_occitan_male_beard_oldage"
+		texturefile = "gfx\\characters\\occitan_male\\occitan_male_beard_3.dds"
+		noOfFrames = 15
+		norefcount = yes
+	}
+	
+	spriteType = {
 		name = "GFX_occitan_male_neck"
 		texturefile = "gfx\\characters\\occitan_male\\occitan_male_neck_1.dds"
 		noOfFrames = 4
@@ -206,7 +247,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base:p2"
 			"GFX_occitan_male_neck:d0"
@@ -234,7 +275,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
@@ -297,7 +338,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind_midage:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base_midage:p2"					#5
 			"GFX_occitan_male_neck_midage:d0"
@@ -325,7 +366,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
@@ -388,7 +429,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind_oldage:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base_oldage:p2"
 			"GFX_occitan_male_neck_oldage:d0"
@@ -416,7 +457,7 @@ spriteTypes = {
 			"GFX_frankish_male_clothes:p3:c2"
 			"GFX_frankish_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
@@ -479,7 +520,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind:p1:h:y"
-			"GFX_southern_male_beard_behind:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base:p2"
 			"GFX_occitan_male_neck:d0"
@@ -507,7 +548,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_southern_male_hair:p1:h:y"
 			":p5:c7"
@@ -570,7 +611,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_midage:p1:h:y"
-			"GFX_southern_male_beard_behind_midage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind_midage:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base_midage:p2"					#5
 			"GFX_occitan_male_neck_midage:d0"
@@ -598,7 +639,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_midage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_midage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_midage:p1:h:y"
 			":p5:c7"
@@ -661,7 +702,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_southern_male_hair_behind_oldage:p1:h:y"
-			"GFX_southern_male_beard_behind_oldage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_behind_oldage:p4:o2x-2:h:y"
 			":p5:c6"
 			"GFX_occitan_male_base_oldage:p2"
 			"GFX_occitan_male_neck_oldage:d0"
@@ -689,7 +730,7 @@ spriteTypes = {
 			"GFX_western_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_southern_male_beard_oldage:p4:o2x-2:h:y"
+			"GFX_occitan_male_beard_oldage:p4:o2x-2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_southern_male_hair_oldage:p1:h:y"
 			":p5:c7"
