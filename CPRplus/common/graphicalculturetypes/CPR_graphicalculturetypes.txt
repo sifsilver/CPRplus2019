@@ -44,6 +44,9 @@ bohemiangfx = {
 southernberbergfx = {
 	skin_tone = 3
 }
+centralafricangfx = {
+	skin_tone = 3
+}
 guanchegfx = {
 	skin_tone = 2
 }

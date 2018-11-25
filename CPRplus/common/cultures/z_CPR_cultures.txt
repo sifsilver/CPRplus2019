@@ -370,7 +370,7 @@ east_african = {
 		graphical_cultures = { nubiangfx africangfx westafricangfx }
 	}
 	daju = {
-		graphical_cultures = { bejagfx africangfx westafricangfx }
+		graphical_cultures = { centralafricangfx africangfx westafricangfx }
 	}
 }
 
@@ -379,13 +379,13 @@ central_african = {
 
 	
 	kanuri = {
-		graphical_cultures = { southernberbergfx westafricangfx }
+		graphical_cultures = { centralafricangfx westafricangfx }
 	}
 	hausa = {
-		graphical_cultures = { southernberbergfx westafricangfx }
+		graphical_cultures = { centralafricangfx westafricangfx }
 	}
-	hausa = {
-		graphical_cultures = { somaligfx }
+	zaghawa = {
+		graphical_cultures = { centralafricangfx }
 	}
 }
 

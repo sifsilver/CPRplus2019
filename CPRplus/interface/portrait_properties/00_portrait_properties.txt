@@ -4609,6 +4609,10 @@
 				AND = { 
 					NOT = { culture = frankish }
 					NOT = { culture = occitan }
+					NOT = { culture = breton }
+					NOT = { culture = welsh }
+					NOT = { culture = dutch }
+					NOT = { culture = norman }
 				}
 				AND = { 
 					NOT = { real_tier = count }
@@ -7102,6 +7106,7 @@
 			OR = {
 				graphical_culture = africangfx
 				graphical_culture = westafricangfx
+				graphical_culture = centralafricangfx
 				graphical_culture = southernberbergfx
 				graphical_culture = bejagfx
 				graphical_culture = somaligfx
@@ -7236,6 +7241,7 @@
 			NOR = {
 				graphical_culture = africangfx
 				graphical_culture = westafricangfx
+				graphical_culture = centralafricangfx
 				graphical_culture = southernberbergfx
 				graphical_culture = bejagfx
 				graphical_culture = somaligfx
@@ -10036,6 +10042,10 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = norman
 			}
 		}
 		modifier = {
