@@ -84,7 +84,7 @@ latin = {
 	roman = {
 		graphical_cultures = { romangfx }
 	}
-	dalmatiangfx = {
+	dalmatian = {
 		graphical_cultures = { dalmatiangfx }
 	}
 	sicilian = {
