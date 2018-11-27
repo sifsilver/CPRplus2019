@@ -478,7 +478,7 @@ east_african = {
 		graphical_cultures = {copticgfx muslimgfx}
 	}
 	nubian = {
-		graphical_cultures = {africangfx westafricangfx} #muslimgfx 
+		graphical_cultures = {nubiangfx africangfx westafricangfx} #muslimgfx 
 	}
 }
 

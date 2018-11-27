@@ -379,7 +379,7 @@ east_african = {
 	}
 	
 	nubian = {
-		graphical_cultures = { africangfx westafricangfx }
+		graphical_cultures = { nubiangfx africangfx westafricangfx }
 	}
 
 	daju = {

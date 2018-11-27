@@ -73,7 +73,7 @@ latin = {
 		graphical_cultures = { occitangfx }
 	}
 	roman = {
-		graphical_cultures = { romangfx italiangfx }
+		graphical_cultures = { romangfx }
 	}
 	dalmatian = {
 		graphical_cultures = { dalmatiangfx italiangfx }
