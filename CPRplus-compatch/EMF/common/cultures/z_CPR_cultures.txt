@@ -312,9 +312,6 @@ west_slavic = {
 south_slavic = {
 	graphical_cultures = { easterngfx }
 
-	carantanian = {
-		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
-	}
 	croatian = {
 		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
 	}
@@ -326,6 +323,12 @@ south_slavic = {
 	}
 	bulgarian = {
 		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
+	}
+	carantanian = {
+		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
+	}
+	bosnian = {
+		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
 	}
 }
 

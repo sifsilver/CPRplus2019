@@ -315,6 +315,9 @@ south_slavic = {
 	carantanian = {
 		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
 	}
+	bosnian = {
+		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
+	}
 }
 
 magyar = {
