@@ -101,8 +101,8 @@ latin = {
 		graphical_cultures = {normangfx}
 	}
 
-	crusader_culture = {
-		graphical_cultures = {normangfx}
+	outremer = {
+		graphical_cultures = {outremergfx}
 	}
 }
 
@@ -125,7 +125,7 @@ iberian = {
 		graphical_cultures = {southerngfx}
 	}
 	catalan = {
-		graphical_cultures = {southerngfx}
+		graphical_cultures = {basquegfx southerngfx}
 	}
     galician = {
 		graphical_cultures = {southerngfx}
@@ -147,11 +147,11 @@ byzantine = {
 	greek = {
 		graphical_cultures = {byzantinegfx}
 	}
-	east_gothic = {
-		graphical_cultures = {crimeangothicgfx byzantinegfx}
+	crimean_gothic = {
+		graphical_cultures = {crimeangfx byzantinegfx}
 	}
 	romanian = {
-		graphical_cultures = {southernslavicgfx westernslavicgfx}
+		graphical_cultures = {serbsouthslavicgfx westernslavicgfx}
 	}
 	alan = {
 		graphical_cultures = {alangfx turkishgfx}
@@ -166,7 +166,7 @@ byzantine = {
 	#	graphical_cultures = {byzantinegfx}
 	#}
 	arberian = {
-		graphical_cultures = {southernslavicgfx byzantinegfx}
+		graphical_cultures = {serbsouthslavicgfx byzantinegfx}
 	}
 	georgian = {
 		graphical_cultures = {georgiangfx byzantinegfx}
@@ -238,6 +238,9 @@ finno_ugric = {
 	mordvin = {
 		graphical_cultures = {ugricgfx}
 	}
+	meshchera = {
+		graphical_cultures = {ugricgfx}
+	}
 }
 
 baltic = {
@@ -282,7 +285,7 @@ altaic = {
 		graphical_cultures = {bulgargfx turkishgfx}
 	}	
 	avar = {
-		graphical_cultures = {hungariangfx turkishgfx easterngfx }
+		graphical_cultures = {magyargfx turkishgfx easterngfx }
 	}
 	karluk = {
 		graphical_cultures = {centralasiangfx turkishgfx}
@@ -377,30 +380,30 @@ west_slavic = {
 south_slavic = {
 	graphical_cultures = {easterngfx}
 
-	karantanci = {
-		graphical_cultures = {bohemiangfx westernslavicgfx}
+	carantanian = {
+		graphical_cultures = {croatsouthslavicgfx westernslavicgfx}
 	}
 	croatian = {
-		graphical_cultures = {bohemiangfx westernslavicgfx}
+		graphical_cultures = {croatsouthslavicgfx westernslavicgfx}
 	}       
 	serbian = {
-		graphical_cultures = {southernslavicgfx westernslavicgfx}
+		graphical_cultures = {serbsouthslavicgfx westernslavicgfx}
 	}        
 	bosnian = {
 		graphical_cultures = {bohemiangfx westernslavicgfx}
 	}
 	bulgarian = {
-		graphical_cultures = {southernslavicgfx westernslavicgfx}
+		graphical_cultures = {serbsouthslavicgfx westernslavicgfx}
 	}        
 }
 magyar = {
 	graphical_cultures = {easterngfx}
 
 	hungarian = {
-		graphical_cultures = {hungariangfx westernslavicgfx}
+		graphical_cultures = {magyargfx westernslavicgfx}
 	}
 	szekely = {
-		graphical_cultures = {hungariangfx westernslavicgfx}
+		graphical_cultures = {magyargfx westernslavicgfx}
 	}
 }
 iranian = {
@@ -466,19 +469,30 @@ east_african = {
 		graphical_cultures = {bejagfx africangfx westafricangfx}
 	}
 	daju = {
-		graphical_cultures = {bejagfx africangfx westafricangfx}
+		graphical_cultures = {centralafricangfx africangfx westafricangfx}
 	}
 	beja = {
 		graphical_cultures = {bejagfx africangfx westafricangfx}
-	}
-	zaghawa = {
-		graphical_cultures = {somaligfx africangfx westafricangfx}
 	}
 	coptic = {
 		graphical_cultures = {copticgfx muslimgfx}
 	}
 	nubian = {
 		graphical_cultures = {africangfx westafricangfx} #muslimgfx 
+	}
+}
+
+central_african = {
+	graphical_cultures = {africangfx muslimgfx}
+
+	zaghawa = {
+		graphical_cultures = {centralafricangfx}
+	}
+	kanuri = {
+		graphical_cultures = {centralafricangfx westafricangfx}
+	}
+	hausa = {
+		graphical_cultures = {centralafricangfx westafricangfx}
 	}
 }
 
@@ -494,15 +508,10 @@ west_african = {
 	wolof = {
 		graphical_cultures = {westafricangfx}
 	}
-	songhai = {
+	songhay = {
 		graphical_cultures = {westafricangfx}
 	}	
-	kanuri = {
-		graphical_cultures = {southernberbergfx westafricangfx}
-	}
-	hausa = {
-		graphical_cultures = {southernberbergfx westafricangfx}
-	}
+	
 }
 
 north_african = {
@@ -579,10 +588,10 @@ italian_group = {
 		graphical_cultures = { italiangfx }
 	}
 	dalmatian = {		
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { dalmatiangfx }
 	}
 	roman = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { romangfx }
 	}
 }
 mesoamerican = {
