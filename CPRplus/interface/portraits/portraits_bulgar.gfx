@@ -16,34 +16,6 @@ spriteTypes = {
 		noOfFrames = 1
 		norefcount = yes
 	}
-
-	spriteType = {
-		name = "GFX_bulgar_male_eyes"
-		texturefile = "gfx\\characters\\bulgar_male\\bulgar_male_eyes_1.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_bulgar_male_eyes_midage"
-		texturefile = "gfx\\characters\\bulgar_male\\bulgar_male_eyes_2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_bulgar_male_eyes_oldage"
-		texturefile = "gfx\\characters\\bulgar_male\\bulgar_male_eyes_3.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
-
-	spriteType = {
-		name = "GFX_bulgar_male_eyes2"
-		texturefile = "gfx\\characters\\bulgar_male\\bulgar_male_eyes2.dds"
-		noOfFrames = 10
-		norefcount = yes
-	}
 	
 	### bulgar MALE ####
 	
@@ -66,8 +38,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks:d4"
 			"GFX_steppe_male_mouth:d2"
 			"GFX_steppe_male_nose:d3"					#10
-			"GFX_bulgar_male_eyes:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -132,8 +104,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks_midage:d4"
 			"GFX_steppe_male_mouth_midage:d2"
 			"GFX_steppe_male_nose_midage:d3"
-			"GFX_bulgar_male_eyes_midage:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes_midage:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -198,8 +170,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks_oldage:d4"
 			"GFX_steppe_male_mouth_oldage:d2"
 			"GFX_steppe_male_nose_oldage:d3"
-			"GFX_bulgar_male_eyes_oldage:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes_oldage:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -261,8 +233,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks:d4"
 			"GFX_steppe_male_mouth:d2"
 			"GFX_steppe_male_nose:d3"					#10
-			"GFX_bulgar_male_eyes:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -327,8 +299,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks_midage:d4"
 			"GFX_steppe_male_mouth_midage:d2"
 			"GFX_steppe_male_nose_midage:d3"
-			"GFX_bulgar_male_eyes_midage:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes_midage:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
@@ -393,8 +365,8 @@ spriteTypes = {
 			"GFX_steppe_male_cheeks_oldage:d4"
 			"GFX_steppe_male_mouth_oldage:d2"
 			"GFX_steppe_male_nose_oldage:d3"
-			"GFX_bulgar_male_eyes_oldage:d6"
-			"GFX_bulgar_male_eyes2:d6:e"
+			"GFX_ugric_male_eyes_oldage:d6:o1x0"
+			"GFX_ugric_male_eyes2:d6:e:o1x0"
 			"GFX_character_scars:p7:y"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"
