@@ -197,6 +197,10 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 		#modifier = {
 		#	factor = 0.01
 		#	is_feudal = no
@@ -221,6 +225,7 @@
 			is_alive = yes
 			NOR = {
 				trait = incapable
+				trait = in_hiding
 				AND = {
 					trait = infirm
 					prisoner = no
@@ -298,6 +303,10 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 	6 = { # military camp
 		factor = 100
@@ -344,20 +353,92 @@
 		#	has_job_title = job_marshal
 		#}
 	}
-	7 = { # Dolmen - changed to African village
-		factor = 2
+	7 = { # Dolmen - changed to "tribal" interior 
+		factor = 1
 		modifier = {
-			factor = 0
-			location = {
-				NOR = {
-					region = world_africa_east
-					region = world_africa_west
+			factor = 2
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				is_landed = yes
+				spouse = { is_landed = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_landed = no
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { terrain = desert }
+			in_command = yes
+			NOT = { siege = { is_attacker = no } }
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				is_tribal = yes
+				AND = {
+					liege = {
+						is_tribal = yes
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+				AND = {
+					is_theocracy = yes
+					religion_group = pagan_group
+					NOR = {
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						religion = norse_pagan_reformed
+						religion = tengri_pagan_reformed
+						religion = baltic_pagan_reformed
+						religion = finnish_pagan_reformed
+						religion = aztec_reformed
+						religion = slavic_pagan_reformed
+						religion = west_african_pagan_reformed
+						religion = zun_pagan_reformed
+						religion = bon_reformed
+					}
+				}
+				AND = {
+					liege = {
+						is_theocracy = yes
+						religion_group = pagan_group
+						NOR = {
+							religion = hellenic_pagan
+							religion = hellenic_pagan_reformed
+							religion = norse_pagan_reformed
+							religion = tengri_pagan_reformed
+							religion = baltic_pagan_reformed
+							religion = finnish_pagan_reformed
+							religion = aztec_reformed
+							religion = slavic_pagan_reformed
+							religion = west_african_pagan_reformed
+							religion = zun_pagan_reformed
+							religion = bon_reformed
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 	}
 	8 = { # Gallows - changed to African savanna -> China
@@ -418,11 +499,6 @@
 				is_priest = yes
 			}
 		}
-		modifier = {
-			factor = 10
-			government = theocracy_government
-			is_landed = yes
-		}
 		#modifier = {
 		#	factor = 3
 		#	liege = { is_theocracy = yes }
@@ -444,9 +520,11 @@
 				trait = martial_cleric
 				trait = scholarly_theologian
 				trait = mastermind_theologian
-				government = theocracy_government
-				is_theocracy = yes
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 	}
 	10 = { # Desert
@@ -504,6 +582,10 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 	11 = { # Steppe
 		factor = 2
@@ -514,6 +596,7 @@
 					region = world_steppe
 					region = world_europe
 					region = world_persia
+					terrain = marsh
 				}
 			}
 		}
@@ -525,6 +608,7 @@
 					terrain = steppe
 					terrain = plains
 					terrain = hills
+					terrain = marsh
 				}
 			}
 		}
@@ -550,32 +634,17 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 	12 = { # Ocean w ships
 		factor = 1
 		modifier = {
 			factor = 0
 			location = {
-				NOR = {
-					port = yes
-					is_land = no
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_nomadic = yes
-				AND = {
-					liege = { is_nomadic = yes }
-					OR = {
-						is_landed = no
-						AND = {
-							is_landed = yes
-							has_job_title = yes
-						}
-					}
-				}
+				is_land = yes
 			}
 		}
 		modifier = {
@@ -584,7 +653,7 @@
 		}
 		modifier = {
 			factor = 0
-			has_character_modifier = in_seclusion
+			trait = in_hiding
 		}
 	}
 	13 = { # Muslim interior
@@ -654,33 +723,40 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
-	14 = { # Harem - changed to mountain
+	14 = { # Harem - changed to Celtic Castle
 		factor = 2
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					terrain = mountain
-					terrain = hills
+			location = { NOT = { region = world_europe_west_brittania } }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { culture_group = celtic }
+		}
+		modifier = {
+			factor = 2
+			location = { culture_group = celtic }
+			OR = {
+				is_landed = yes
+				spouse = { is_landed = yes }
+				AND = {
+					liege = { family = ROOT }
+					is_landed = no
 				}
 			}
 		}
 		modifier = {
-			factor = 1.5
-			location = { terrain = mountain }
-		}
-		modifier = {
-			factor = 0
-			location = { terrain = arctic }
-		}
-		modifier = {
-			factor = 0
-			siege = { is_attacker = no }
-		}
-		modifier = {
 			factor = 0
 			has_character_modifier = in_seclusion
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 	}
 	15 = { # Muslim interior 2
@@ -750,10 +826,14 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 
 	16 = { # Mongol camp 1
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
@@ -771,26 +851,7 @@
 			}
 		}
 		modifier = {
-			factor = 0
-			NOT = { siege = { is_attacker = no } }
-			location = {
-				OR = {
-				#	terrain = arctic
-					terrain = mountain
-					terrain = desert
-				#	terrain = jungle
-				#	terrain = marsh
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			location = {
-				region = world_africa
-			}
-		}
-		modifier = {
-			factor = 5
+			factor = 10
 			OR = {
 				is_landed = yes
 				spouse = { is_landed = yes }
@@ -798,9 +859,30 @@
 					liege = { family = ROOT }
 					is_landed = no
 				}
+			}
+		}
+		modifier = {
+			factor = 5
+			liege = { is_nomadic = yes }
+			has_job_title = yes
+		}
+	}
+
+	17 = { # Mongol camp 2
+		factor = 1
+		modifier = {
+			factor = 0
+			NOR = {
+				is_nomadic = yes
 				AND = {
 					liege = { is_nomadic = yes }
-					has_job_title = yes
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
 				}
 			}
 		}
@@ -829,24 +911,28 @@
 			in_command = yes
 			NOT = { siege = { is_attacker = no } }
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 
-	17 = { # Mongol camp 2 - changed to "tribal" interior 
-		factor = 1
+	18 = { # Papal palace - used for Christian theocracies
+		factor = 50
 		modifier = {
-			factor = 2
-			is_tribal = yes
+			factor = 0
+			NOT = { religion_group = christian }
 		}
 		modifier = {
-			factor = 5
-			OR = {
-				is_landed = yes
-				spouse = { is_landed = yes }
-				AND = {
-					liege = { family = ROOT }
-					is_landed = no
-				}
+			factor = 0
+			NOR = {
+				government = theocracy_government
+				is_theocracy = yes
 			}
+		}
+		modifier = {
+			factor = 0
+			lower_real_tier_than = DUKE
 		}
 		modifier = {
 			factor = 0
@@ -855,14 +941,14 @@
 		}
 		modifier = {
 			factor = 0
-			NOR = {
-				is_tribal = yes
+			OR = {
 				is_nomadic = yes
+				is_tribal = yes
 				AND = {
 					liege = {
 						OR = {
-							is_tribal = yes
 							is_nomadic = yes
+							is_tribal = yes
 						}
 					}
 					OR = {
@@ -873,71 +959,32 @@
 						}
 					}
 				}
-				AND = {
-					is_theocracy = yes
-					religion_group = pagan_group
-				}
-				AND = {
-					liege = {
-						is_theocracy = yes
-						religion_group = pagan_group
-					}
-					OR = {
-						is_landed = no
-						AND = {
-							is_landed = yes
-							has_job_title = yes
-						}
-					}
-				}
 			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
 		}
 	}
 
-	18 = { # Papal palace
-		factor = 20
-		modifier = {
-			factor = 0
-			NOT = {
-				location = { province_id = 333 }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				has_landed_title = b_roma
-				AND = {
-					liege = { has_landed_title = b_roma }
-					OR = {
-						is_councillor = yes
-						is_landed = no
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 5
-			has_landed_title = b_roma
-		}
-		#modifier = {
-		#	factor = 0
-		#	NOT = { has_landed_title = k_papal_state }
-		#	NOT = { has_landed_title = d_fraticelli }
-			#NOT = { has_claim = k_papal_state }
-			#NOT = { has_claim = d_fraticelli }
-		#}
-		modifier = {
-			factor = 0
-			in_command = yes
-			NOT = { siege = { is_attacker = no } }
-		}
-	}
-
-	19 = { # Muslim mosque
+	19 = { # Muslim mosque - also used for reformed pagan religions
 		factor = 2
 		modifier = {
 			factor = 0
-			NOT = { religion_group = muslim }
+			NOR = {
+				religion_group = muslim
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+				religion = norse_pagan_reformed
+				religion = tengri_pagan_reformed
+				religion = baltic_pagan_reformed
+				religion = finnish_pagan_reformed
+				religion = aztec_reformed
+				religion = slavic_pagan_reformed
+				religion = west_african_pagan_reformed
+				religion = zun_pagan_reformed
+				religion = bon_reformed
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1005,161 +1052,56 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
-	}
-
-	20 = { # Pagan human sacrifice - changed to "meadow"
-		factor = 1
 		modifier = {
 			factor = 0
-			location = {
-				NOR = {
-					region = world_europe
-					region = world_asia_minor
-					region = world_steppe_west
-					region = world_india
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			location = {
-				OR = {
-					terrain = arctic
-					terrain = desert
-					terrain = steppe
-					terrain = mountain
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			location = {
-				OR = {
-					terrain = plains
-					terrain = woods
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			siege = { is_attacker = no }
-		}
-		modifier = {
-			factor = 0
-			has_character_modifier = in_seclusion
+			trait = in_hiding
 		}
 	}
 
-	21 = { # Celtic Green - used as generic European hills
-		factor = 1
-		modifier = {
-			factor = 0
-			location = { NOT = { region = world_europe } }
-		}
-		modifier = {
-			factor = 0
-			location = {
-				OR = {
-					terrain = arctic
-					terrain = desert
-					terrain = steppe
-					terrain = forest
-					terrain = marsh
-					terrain = mountain
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			location = {
-				OR = {
-					terrain = farmlands
-					terrain = hills
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			siege = { is_attacker = no }
-		}
-		modifier = {
-			factor = 0
-			has_character_modifier = in_seclusion
-		}
-	}
-
-	22 = { # Celtic Castle
-		factor = 2
-		modifier = {
-			factor = 0
-			location = { NOT = { region = world_europe_west_brittania } }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { culture_group = celtic }
-		}
-		modifier = {
-			factor = 2
-			location = { culture_group = celtic }
-			OR = {
-				is_landed = yes
-				spouse = { is_landed = yes }
-				AND = {
-					liege = { family = ROOT }
-					is_landed = no
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			has_character_modifier = in_seclusion
-		}
-	}
-	
-	23 = { # Alhambra
+	20 = { # Pagan human sacrifice - changed to African village
 		factor = 2
 		modifier = {
 			factor = 0
 			location = {
 				NOR = {
-					region = world_europe_west_iberia
-					region = world_africa_north
+					region = world_africa_east
+					region = world_africa_west
 				}
 			}
 		}
 		modifier = {
 			factor = 0
-			location = { NOT = { religion_group = muslim } }
-		}
-		modifier = {
-			factor = 1.5
-			location = { culture = andalusian_arabic }
+			location = { terrain = desert }
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_nomadic = yes
-				is_tribal = yes
-				AND = {
-					liege = {
-						OR = {
-							is_nomadic = yes
-							is_tribal = yes
-						}
-					}
-					OR = {
-						is_landed = no
-						AND = {
-							is_landed = yes
-							has_job_title = yes
-						}
-					}
-				}
+			trait = in_hiding
+		}
+	}
+
+	21 = { # Saint Halo
+		factor = 1000
+		hide_layers = { 18 = { } } #Hide layers with special crowns.
+		hide_layers = { 19 = { } } #Hide layers with special crowns.
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		
+		modifier = {
+			factor = 0
+			is_alive = yes
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				trait = saint
+				has_nickname = nick_the_saint
+				has_nickname = nick_the_martyr
+				has_nickname = nick_the_apostle
+				
 			}
 		}
 	}
-	
-	24 = { # Mediterranean Villa
+
+	22 = { # Mediterranean Villa
 		factor = 1
 		modifier = {
 			factor = 0
@@ -1202,9 +1144,176 @@
 				}
 			}
 		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
 	}
 	
-	25 = { # Indian
+	23 = { # ocean window
+		factor = 1
+		modifier = {
+			factor = 0
+			location = {
+				port = no
+			}
+		}
+		modifier = {
+			factor = 2
+			is_landed = yes
+		}
+		modifier = {
+			factor = 2
+			is_republic = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_nomadic = yes
+				AND = {
+					liege = {
+						is_nomadic = yes
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_alive = no
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
+		}
+		modifier = {
+			factor = 0
+			has_character_modifier = in_seclusion
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
+	}
+	
+	24 = { # field window
+		factor = 1
+		modifier = {
+			factor = 0
+			location = { NOT = { region = world_europe } }
+		}
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					terrain = arctic
+					terrain = desert
+					terrain = steppe
+					terrain = forest
+					terrain = marsh
+					terrain = mountain
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			location = {
+				OR = {
+					terrain = farmlands
+					terrain = hills
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			siege = { is_attacker = no }
+		}
+		modifier = {
+			factor = 0
+			has_character_modifier = in_seclusion
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
+	}
+	
+	25 = { # Alhambra
+		factor = 2
+		modifier = {
+			factor = 0
+			location = {
+				NOR = {
+					region = world_europe_west_iberia
+					region = world_africa_north
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			location = { NOT = { religion_group = muslim } }
+		}
+		modifier = {
+			factor = 1.5
+			location = { culture = andalusian_arabic }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			trait = in_hiding
+		}
+	}
+	
+	26 = { # Indian
 		factor = 2
 		modifier = {
 			factor = 0
@@ -1240,27 +1349,9 @@
 			factor = 0
 			has_character_modifier = in_seclusion
 		}
-	}
-	
-	26 = { # African Savanna 2 - changed to Saint Halo
-		factor = 1000
-		hide_layers = { 18 = { } } #Hide layers with special crowns.
-		hide_layers = { 19 = { } } #Hide layers with special crowns.
-		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		
 		modifier = {
 			factor = 0
-			is_alive = yes
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				trait = saint
-				has_nickname = nick_the_saint
-				has_nickname = nick_the_martyr
-				has_nickname = nick_the_apostle
-				
-			}
+			trait = in_hiding
 		}
 	}
 }
