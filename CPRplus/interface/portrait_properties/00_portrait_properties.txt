@@ -247,6 +247,8 @@
 				death_reason = death_battle
 				death_execution_trigger = yes
 				death_reason = death_dungeon
+				death_reason = death_went_to_china
+				death_reason = death_went_back_to_china
 			}
 		}
 		#modifier = {
@@ -531,6 +533,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
+			NOR = {
+				death_reason = death_went_to_china
+				death_reason = death_went_back_to_china
+			}
 			location = {
 				NOR = {
 					region = world_africa
@@ -539,9 +545,9 @@
 					region = world_asia_minor
 					region = world_steppe_tarim
 					region = world_himalayas
+					terrain = desert
 				}
 			}
-			location = { NOT = { terrain = desert } }
 		}
 		modifier = {
 			factor = 2
@@ -4015,7 +4021,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
@@ -4028,7 +4034,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				is_alive = yes 
@@ -4237,7 +4243,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
@@ -4250,7 +4256,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				is_alive = yes 
@@ -4383,7 +4389,6 @@
 					population_and_manpower = 60000
 				}
 			}
-			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4392,7 +4397,6 @@
 				is_nomadic = yes
 				NOT = { real_tier = emperor }
 			}
-			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4473,7 +4477,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
@@ -4486,7 +4490,7 @@
 				has_game_started = yes
 				is_save_game = yes
 			} 
-			NOT = { real_tier = KING }
+			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
 				is_alive = yes 
@@ -4523,25 +4527,22 @@
 		}
 		modifier = {
 			factor = 0
+			real_tier = emperor
+			is_nomadic = no
+			NOT = { song_dynasty_futou_trigger = yes }
+		}
+		modifier = {
+			factor = 0
+			real_tier = emperor
+			is_nomadic = yes
 			OR = {
-				AND = {
+				has_landed_title = e_mongol_empire
+				has_landed_title = e_khitan
+				primary_title = {
 					real_tier = emperor
-					is_nomadic = no
-					NOT = { song_dynasty_futou_trigger = yes }
+					is_titular = no
 				}
-				AND = {
-					real_tier = emperor
-					is_nomadic = yes
-					OR = {
-						has_landed_title = e_mongol_empire
-						has_landed_title = e_khitan
-						primary_title = {
-							real_tier = emperor
-							is_titular = no
-						}
-						population_and_manpower = 60000
-					}
-				}
+				population_and_manpower = 60000
 			}
 		}
 	}
