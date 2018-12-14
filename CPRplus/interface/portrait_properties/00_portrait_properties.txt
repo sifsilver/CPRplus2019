@@ -6,12 +6,12 @@
 0 = {
 	0 = { # castle 1
 		factor = 1
-		modifier = {
-			factor = 2
-			location = {
-				region = world_europe
-			}
-		}
+		#modifier = {
+		#	factor = 2
+		#	location = {
+		#		region = world_europe
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			location = {
@@ -90,6 +90,13 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 2
+			OR = { 
+				real_tier = emperor 
+				spouse = { real_tier = emperor }
+			}
 		}
 		modifier = {
 			factor = 0
@@ -777,7 +784,7 @@
 			NOT = { siege = { is_attacker = no } }
 		}
 		modifier = {
-			factor = 5
+			factor = 2
 			OR = {
 				is_landed = yes
 				spouse = { is_landed = yes }
