@@ -17,6 +17,7 @@
 			location = {
 				OR = {
 					region = world_africa_west
+					region = world_africa_central
 					region = world_steppe_west
 					region = world_steppe_east
 					region = world_himalayas
@@ -1071,6 +1072,7 @@
 			location = {
 				NOR = {
 					region = world_africa_east
+					region = world_africa_central
 					region = world_africa_west
 				}
 			}
