@@ -3778,6 +3778,7 @@
 				is_save_game = yes
 			} 
 			real_tier = EMPEROR
+			is_feudal = yes
 			is_alive = yes
 			OR = { 
 				AND = {
@@ -3819,6 +3820,7 @@
 			NOT = { real_tier = EMPEROR }
 			spouse = { 
 				real_tier = EMPEROR
+				is_feudal = yes
 				is_alive = yes 
 				OR = { 
 					AND = {
@@ -3996,6 +3998,7 @@
 				is_save_game = yes
 			} 
 			real_tier = KING
+			is_feudal = yes
 			is_alive = yes
 			OR = { 
 				AND = {
@@ -4037,6 +4040,7 @@
 			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
+				is_feudal = yes
 				is_alive = yes 
 				OR = { 
 					AND = {
@@ -4218,6 +4222,7 @@
 				is_save_game = yes
 			} 
 			real_tier = KING
+			is_feudal = yes
 			is_alive = yes
 			OR = { 
 				AND = {
@@ -4259,6 +4264,7 @@
 			lower_real_tier_than = KING
 			spouse = { 
 				real_tier = KING
+				is_feudal = yes
 				is_alive = yes 
 				OR = { 
 					AND = {
@@ -4452,6 +4458,7 @@
 				is_save_game = yes
 			} 
 			real_tier = KING
+			is_feudal = yes
 			is_alive = yes
 			OR = { 
 				AND = {
@@ -4491,6 +4498,7 @@
 				is_save_game = yes
 			} 
 			lower_real_tier_than = KING
+			is_feudal = yes
 			spouse = { 
 				real_tier = KING
 				is_alive = yes 
@@ -4557,9 +4565,9 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
-				#is_feudal = yes
 			higher_real_tier_than = DUKE
-			NOT = { government = order_government }
+			is_feudal = yes
+			#NOT = { government = order_government }
 			OR = { 
 				AND = {
 					NOT = { has_global_flag = EMF }
@@ -4591,7 +4599,8 @@
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
 			spouse = { 
 				higher_real_tier_than = DUKE
-				NOT = { government = order_government }
+				is_feudal = yes
+				#NOT = { government = order_government }
 				OR = { 
 					AND = {
 						NOT = { has_global_flag = EMF }
