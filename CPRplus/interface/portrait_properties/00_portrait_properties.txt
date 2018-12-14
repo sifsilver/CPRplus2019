@@ -462,10 +462,10 @@
 			factor = 0
 			NOT = { religion_group = christian }
 		}
-		#modifier = {
-		#	factor = 0
-		#	is_landed = no
-		#}
+		modifier = {
+			factor = 0
+			higher_real_tier_than = COUNT
+		}
 		modifier = {
 			factor = 0
 			in_command = yes
@@ -502,17 +502,6 @@
 				is_priest = yes
 			}
 		}
-		#modifier = {
-		#	factor = 3
-		#	liege = { is_theocracy = yes }
-		#	OR = {
-		#		is_landed = no
-		#		AND = {
-		#			is_landed = yes
-		#			has_job_title = yes
-		#		}
-		#	}
-		#}
 		modifier = {
 			factor = 0
 			NOR = {
@@ -524,6 +513,10 @@
 				trait = scholarly_theologian
 				trait = mastermind_theologian
 			}
+		}
+		modifier = {
+			factor = 5
+			is_landed = yes
 		}
 		modifier = {
 			factor = 0
@@ -543,7 +536,7 @@
 					region = world_africa
 					region = world_middle_east
 					region = world_persia
-					region = world_asia_minor
+					#region = world_asia_minor
 					region = world_steppe_tarim
 					region = world_himalayas
 					terrain = desert
@@ -603,6 +596,7 @@
 					region = world_steppe
 					region = world_europe
 					region = world_persia
+					region = world_asia_minor
 					terrain = marsh
 				}
 			}
@@ -610,7 +604,10 @@
 		modifier = {
 			factor = 0
 			location = {
-				region = world_steppe
+				OR = {
+					region = world_steppe
+					region = world_asia_minor
+				}
 				NOR = {
 					terrain = steppe
 					terrain = plains
@@ -626,7 +623,10 @@
 					region = world_europe
 					region = world_persia
 				}
-				NOT = { terrain = steppe }
+				NOR = {
+					terrain = steppe
+					terrain = marsh
+				}
 			}
 		}
 		modifier = {
@@ -678,17 +678,6 @@
 			factor = 0
 			in_command = yes
 			NOT = { siege = { is_attacker = no } }
-		}
-		modifier = {
-			factor = 5
-			OR = {
-				is_landed = yes
-				spouse = { is_landed = yes }
-				AND = {
-					liege = { family = ROOT }
-					is_landed = no
-				}
-			}
 		}
 		modifier = {
 			factor = 0
@@ -772,8 +761,13 @@
 			factor = 0
 			location = {
 				NOR = {
-					religion_group = muslim
-					religion_group = indian_group
+					region = world_africa
+					region = world_middle_east
+					region = world_persia
+					#region = world_asia_minor
+					region = world_steppe_tarim
+					region = world_himalayas
+					terrain = desert
 				}
 			}
 		}
@@ -975,7 +969,7 @@
 	}
 
 	19 = { # Muslim mosque - also used for reformed pagan religions
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			NOR = {
@@ -1020,35 +1014,33 @@
 				}
 			}
 		}
+		#modifier = {
+		#	factor = 2
+		#	OR = {
+		#		is_landed = yes
+		#		spouse = { is_landed = yes }
+		#		AND = {
+		#			liege = { family = ROOT }
+		#			is_landed = no
+		#		}
+		#	}
+		#}
 		modifier = {
-			factor = 2
-			OR = {
-				is_landed = yes
-				spouse = { is_landed = yes }
-				AND = {
-					liege = { family = ROOT }
-					is_landed = no
-				}
-			}
-		}
-		modifier = {
-			factor = 2.5
+			factor = 5
 			is_theocracy = yes
-			AND = {
-				liege = { is_theocracy = yes }
-				OR = {
-					is_landed = no
-					AND = {
-						is_landed = yes
-						has_job_title = yes
-					}
-				}
-			}
+			is_landed = yes
 		}
 		modifier = {
 			factor = 2
 			OR = {
-				trait = zealous
+				trait = faqih
+				is_priest = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				is_priest = yes
 				trait = faqih
 				trait = martial_cleric
 				trait = scholarly_theologian
@@ -1214,7 +1206,12 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			location = { NOT = { region = world_europe } }
+			location = {
+				NOR = {
+					region = world_europe
+					region = world_asia_minor
+				}
+			}
 		}
 		modifier = {
 			factor = 0
