@@ -1,0 +1,117 @@
+spriteTypes = {
+	
+	# Merchant Republic - duke and above
+	
+	portraitType = {
+		name = "PORTRAIT_patrician_duke_male"
+		effectFile = "gfx/FX/portrait.lua"
+		
+		weight = {
+			additive_modifier = {
+				value = 1000
+				portrait_age > child
+				portrait_is_patrician = yes
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_tier = duke
+				OR = {
+					portrait_culture_group = latin
+					portrait_culture_group = iberian
+					portrait_culture_group = italian_group
+				}
+			}
+		}
+		
+		layer = {
+			"GFX_merchant_male_headgear_behind:c1"
+			"GFX_empty:c3"
+			"GFX_merchant_male_headgear:c5"
+		}
+		
+		allow_property_values = {
+			5 = {
+				0 = {
+					always = yes
+				}
+				1 = {
+					always = yes
+				}
+				3 = {
+					always = yes
+				}
+				4 = {
+					always = yes
+				}
+				5 = {
+					always = yes
+				}
+			}
+		}
+	}
+	
+	# Merchant Republic - non-ducal patriian house
+	
+	portraitType = {
+		name = "PORTRAIT_patrician_duke_male"
+		effectFile = "gfx/FX/portrait.lua"
+		
+		weight = {
+			additive_modifier = {
+				value = 1000
+				portrait_age > child
+				portrait_is_patrician = yes
+				portrait_is_female = no
+				portrait_clothing = yes
+				portrait_tier = baron
+				NOT = { portrait_tier = duke }
+				OR = {
+					portrait_culture_group = latin
+					portrait_culture_group = iberian
+					portrait_culture_group = italian_group
+				}
+			}
+		}
+		
+		layer = {
+			"GFX_merchant_male_headgear_behind:c1"
+			"GFX_empty:c3"
+			"GFX_merchant_male_headgear:c5"
+		}
+		
+		allow_property_values = {
+			5 = {
+				2 = {
+					always = yes
+				}
+				6 = {
+					always = yes
+				}
+				7 = {
+					always = yes
+				}
+				8 = {
+					always = yes
+				}
+				9 = {
+					always = yes
+				}
+				10 = {
+					always = yes
+				}
+				11 = {
+					always = yes
+				}
+				12 = {
+					always = yes
+				}
+				13 = {
+					always = yes
+				}
+				14 = {
+					always = yes
+				}
+			}
+		}
+	}
+
+}
