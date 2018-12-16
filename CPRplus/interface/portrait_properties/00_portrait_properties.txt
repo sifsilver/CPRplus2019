@@ -2021,6 +2021,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2089,6 +2090,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2139,6 +2141,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2192,16 +2195,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { government = order_government }
 			NOR = {
-				real_tier = king
-				real_tier = duke
-				real_tier = count
-				real_tier = baron
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
-				spouse = { real_tier = count }
-				spouse = { real_tier = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
@@ -2212,7 +2208,10 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				AND = {
 					is_nomadic = yes
@@ -2221,7 +2220,10 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				spouse = {
 					is_nomadic = yes
@@ -2253,16 +2255,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { government = order_government }
 			NOR = {
-				real_tier = king
-				real_tier = duke
-				real_tier = count
-				real_tier = baron
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
-				spouse = { real_tier = count }
-				spouse = { real_tier = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
@@ -2273,7 +2268,10 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				AND = {
 					is_nomadic = yes
@@ -2282,7 +2280,10 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				spouse = {
 					is_nomadic = yes
@@ -2314,16 +2315,9 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { government = order_government }
 			NOR = {
-				real_tier = king
-				real_tier = duke
-				real_tier = count
-				real_tier = baron
-				spouse = { real_tier = king }
-				spouse = { real_tier = duke }
-				spouse = { real_tier = count }
-				spouse = { real_tier = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
@@ -2334,7 +2328,10 @@
 				AND = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				AND = {
 					is_nomadic = yes
@@ -2343,7 +2340,10 @@
 				spouse = {
 					is_nomadic = no
 					higher_real_tier_than = duke
-					NOT = { government = order_government }
+					NOR = {
+						government = order_government
+						is_republic = yes
+					}
 				}
 				spouse = {
 					is_nomadic = yes
@@ -3879,6 +3879,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -4098,6 +4099,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 		}
 		modifier = {
@@ -4322,6 +4324,7 @@
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
 		}
 		modifier = {
@@ -4379,7 +4382,6 @@
 					NOT = { spouse = { real_tier = emperor } }
 				}
 			}
-			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4447,17 +4449,6 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			is_republic = yes
-			is_alive = no
-		}
-		modifier = {
-			factor = 0 
-			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
-			is_alive = no
-			is_ruler = no
-		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
@@ -4512,9 +4503,9 @@
 				is_save_game = yes
 			} 
 			lower_real_tier_than = KING
-			is_feudal = yes
 			spouse = { 
 				real_tier = KING
+				is_feudal = yes
 				is_alive = yes 
 				OR = { 
 					AND = {
@@ -4536,35 +4527,51 @@
 		}
 		modifier = {
 			factor = 0
+			is_ruler = yes #Otherwise dead landless Queens don't wear the crown, as they default to nogovernment.
+			is_feudal = no
+			is_tribal = no
+			is_nomadic = no
+		}
+		modifier = {
+			factor = 0
+			is_republic = yes
+			is_alive = no
+		}
+		modifier = {
+			factor = 0 
+			spouse = { is_republic = yes } #Dead wives of Patricians are nogovernment, thus they would wear crowns for being married to a King-tier.
+			is_alive = no
+			is_ruler = no
+		}
+		modifier = {
+			factor = 0
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
 				government = order_government
+				is_republic = yes
 			}
-			NOT = { song_dynasty_futou_trigger = yes }
-		}
-		modifier = {
-			factor = 100
-			song_dynasty_futou_trigger = yes
 		}
 		modifier = {
 			factor = 0
-			real_tier = emperor
-			is_nomadic = no
-			NOT = { song_dynasty_futou_trigger = yes }
-		}
-		modifier = {
-			factor = 0
-			real_tier = emperor
-			is_nomadic = yes
 			OR = {
-				has_landed_title = e_mongol_empire
-				has_landed_title = e_khitan
-				primary_title = {
+				AND = {
 					real_tier = emperor
-					is_titular = no
+					is_nomadic = no
 				}
-				population_and_manpower = 60000
+				AND = {
+					real_tier = emperor
+					is_nomadic = yes
+					OR = {
+						has_landed_title = e_mongol_empire
+						has_landed_title = e_khitan
+						primary_title = {
+							real_tier = emperor
+							is_titular = no
+						}
+						population_and_manpower = 60000
+					}
+				}
 			}
 		}
 	}
@@ -4646,9 +4653,8 @@
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if neither Catholic nor Fraticelli with vanilla Holy Fury.
 			higher_real_tier_than = DUKE
-			NOR = {
-				government = order_government
-				is_nomadic = yes
+			NOT = {
+				is_feudal = yes
 			}
 			NOT = { has_global_flag = EMF }
 			NOR = {
@@ -4680,7 +4686,10 @@
 			NOT = { has_dlc = "Holy Fury" }
 			is_nomadic = no
 			higher_real_tier_than = DUKE
-			NOT = { government = order_government }
+			NOR = {
+				government = order_government
+				is_republic = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -4688,7 +4697,10 @@
 			spouse = {
 				is_nomadic = no
 				higher_real_tier_than = DUKE
-				NOT = { government = order_government }
+				NOR = {
+					government = order_government
+					is_republic = yes
+				}
 			}
 		}
 		modifier = {
@@ -10702,7 +10714,7 @@
 			OR = { 
 				is_theocracy = yes 
 				is_in_society = yes
-				is_merchant_republic = yes
+				is_republic = yes
 			}
 		}
 		modifier = {
@@ -10739,7 +10751,7 @@
 			NOR = { 
 				is_theocracy = yes 
 				is_in_society = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -10827,7 +10839,7 @@
 			NOR = { 
 				is_theocracy = yes 
 				is_in_society = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11017,7 +11029,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11060,7 +11072,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11103,7 +11115,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11150,7 +11162,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11197,7 +11209,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11240,7 +11252,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11283,7 +11295,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11326,7 +11338,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11373,7 +11385,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11421,7 +11433,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11470,7 +11482,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -11519,7 +11531,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11567,7 +11579,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11615,7 +11627,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11663,7 +11675,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11710,7 +11722,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11756,7 +11768,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11802,7 +11814,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11850,7 +11862,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11898,7 +11910,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 				has_job_title = job_marshal
 				has_job_title = job_spymaster
@@ -11940,7 +11952,7 @@
 		modifier = {
 			factor = 100
 			OR = { 
-				is_merchant_republic = yes
+				is_republic = yes
 				is_theocracy = yes 
 				is_in_society = yes
 				has_job_title = job_spiritual
@@ -11959,7 +11971,7 @@
 			is_in_society = no
 			is_theocracy = no
 			NOR = {
-				is_merchant_republic = yes
+				is_republic = yes
 				is_theocracy = yes 
 				is_in_society = yes
 				has_job_title = job_spiritual
@@ -12026,7 +12038,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12065,7 +12077,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12104,7 +12116,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12143,7 +12155,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12182,7 +12194,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12221,7 +12233,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12260,7 +12272,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12299,7 +12311,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12338,7 +12350,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12382,7 +12394,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12425,7 +12437,7 @@
 			factor = 0
 			OR = {
 				is_in_society = yes
-				is_merchant_republic = yes
+				is_republic = yes
 			}
 		}
 		modifier = {
@@ -12468,7 +12480,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12516,7 +12528,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12564,7 +12576,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12609,7 +12621,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12654,7 +12666,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12699,7 +12711,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}
@@ -12748,7 +12760,7 @@
 			OR = { 
 				is_in_society = yes
 				is_theocracy = yes
-				is_merchant_republic = yes
+				is_republic = yes
 				has_job_title = job_spiritual
 			}
 		}

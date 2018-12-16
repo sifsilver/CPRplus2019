@@ -31,19 +31,19 @@ spriteTypes = {
 		allow_property_values = {
 			5 = {
 				0 = {
-					always = yes
+					portrait_tier = duke
 				}
 				1 = {
-					always = yes
+					portrait_tier = duke
 				}
 				3 = {
-					always = yes
+					portrait_tier = duke
 				}
 				4 = {
-					always = yes
+					portrait_tier = duke
 				}
 				5 = {
-					always = yes
+					portrait_tier = duke
 				}
 			}
 		}
@@ -52,7 +52,7 @@ spriteTypes = {
 	# Merchant Republic - non-ducal patriian house
 	
 	portraitType = {
-		name = "PORTRAIT_patrician_duke_male"
+		name = "PORTRAIT_patrician_baron_male"
 		effectFile = "gfx/FX/portrait.lua"
 		
 		weight = {
@@ -81,34 +81,34 @@ spriteTypes = {
 		allow_property_values = {
 			5 = {
 				2 = {
-					always = yes
+					portrait_tier = baron
 				}
 				6 = {
-					always = yes
+					portrait_tier = baron
 				}
 				7 = {
-					always = yes
+					portrait_tier = baron
 				}
 				8 = {
-					always = yes
+					portrait_tier = baron
 				}
 				9 = {
-					always = yes
+					portrait_tier = baron
 				}
 				10 = {
-					always = yes
+					portrait_tier = baron
 				}
 				11 = {
-					always = yes
+					portrait_tier = baron
 				}
 				12 = {
-					always = yes
+					portrait_tier = baron
 				}
 				13 = {
-					always = yes
+					portrait_tier = baron
 				}
 				14 = {
-					always = yes
+					portrait_tier = baron
 				}
 			}
 		}
