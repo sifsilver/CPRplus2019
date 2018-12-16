@@ -731,19 +731,27 @@
 			trait = in_hiding
 		}
 	}
-	14 = { # Harem - changed to Celtic Castle
-		factor = 2
+	14 = { # Harem - changed to Norman Castle
+		factor = 1
 		modifier = {
 			factor = 0
-			location = { NOT = { region = world_europe_west_brittania } }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { culture_group = celtic }
+			location = {
+				NOR = {
+					region = world_europe_west_brittania
+					region = world_europe_west_francia
+				}
+			}
 		}
 		modifier = {
 			factor = 2
-			location = { culture_group = celtic }
+			OR = {
+				culture_group = celtic
+				culture = norman
+			}
+		}
+		modifier = {
+			factor = 2
+			#location = { culture_group = celtic }
 			OR = {
 				is_landed = yes
 				spouse = { is_landed = yes }
