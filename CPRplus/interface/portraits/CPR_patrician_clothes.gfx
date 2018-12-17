@@ -1,117 +1,117 @@
-spriteTypes = {
+#spriteTypes = {
 	
 	# Merchant Republic - duke and above
 	
-	portraitType = {
-		name = "PORTRAIT_patrician_duke_male"
-		effectFile = "gfx/FX/portrait.lua"
+#	portraitType = {
+#		name = "PORTRAIT_patrician_duke_male"
+#		effectFile = "gfx/FX/portrait.lua"
 		
-		weight = {
-			additive_modifier = {
-				value = 1000
-				portrait_age > child
-				portrait_is_patrician = yes
-				portrait_is_female = no
-				portrait_clothing = yes
-				portrait_tier = duke
-				OR = {
-					portrait_culture_group = latin
-					portrait_culture_group = iberian
-					portrait_culture_group = italian_group
-				}
-			}
-		}
+#		weight = {
+#			additive_modifier = {
+#				value = 1000
+#				portrait_age > child
+#				portrait_is_patrician = yes
+#				portrait_is_female = no
+#				portrait_clothing = yes
+#				portrait_tier = duke
+#				OR = {
+#					portrait_culture_group = latin
+#					portrait_culture_group = iberian
+#					portrait_culture_group = italian_group
+#				}
+#			}
+#		}
 		
-		layer = {
-			"GFX_merchant_male_headgear_behind:c1"
-			"GFX_empty:c3"
-			"GFX_merchant_male_headgear:c5"
-		}
+#		layer = {
+#			"GFX_merchant_male_headgear_behind:c1"
+#			"GFX_empty:c3"
+#			"GFX_merchant_male_headgear:c5"
+#		}
 		
-		allow_property_values = {
-			5 = {
-				0 = {
-					portrait_tier = duke
-				}
-				1 = {
-					portrait_tier = duke
-				}
-				3 = {
-					portrait_tier = duke
-				}
-				4 = {
-					portrait_tier = duke
-				}
-				5 = {
-					portrait_tier = duke
-				}
-			}
-		}
-	}
+#		allow_property_values = {
+#			5 = {
+#				0 = {
+#					portrait_tier = duke
+#				}
+#				1 = {
+#					portrait_tier = duke
+#				}
+#				3 = {
+#					portrait_tier = duke
+#				}
+#				4 = {
+#					portrait_tier = duke
+#				}
+#				5 = {
+#					portrait_tier = duke
+#				}
+#			}
+#		}
+#	}
 	
 	# Merchant Republic - non-ducal patriian house
 	
-	portraitType = {
-		name = "PORTRAIT_patrician_baron_male"
-		effectFile = "gfx/FX/portrait.lua"
+#	portraitType = {
+#		name = "PORTRAIT_patrician_baron_male"
+#		effectFile = "gfx/FX/portrait.lua"
 		
-		weight = {
-			additive_modifier = {
-				value = 1000
-				portrait_age > child
-				portrait_is_patrician = yes
-				portrait_is_female = no
-				portrait_clothing = yes
-				portrait_tier = baron
-				NOT = { portrait_tier = duke }
-				OR = {
-					portrait_culture_group = latin
-					portrait_culture_group = iberian
-					portrait_culture_group = italian_group
-				}
-			}
-		}
+#		weight = {
+#			additive_modifier = {
+#				value = 1000
+#				portrait_age > child
+#				portrait_is_patrician = yes
+#				portrait_is_female = no
+#				portrait_clothing = yes
+#				portrait_tier = baron
+#				NOT = { portrait_tier = duke }
+#				OR = {
+#					portrait_culture_group = latin
+#					portrait_culture_group = iberian
+#					portrait_culture_group = italian_group
+#				}
+#			}
+#		}
 		
-		layer = {
-			"GFX_merchant_male_headgear_behind:c1"
-			"GFX_empty:c3"
-			"GFX_merchant_male_headgear:c5"
-		}
+#		layer = {
+#			"GFX_merchant_male_headgear_behind:c1"
+#			"GFX_empty:c3"
+#			"GFX_merchant_male_headgear:c5"
+#		}
 		
-		allow_property_values = {
-			5 = {
-				2 = {
-					portrait_tier = baron
-				}
-				6 = {
-					portrait_tier = baron
-				}
-				7 = {
-					portrait_tier = baron
-				}
-				8 = {
-					portrait_tier = baron
-				}
-				9 = {
-					portrait_tier = baron
-				}
-				10 = {
-					portrait_tier = baron
-				}
-				11 = {
-					portrait_tier = baron
-				}
-				12 = {
-					portrait_tier = baron
-				}
-				13 = {
-					portrait_tier = baron
-				}
-				14 = {
-					portrait_tier = baron
-				}
-			}
-		}
-	}
+#		allow_property_values = {
+#			5 = {
+#				2 = {
+#					portrait_tier = baron
+#				}
+#				6 = {
+#					portrait_tier = baron
+#				}
+#				7 = {
+#					portrait_tier = baron
+#				}
+#				8 = {
+#					portrait_tier = baron
+#				}
+#				9 = {
+#					portrait_tier = baron
+#				}
+#				10 = {
+#					portrait_tier = baron
+#				}
+#				11 = {
+#					portrait_tier = baron
+#				}
+#				12 = {
+#					portrait_tier = baron
+#				}
+#				13 = {
+#					portrait_tier = baron
+#				}
+#				14 = {
+#					portrait_tier = baron
+#				}
+#			}
+#		}
+#	}
 
-}
+#}
