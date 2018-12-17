@@ -2058,6 +2058,7 @@
 				culture = khitan
 				culture = jurchen
 			}
+			is_female = no
 			NOT = { has_portrait_property = { layer = 5 index = 0 } }
 		}
 		modifier = {
@@ -2067,6 +2068,7 @@
 				culture = khitan
 				culture = jurchen
 			}
+			is_female = no
 			has_portrait_property = { layer = 5 index = 0 }
 		}
 	}
@@ -2368,8 +2370,8 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 				is_offmap_tag_including_dead = offmap_china
@@ -2398,8 +2400,8 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
@@ -2422,8 +2424,8 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				is_landed = yes
+				spouse = { is_landed = yes }
 				has_job_title = job_chancellor
 				has_minor_title = title_prince
 			}
@@ -4718,11 +4720,11 @@
 		#	NOT = { government = order_government }
 		#	higher_real_tier_than = DUKE
 		#}
-		modifier = {
-			factor = 0 #Dead Doges should not wear crowns.
-			is_republic = yes
-			is_alive = no
-		}
+		#modifier = {
+		#	factor = 0 #Dead Doges should not wear crowns.
+		#	is_republic = yes
+		#	is_alive = no
+		#}
 		modifier = {
 			factor = 0
 			NOT = { real_tier = duke }
@@ -4898,7 +4900,19 @@
 			OR = {
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
+				AND = {
+					is_nomadic = no
+					is_landed = no
+				}
+				spouse = {
+					OR = {
+						higher_real_tier_than = count
+						AND = {
+							is_nomadic = no
+							is_landed = no
+						}
+					}
+				}
 				has_minor_title = title_prince
 			}
 			NOT = { tang_dynasty_putou_trigger = yes }
@@ -4933,24 +4947,11 @@
 		}
 		modifier = {
 			factor = 0
+			is_nomadic = yes
 			OR = {
-				AND = {
-					OR = {
-						real_tier = emperor
-						real_tier = king
-						real_tier = duke
-					}
-					is_nomadic = no
-					NOT = { tang_dynasty_putou_trigger = yes }
-				}
-				AND = {
-					OR = {
-						real_tier = emperor
-						real_tier = king
-					}
-					is_nomadic = yes
-				}
-			}
+				real_tier = emperor
+				real_tier = king
+			}	
 		}
 		modifier = {
 			factor = 100
@@ -4964,6 +4965,13 @@
 		#	factor = 0
 		#	prisoner = yes
 		#}
+		modifier = {
+			factor = 0
+			OR = {
+				trait = peasant_leader
+				trait = heresiarch
+			}
+		}
 	}
 
 	# Common headgear 3 - Red hat
@@ -4992,7 +5000,19 @@
 			OR = {
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = count
-				spouse = { higher_real_tier_than = count }
+				AND = {
+					is_nomadic = no
+					is_landed = no
+				}
+				spouse = {
+					OR = {
+						higher_real_tier_than = count
+						AND = {
+							is_nomadic = no
+							is_landed = no
+						}
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -5026,6 +5046,14 @@
 		}
 		modifier = {
 			factor = 0
+			is_nomadic = yes
+			OR = {
+				real_tier = emperor
+				real_tier = king
+			}	
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		#modifier = {
@@ -5037,26 +5065,6 @@
 			OR = {
 				trait = peasant_leader
 				trait = heresiarch
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				AND = {
-					OR = {
-						real_tier = emperor
-						real_tier = king
-						real_tier = duke
-					}
-					is_nomadic = no
-				}
-				AND = {
-					OR = {
-						real_tier = emperor
-						real_tier = king
-					}
-					is_nomadic = yes
-				}
 			}
 		}
 	}
