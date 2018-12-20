@@ -4739,9 +4739,9 @@
 					NOT = { culture = breton }
 					NOT = { culture = welsh }
 					NOT = { culture = dutch }
-					NOT = { culture = low_saxon
-				culture = low_frankish
-				culture = frisian }
+					NOT = { culture = low_saxon }
+					NOT = { culture = low_frankish }
+					NOT = { culture = frisian }
 					NOT = { culture = norman }
 				}
 				AND = { 
@@ -4789,21 +4789,25 @@
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = COUNT
 				spouse = { higher_real_tier_than = COUNT }
-				AND = {
-					is_ruler = no
-					NOR = {
+				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 0
+			is_ruler = no
+			NOT = { liege = { family = ROOT } }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
+			}
+			NOT = {
+				spouse = {
+					OR = {
+						is_ruler = yes
 						has_job_title = job_chancellor
 						has_job_title = job_treasurer
 					}
-					spouse = {
-						is_ruler = no
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_treasurer
-						}
-					}
 				}
-				has_minor_title = title_prince
 			}
 		}
 		modifier = {
@@ -4828,6 +4832,10 @@
 					NOT = { culture = welsh }
 					NOT = { culture = cumbric }
 					NOT = { culture = cornish }
+				}
+				AND = {
+					culture_group = north_germanic
+					NOT = { culture = frisian }
 				}
 			}
 			year = 950
@@ -4944,23 +4952,27 @@
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = COUNT
 				spouse = { higher_real_tier_than = COUNT }
-				AND = {
-					is_ruler = no
-					NOR = {
-						has_job_title = job_chancellor
-						has_job_title = job_treasurer
-					}
-					spouse = {
-						is_ruler = no
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_treasurer
-						}
-					}
-				}
 				has_minor_title = title_prince
 			}
 			NOT = { tang_dynasty_putou_trigger = yes }
+		}
+		modifier = {
+			factor = 0
+			is_ruler = no
+			NOT = { liege = { family = ROOT } }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
+			}
+			NOT = {
+				spouse = {
+					OR = {
+						is_ruler = yes
+						has_job_title = job_chancellor
+						has_job_title = job_treasurer
+					}
+				}
+			}
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
@@ -5060,21 +5072,25 @@
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = COUNT
 				spouse = { higher_real_tier_than = COUNT }
-				AND = {
-					is_ruler = no
-					NOR = {
+				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 0
+			is_ruler = no
+			NOT = { liege = { family = ROOT } }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
+			}
+			NOT = {
+				spouse = {
+					OR = {
+						is_ruler = yes
 						has_job_title = job_chancellor
 						has_job_title = job_treasurer
 					}
-					spouse = {
-						is_ruler = no
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_treasurer
-						}
-					}
 				}
-				has_minor_title = title_prince
 			}
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
@@ -5164,21 +5180,25 @@
 				is_or_was_offmap_power_ruler = yes
 				higher_real_tier_than = COUNT
 				spouse = { higher_real_tier_than = COUNT }
-				AND = {
-					is_ruler = no
-					NOR = {
+				has_minor_title = title_prince
+			}
+		}
+		modifier = {
+			factor = 0
+			is_ruler = no
+			NOT = { liege = { family = ROOT } }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
+			}
+			NOT = {
+				spouse = {
+					OR = {
+						is_ruler = yes
 						has_job_title = job_chancellor
 						has_job_title = job_treasurer
 					}
-					spouse = {
-						is_ruler = no
-						NOR = {
-							has_job_title = job_chancellor
-							has_job_title = job_treasurer
-						}
-					}
 				}
-				has_minor_title = title_prince
 			}
 		}
 		modifier = {
