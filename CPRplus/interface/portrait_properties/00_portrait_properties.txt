@@ -5688,6 +5688,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -5767,7 +5773,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { year = 950 }
+			NOT = { year = 1100 }
 		}
 		modifier = {
 			factor = 0
@@ -5778,6 +5784,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -5855,6 +5867,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -5921,7 +5939,7 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { year = 950 }
+			NOT = { year = 1300 }
 		}
 		modifier = {
 			factor = 0
@@ -5932,6 +5950,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -6018,6 +6042,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -6095,6 +6125,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	
@@ -6172,6 +6208,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	9 = { # Muslim armor #1
@@ -6243,6 +6285,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	10 = { # Muslim armor #2
@@ -6314,6 +6362,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	11 = { # Muslim armor #3
@@ -6385,6 +6439,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	12 = { # Muslim armor #4
@@ -6456,6 +6516,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	13 = { # Muslim armor #5
@@ -6527,6 +6593,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	14 = { # Steppe armor #1
@@ -6610,6 +6682,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	15 = { # Steppe armor #2
@@ -6693,6 +6771,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	16 = { # Steppe armor #3
@@ -6776,6 +6860,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	17 = { # Steppe armor #4
@@ -6859,6 +6949,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	18 = { # Byzantine armor #1
@@ -6925,6 +7021,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	19 = { # Byzantine armor #2
@@ -6991,6 +7093,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 	20 = { # Byzantine armor #3
@@ -7057,6 +7165,12 @@
 			3 = { always = yes }
 			4 = { always = yes }
 			5 = { always = yes }
+			18 = { always = yes }
+			19 = { always = yes }
+			31 = { always = yes }
+			32 = { always = yes }
+			34 = { always = yes }
+			35 = { always = yes }
 		}
 	}
 }
