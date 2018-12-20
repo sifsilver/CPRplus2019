@@ -5599,6 +5599,8 @@
 		hide_layers = { 18 = { } } #Hide layers with special crowns.
 		hide_layers = { 19 = { } } #Hide layers with special crowns.
 		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		hide_layers = { 34 = { } } #Hide layer 34 (headgear) when this frame is picked.
+		hide_layers = { 35 = { } } #Hide layer 35 (headgear) when this frame is picked.
 	}
 	
 	2 = { # Western knight armor #1
@@ -5692,7 +5694,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -5788,7 +5790,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -5871,7 +5873,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -5954,7 +5956,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6046,7 +6048,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6129,7 +6131,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6212,7 +6214,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6289,7 +6291,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6366,7 +6368,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6443,7 +6445,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6520,7 +6522,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6597,7 +6599,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6686,7 +6688,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6775,7 +6777,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6864,7 +6866,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -6953,7 +6955,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -7025,7 +7027,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -7097,7 +7099,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -7169,7 +7171,7 @@
 			19 = { always = yes }
 			31 = { always = yes }
 			32 = { always = yes }
-			34 = { always = yes }
+			#34 = { always = yes }
 			35 = { always = yes }
 		}
 	}
@@ -13776,6 +13778,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = { 
 			factor = 0
 			NAND = {
@@ -13816,6 +13819,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = {
 			factor = 0
 			NOT = { 
@@ -13862,6 +13866,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = { 
 			factor = 0
 			NOT = { 
@@ -13908,6 +13913,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = { 
 			factor = 0
 			NAND = { 
@@ -13948,6 +13954,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = {
 			factor = 0
 			NAND = { 
@@ -13989,6 +13996,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = { 
 			factor = 0
 			NOT = { 
@@ -14031,6 +14039,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = {
 			factor = 0
 			NAND = { 
@@ -14072,6 +14081,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = { 
 			factor = 0
 			NOT = { 
@@ -14114,6 +14124,7 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		hide_layers = { 6 = { } }
 		modifier = {
 			factor = 0
 			NAND = { 
