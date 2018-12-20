@@ -452,7 +452,7 @@ iranian = {
 		graphical_cultures = {afghangfx persiangfx} 
 	}
 	qufs = {
-		graphical_cultures = {persiangfx} 
+		graphical_cultures = {afghangfx persiangfx} 
 	}
 }
 
