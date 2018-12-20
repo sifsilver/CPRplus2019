@@ -88,14 +88,14 @@
 		factor = 30
 		modifier = {
 			factor = 0
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = KING }
+			NOT = { real_tier = EMPEROR }
 		}
 		modifier = {
 			factor = 2
 			OR = { 
-				real_tier = emperor 
-				spouse = { real_tier = emperor }
+				real_tier = EMPEROR 
+				spouse = { real_tier = EMPEROR }
 			}
 		}
 		modifier = {
@@ -1440,8 +1440,8 @@
 		#	NOT = { culture_group = east_african }
 		#	NOT = { culture_group = west_african }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1474,8 +1474,8 @@
 		#	NOT = { culture_group = east_african }
 		#	NOT = { culture_group = west_african }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1502,8 +1502,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1530,8 +1530,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1570,8 +1570,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1602,8 +1602,8 @@
 		#	NOT = { culture_group = east_african }
 		#	NOT = { culture_group = west_african }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1654,8 +1654,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1673,8 +1673,8 @@
 		#	NOT = { culture_group = east_african }
 		#	NOT = { culture_group = west_african }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1756,8 +1756,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1775,8 +1775,8 @@
 		#	NOT = { culture_group = east_african }
 		#	NOT = { culture_group = west_african }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1811,8 +1811,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1849,8 +1849,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -1900,8 +1900,8 @@
 		#	NOT = { graphical_culture = somaligfx }
 		#	NOT = { graphical_culture = westafricangfx }
 		#	OR = {
-		#		higher_real_tier_than = count
-		#		spouse = { higher_real_tier_than = count }
+		#		higher_real_tier_than = COUNT
+		#		spouse = { higher_real_tier_than = COUNT }
 		#		has_minor_title = title_prince
 		#	}
 		#}
@@ -2027,10 +2027,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { spouse = { real_tier = king } }
+			NOT = { real_tier = EMPEROR }
+			NOT = { real_tier = KING }
+			NOT = { spouse = { real_tier = EMPEROR } }
+			NOT = { spouse = { real_tier = KING } }
 			NOT = { has_minor_title = title_prince }
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2039,13 +2039,13 @@
 			OR = {
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 				}
 				AND = {
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 					spouse = {
 						is_nomadic = yes
-						NOT = { real_tier = emperor }
+						NOT = { real_tier = EMPEROR }
 					}
 				}
 			}
@@ -2098,10 +2098,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { spouse = { real_tier = king } }
+			NOT = { real_tier = EMPEROR }
+			NOT = { real_tier = KING }
+			NOT = { spouse = { real_tier = EMPEROR } }
+			NOT = { spouse = { real_tier = KING } }
 			NOT = { has_minor_title = title_prince }
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2110,13 +2110,13 @@
 			OR = {
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 				}
 				AND = {
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 					spouse = {
 						is_nomadic = yes
-						NOT = { real_tier = emperor }
+						NOT = { real_tier = EMPEROR }
 					}
 				}
 			}
@@ -2149,10 +2149,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { spouse = { real_tier = king } }
+			NOT = { real_tier = EMPEROR }
+			NOT = { real_tier = KING }
+			NOT = { spouse = { real_tier = EMPEROR } }
+			NOT = { spouse = { real_tier = KING } }
 			NOT = { has_minor_title = title_prince }
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
@@ -2161,13 +2161,13 @@
 			OR = {
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 				}
 				AND = {
-					NOT = { real_tier = emperor }
+					NOT = { real_tier = EMPEROR }
 					spouse = {
 						is_nomadic = yes
-						NOT = { real_tier = emperor }
+						NOT = { real_tier = EMPEROR }
 					}
 				}
 			}
@@ -2209,7 +2209,7 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2217,11 +2217,11 @@
 				}
 				AND = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 				spouse = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2229,7 +2229,7 @@
 				}
 				spouse = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 			}
 		}
@@ -2269,7 +2269,7 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2277,11 +2277,11 @@
 				}
 				AND = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 				spouse = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2289,7 +2289,7 @@
 				}
 				spouse = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 			}
 		}
@@ -2329,7 +2329,7 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2337,11 +2337,11 @@
 				}
 				AND = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 				spouse = {
 					is_nomadic = no
-					higher_real_tier_than = duke
+					higher_real_tier_than = DUKE
 					NOR = {
 						government = order_government
 						is_republic = yes
@@ -2349,7 +2349,7 @@
 				}
 				spouse = {
 					is_nomadic = yes
-					real_tier = emperor
+					real_tier = EMPEROR
 				}
 			}
 		}
@@ -2439,8 +2439,8 @@
 		modifier = {
 			factor = 0
 			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
+				higher_real_tier_than = DUKE
+				spouse = { higher_real_tier_than = DUKE }
 			}
 		}
 		modifier = {
@@ -2477,8 +2477,8 @@
 		modifier = {
 			factor = 0
 			OR = {
-				higher_real_tier_than = duke
-				spouse = { higher_real_tier_than = duke }
+				higher_real_tier_than = DUKE
+				spouse = { higher_real_tier_than = DUKE }
 			}
 			in_command = no
 			NOT = { primary_title = { title = e_china_west_governor } }
@@ -3721,8 +3721,8 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
-			NOT = { spouse = { real_tier = emperor } }
+			NOT = { real_tier = EMPEROR }
+			NOT = { spouse = { real_tier = EMPEROR } }
 			NOT = { is_offmap_tag_including_dead = offmap_china }
 		}
 		modifier = {
@@ -3732,7 +3732,7 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
 				primary_title = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_titular = no
 				}
 				population_and_manpower = 60000
@@ -3740,14 +3740,14 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
 				NOR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
 					primary_title = {
-						real_tier = emperor
+						real_tier = EMPEROR
 						is_titular = no
 					}
 					population_and_manpower = 60000
@@ -3924,14 +3924,14 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					NOT = { real_tier = king }
-					NOT = { spouse = { real_tier = king } }
+					NOT = { real_tier = KING }
+					NOT = { spouse = { real_tier = KING } }
 					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
-					NOT = { spouse = { real_tier = emperor } }
+					NOT = { real_tier = EMPEROR }
+					NOT = { spouse = { real_tier = EMPEROR } }
 				}
 			}
 		}
@@ -3942,7 +3942,7 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
 				primary_title = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_titular = no
 				}
 				population_and_manpower = 60000
@@ -3950,14 +3950,14 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
 					primary_title = {
-						real_tier = emperor
+						real_tier = EMPEROR
 						is_titular = no
 					}
 					population_and_manpower = 60000
@@ -3966,10 +3966,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
-				NOT = { real_tier = emperor }
+				NOT = { real_tier = EMPEROR }
 			}
 		}
 		modifier = {
@@ -4108,17 +4108,17 @@
 			factor = 0
 			OR = {
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = no
 				}
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
 						primary_title = {
-							real_tier = emperor
+							real_tier = EMPEROR
 							is_titular = no
 						}
 						population_and_manpower = 60000
@@ -4149,14 +4149,14 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					NOT = { real_tier = king }
-					NOT = { spouse = { real_tier = king } }
+					NOT = { real_tier = KING }
+					NOT = { spouse = { real_tier = KING } }
 					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
-					NOT = { spouse = { real_tier = emperor } }
+					NOT = { real_tier = EMPEROR }
+					NOT = { spouse = { real_tier = EMPEROR } }
 				}
 			}
 		}
@@ -4167,7 +4167,7 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
 				primary_title = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_titular = no
 				}
 				population_and_manpower = 60000
@@ -4175,14 +4175,14 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
 					primary_title = {
-						real_tier = emperor
+						real_tier = EMPEROR
 						is_titular = no
 					}
 					population_and_manpower = 60000
@@ -4191,10 +4191,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
-				NOT = { real_tier = emperor }
+				NOT = { real_tier = EMPEROR }
 			}
 		}
 		modifier = {
@@ -4333,17 +4333,17 @@
 			factor = 0
 			OR = {
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = no
 				}
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
 						primary_title = {
-							real_tier = emperor
+							real_tier = EMPEROR
 							is_titular = no
 						}
 						population_and_manpower = 60000
@@ -4374,14 +4374,14 @@
 			OR = {
 				AND = {
 					is_nomadic = no
-					NOT = { real_tier = king }
-					NOT = { spouse = { real_tier = king } }
+					NOT = { real_tier = KING }
+					NOT = { spouse = { real_tier = KING } }
 					NOT = { spouse = { is_nomadic = yes } }
 				}
 				AND = {
 					is_nomadic = yes
-					NOT = { real_tier = emperor }
-					NOT = { spouse = { real_tier = emperor } }
+					NOT = { real_tier = EMPEROR }
+					NOT = { spouse = { real_tier = EMPEROR } }
 				}
 			}
 		}
@@ -4392,7 +4392,7 @@
 				has_landed_title = e_mongol_empire
 				has_landed_title = e_khitan
 				primary_title = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_titular = no
 				}
 				population_and_manpower = 60000
@@ -4400,14 +4400,14 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
 				OR = {
 					has_landed_title = e_mongol_empire
 					has_landed_title = e_khitan
 					primary_title = {
-						real_tier = emperor
+						real_tier = EMPEROR
 						is_titular = no
 					}
 					population_and_manpower = 60000
@@ -4416,10 +4416,10 @@
 		}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = EMPEROR }
 			spouse = {
 				is_nomadic = yes
-				NOT = { real_tier = emperor }
+				NOT = { real_tier = EMPEROR }
 			}
 		}
 		modifier = {
@@ -4558,17 +4558,17 @@
 			factor = 0
 			OR = {
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = no
 				}
 				AND = {
-					real_tier = emperor
+					real_tier = EMPEROR
 					is_nomadic = yes
 					OR = {
 						has_landed_title = e_mongol_empire
 						has_landed_title = e_khitan
 						primary_title = {
-							real_tier = emperor
+							real_tier = EMPEROR
 							is_titular = no
 						}
 						population_and_manpower = 60000
@@ -4708,8 +4708,8 @@
 		modifier = {
 			factor = 0
 			is_nomadic = yes
-			NOT = { real_tier = king }
-			NOT = { spouse = { real_tier = king } }
+			NOT = { real_tier = KING }
+			NOT = { spouse = { real_tier = KING } }
 		}
 		#modifier = {
 		#	factor = 0
@@ -4727,13 +4727,13 @@
 		#}
 		modifier = {
 			factor = 0
-			NOT = { real_tier = duke }
-			NOT = { real_tier = king }
-			NOT = { real_tier = emperor }
+			NOT = { real_tier = DUKE }
+			NOT = { real_tier = KING }
+			NOT = { real_tier = EMPEROR }
 			NOT = { has_minor_title = title_prince }
-			NOT = { spouse = { real_tier = emperor } }
-			NOT = { spouse = { real_tier = king } }
-			NOT = { spouse = { real_tier = duke } }
+			NOT = { spouse = { real_tier = EMPEROR } }
+			NOT = { spouse = { real_tier = KING } }
+			NOT = { spouse = { real_tier = DUKE } }
 			OR = { 
 				AND = { 
 					NOT = { culture = frankish }
@@ -4741,12 +4741,13 @@
 					NOT = { culture = breton }
 					NOT = { culture = welsh }
 					NOT = { culture = dutch }
+					NOT = { culture = frisian }
 					NOT = { culture = norman }
 				}
 				AND = { 
-					NOT = { real_tier = count }
+					NOT = { real_tier = COUNT }
 					NOT = { has_minor_title = title_prince }
-					NOT = { spouse = { real_tier = count } }
+					NOT = { spouse = { real_tier = COUNT } }
 				} 
 			}
 		}
@@ -4754,7 +4755,7 @@
             factor = 0
             liege = { is_nomadic = yes }
             is_ruler = no
-            NOT = { spouse = { real_tier = king } }
+            NOT = { spouse = { real_tier = KING } }
         }
 		modifier = {
 			factor = 0
@@ -4786,8 +4787,24 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				higher_real_tier_than = COUNT
+				AND = {
+					is_landed = no
+					NOR = {
+						has_job_title = job_chancellor
+						has_job_title = job_treasurer
+					}
+				}
+				AND = {
+					is_landed = no
+					spouse = {
+						is_landed = no
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_treasurer
+						}
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -4802,6 +4819,18 @@
 		modifier = {
 			factor = 0
 			trait = shieldmaiden
+		}
+		modifier = { #no hood for rulers
+			factor = 0
+			is_ruler = yes
+			OR = {
+				AND = {
+					culture_group = celtic
+					NOT = { culture = breton }
+					NOT = { culture = welsh }
+				}
+			}
+			year = 950
 		}
 		#modifier = {
 		#	factor = 10
@@ -4834,6 +4863,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			OR = {
 				is_ruler = yes
@@ -4894,22 +4928,33 @@
 			trait = shieldmaiden
 		}
 		modifier = {
+			factor = 2
+			OR = {
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = count
+				higher_real_tier_than = COUNT
 				AND = {
-					is_nomadic = no
 					is_landed = no
+					NOR = {
+						has_job_title = job_chancellor
+						has_job_title = job_treasurer
+					}
 				}
-				spouse = {
-					OR = {
-						higher_real_tier_than = count
-						AND = {
-							is_nomadic = no
-							is_landed = no
+				AND = {
+					is_landed = no
+					spouse = {
+						is_landed = no
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_treasurer
 						}
 					}
 				}
@@ -4924,6 +4969,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			OR = {
 				is_ruler = yes
@@ -4949,8 +4999,8 @@
 			factor = 0
 			is_nomadic = yes
 			OR = {
-				real_tier = emperor
-				real_tier = king
+				real_tier = EMPEROR
+				real_tier = KING
 			}	
 		}
 		modifier = {
@@ -4994,22 +5044,33 @@
 			trait = shieldmaiden
 		}
 		modifier = {
+			factor = 2
+			OR = {
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
+			}
+		}
+		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = count
+				higher_real_tier_than = COUNT
 				AND = {
-					is_nomadic = no
 					is_landed = no
+					NOR = {
+						has_job_title = job_chancellor
+						has_job_title = job_treasurer
+					}
 				}
-				spouse = {
-					OR = {
-						higher_real_tier_than = count
-						AND = {
-							is_nomadic = no
-							is_landed = no
+				AND = {
+					is_landed = no
+					spouse = {
+						is_landed = no
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_treasurer
 						}
 					}
 				}
@@ -5023,6 +5084,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			OR = {
 				is_ruler = yes
@@ -5048,8 +5114,8 @@
 			factor = 0
 			is_nomadic = yes
 			OR = {
-				real_tier = emperor
-				real_tier = king
+				real_tier = EMPEROR
+				real_tier = KING
 			}	
 		}
 		modifier = {
@@ -5094,8 +5160,24 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				higher_real_tier_than = COUNT
+				AND = {
+					is_landed = no
+					NOR = {
+						has_job_title = job_chancellor
+						has_job_title = job_treasurer
+					}
+				}
+				AND = {
+					is_landed = no
+					spouse = {
+						is_landed = no
+						NOR = {
+							has_job_title = job_chancellor
+							has_job_title = job_treasurer
+						}
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -5124,6 +5206,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			OR = {
 				is_ruler = yes
@@ -5236,7 +5323,7 @@
 
 	# Blank
 	11 = {
-		factor = 4
+		factor = 1
 		modifier = {
 			factor = 20000
 			trait = saint 
@@ -5257,16 +5344,16 @@
 			#prisoner = no
 			NOT = { trait = in_hiding }
 			OR = {
-				higher_real_tier_than = baron
-				spouse = { higher_real_tier_than = baron }
+				is_ruler = yes
+				spouse = {
+					is_ruler = yes
+				}
 				has_minor_title = title_prince
 			}
 		}
 		modifier = {
-			factor = 0.25
-			OR = {
-				real_tier = baron
-				spouse = { real_tier = baron }
+			factor = 4
+			NOR = {
 				has_job_title = job_chancellor
 				has_job_title = job_treasurer
 				AND = {
@@ -10093,6 +10180,7 @@
 				culture = breton
 				culture = welsh
 				culture = dutch
+				culture = frisian
 				culture = norman
 			}
 		}
@@ -10115,6 +10203,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			OR = {
 				AND = { 
@@ -10181,6 +10274,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10212,6 +10310,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10243,6 +10346,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10274,6 +10382,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10312,13 +10425,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -10355,13 +10473,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -10398,13 +10521,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -10442,13 +10570,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -10485,13 +10618,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -10528,6 +10666,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10570,6 +10713,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10612,6 +10760,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10654,6 +10807,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10696,6 +10854,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10730,6 +10893,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10739,6 +10907,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10755,6 +10928,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			NOR = { 
 				is_theocracy = yes 
@@ -10806,6 +10984,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			NOR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
@@ -10855,6 +11038,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			is_ruler = no
 			spouse = { is_ruler = no }
@@ -10913,6 +11101,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10951,6 +11144,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -10982,6 +11180,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11013,6 +11216,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11052,6 +11260,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11095,6 +11308,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11138,6 +11356,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11185,6 +11408,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11232,6 +11460,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11275,13 +11508,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11318,13 +11556,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11365,13 +11608,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11412,13 +11660,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11460,13 +11713,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11509,13 +11767,18 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -11550,6 +11813,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11598,6 +11866,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11646,6 +11919,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11694,6 +11972,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11741,6 +12024,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11787,6 +12075,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11833,6 +12126,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11881,6 +12179,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11929,6 +12232,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 		modifier = {
@@ -11993,6 +12301,11 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 			NOR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
@@ -12064,6 +12377,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12103,6 +12421,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12142,6 +12465,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12181,6 +12509,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12220,6 +12553,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12259,6 +12597,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12298,6 +12641,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12337,6 +12685,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12381,6 +12734,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12425,6 +12783,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12467,6 +12830,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12515,6 +12883,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12563,6 +12936,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12591,8 +12969,8 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -12608,6 +12986,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12636,8 +13019,8 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -12653,6 +13036,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12681,8 +13069,8 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -12698,6 +13086,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12726,8 +13119,8 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -12747,6 +13140,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
@@ -12775,8 +13173,8 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				real_tier = count
-				spouse = { real_tier = count }
+				real_tier = COUNT
+				spouse = { real_tier = COUNT }
 				has_minor_title = title_prince
 			}
 		}
@@ -12796,6 +13194,11 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = breton
+				culture = welsh
+				culture = dutch
+				culture = frisian
+				culture = norman
 			}
 		}
 	}
