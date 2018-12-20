@@ -5,8 +5,7 @@ Patch for CK2 Plus: https://forum.paradoxplaza.com/forum/index.php?threads/ck2pl
 Patch for Historical Immersion Project: (installing CPRplus from the HIP installer recommended): https://forum.paradoxplaza.com/forum/index.php?threads/historical-immersion-project-download-faq.748775/
 Patch for A Game of Thrones mod (you must run the game with both CPRplus the submod enabled): http://steamcommunity.com/sharedfiles/filedetails/?id=942303847
 
-In addition to other overhaul and portrait mods,  CPRplus is not compatible with mods that modify the following files:
-
-- common/religious_titles/00_religious_titles.txt
+CPRplus is not compatible with overhaul and portrait mods out of the box.
 
 Feel free to post in the CPRplus thread in the Paradox forums for help!
+(https://forum.paradoxplaza.com/forum/index.php?threads/mod-cprplus.884666/)
