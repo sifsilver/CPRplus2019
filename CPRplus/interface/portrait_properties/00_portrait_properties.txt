@@ -1780,6 +1780,11 @@
 		#		has_minor_title = title_prince
 		#	}
 		#}
+		modifier = {
+			factor = 0
+			age = 81
+			is_female = no
+		}
 	}
 	
 	8 = { # Short Curly
@@ -1992,6 +1997,11 @@
 	
 	15 = { # Mohawk
 		factor = 1
+		modifier = {
+			factor = 0
+			age = 81
+			is_female = no
+		}
 	}
 }
 
@@ -4732,24 +4742,24 @@
 			NOT = { spouse = { real_tier = EMPEROR } }
 			NOT = { spouse = { real_tier = KING } }
 			NOT = { spouse = { real_tier = DUKE } }
-			OR = { 
-				AND = { 
-					NOT = { culture = frankish }
-					NOT = { culture = occitan }
-					NOT = { culture = breton }
-					NOT = { culture = welsh }
-					NOT = { culture = dutch }
-					NOT = { culture = low_saxon }
-					NOT = { culture = low_frankish }
-					NOT = { culture = frisian }
-					NOT = { culture = norman }
-				}
-				AND = { 
+			#OR = { 
+			#	AND = { 
+			#		NOT = { culture = frankish }
+			#		NOT = { culture = occitan }
+			#		NOT = { culture = breton }
+			#		NOT = { culture = welsh }
+			#		NOT = { culture = dutch }
+			#		NOT = { culture = low_saxon }
+			#		NOT = { culture = low_frankish }
+			#		NOT = { culture = frisian }
+			#		NOT = { culture = norman }
+			#	}
+			#	AND = { 
 					NOT = { real_tier = COUNT }
-					NOT = { has_minor_title = title_prince }
+			#		NOT = { has_minor_title = title_prince }
 					NOT = { spouse = { real_tier = COUNT } }
-				} 
-			}
+			#	} 
+			#}
 		}
         modifier = {
             factor = 0
@@ -4787,27 +4797,9 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
+				higher_real_tier_than = BARON
+				spouse = { higher_real_tier_than = BARON }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			is_ruler = no
-			NOT = { liege = { family = ROOT } }
-			NOR = {
-				has_job_title = job_chancellor
-				has_job_title = job_treasurer
-			}
-			NOT = {
-				spouse = {
-					OR = {
-						is_ruler = yes
-						has_job_title = job_chancellor
-						has_job_title = job_treasurer
-					}
-				}
 			}
 		}
 		modifier = {
@@ -4837,6 +4829,7 @@
 					culture_group = north_germanic
 					NOT = { culture = frisian }
 				}
+				culture_group = east_slavic
 			}
 			year = 950
 		}
@@ -4940,8 +4933,8 @@
 		modifier = {
 			factor = 2
 			OR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
+				real_tier = BARON
+				spouse = { real_tier = BARON }
 			}
 		}
 		modifier = {
@@ -4950,29 +4943,11 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
+				higher_real_tier_than = BARON
+				spouse = { higher_real_tier_than = BARON }
 				has_minor_title = title_prince
 			}
 			NOT = { tang_dynasty_putou_trigger = yes }
-		}
-		modifier = {
-			factor = 0
-			is_ruler = no
-			NOT = { liege = { family = ROOT } }
-			NOR = {
-				has_job_title = job_chancellor
-				has_job_title = job_treasurer
-			}
-			NOT = {
-				spouse = {
-					OR = {
-						is_ruler = yes
-						has_job_title = job_chancellor
-						has_job_title = job_treasurer
-					}
-				}
-			}
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
@@ -5060,8 +5035,8 @@
 		modifier = {
 			factor = 2
 			OR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
+				real_tier = BARON
+				spouse = { real_tier = BARON }
 			}
 		}
 		modifier = {
@@ -5070,27 +5045,9 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
+				higher_real_tier_than = BARON
+				spouse = { higher_real_tier_than = BARON }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			is_ruler = no
-			NOT = { liege = { family = ROOT } }
-			NOR = {
-				has_job_title = job_chancellor
-				has_job_title = job_treasurer
-			}
-			NOT = {
-				spouse = {
-					OR = {
-						is_ruler = yes
-						has_job_title = job_chancellor
-						has_job_title = job_treasurer
-					}
-				}
 			}
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
@@ -5178,27 +5135,9 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
+				higher_real_tier_than = BARON
+				spouse = { higher_real_tier_than = BARON }
 				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			is_ruler = no
-			NOT = { liege = { family = ROOT } }
-			NOR = {
-				has_job_title = job_chancellor
-				has_job_title = job_treasurer
-			}
-			NOT = {
-				spouse = {
-					OR = {
-						is_ruler = yes
-						has_job_title = job_chancellor
-						has_job_title = job_treasurer
-					}
-				}
 			}
 		}
 		modifier = {
@@ -5371,6 +5310,8 @@
 					is_ruler = yes
 				}
 				has_minor_title = title_prince
+				has_job_title = job_chancellor
+				has_job_title = job_treasurer
 			}
 		}
 		modifier = {
@@ -5378,12 +5319,8 @@
 			NOR = {
 				has_job_title = job_chancellor
 				has_job_title = job_treasurer
-				AND = {
-					liege = {
-						is_nomadic = yes
-						family = ROOT
-					}
-					is_ruler = no
+				liege = {
+					family = ROOT
 				}
 			}
 		}

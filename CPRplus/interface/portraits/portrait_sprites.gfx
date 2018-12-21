@@ -128,7 +128,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_character_special_helmets"
 		texturefile = "gfx\\characters\\shared\\special_helmets.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 		can_be_lowres = yes
 	}

@@ -113,7 +113,7 @@ iberian = {
 		graphical_cultures = {basquegfx southerngfx}
 	}
     andalusian_arabic = {
-		graphical_cultures = {andalusiangfx muslimgfx}
+		graphical_cultures = {andalusiangfx arabicgfx muslimgfx}
 	}
     occitan = {
 		graphical_cultures = {occitangfx}
