@@ -3572,6 +3572,8 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = berbergfx
 				graphical_culture = westafricangfx
+				graphical_culture = northindiangfx
+				graphical_culture = assamesegfx
 				graphical_culture = guanchegfx
 			}
 		}
@@ -3640,6 +3642,8 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = berbergfx
 				graphical_culture = westafricangfx
+				graphical_culture = northindiangfx
+				graphical_culture = assamesegfx
 				graphical_culture = guanchegfx
 			}
 		}
@@ -3708,6 +3712,8 @@
 				graphical_culture = maghrebgfx
 				graphical_culture = berbergfx
 				graphical_culture = westafricangfx
+				graphical_culture = northindiangfx
+				graphical_culture = assamesegfx
 				graphical_culture = guanchegfx
 			}
 		}
@@ -4394,6 +4400,7 @@
 					NOT = { spouse = { real_tier = EMPEROR } }
 				}
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4543,6 +4550,7 @@
 			is_feudal = no
 			is_tribal = no
 			is_nomadic = no
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4563,6 +4571,7 @@
 				government = order_government
 				is_republic = yes
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
 		}
 		modifier = {
 			factor = 0
@@ -4585,6 +4594,11 @@
 					}
 				}
 			}
+			NOT = { song_dynasty_futou_trigger = yes }
+		}
+		modifier = {
+			factor = 100
+			song_dynasty_futou_trigger = yes
 		}
 	}
 
