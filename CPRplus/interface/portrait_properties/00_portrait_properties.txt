@@ -2621,11 +2621,11 @@
 		#}
 		modifier = {
 			factor = 0
+			age = 18
 			OR = {
 				religion = orthodox
 				is_heresy_of = orthodox
 			}
-			age = 18
 			OR = {
 				AND = {
 					government = theocracy_government
@@ -2641,6 +2641,8 @@
 			NOR = {
 				religion = catholic
 				is_heresy_of = catholic
+				culture = norman
+				trait = groomed
 			}
 		}
 		modifier = {
@@ -2658,7 +2660,10 @@
 				}
 				has_job_title = job_spiritual
 			}
-			trait = bad_priest_christian
+			OR = {
+				trait = bad_priest_christian
+				trait = uncouth
+			}
 		}
 		modifier = {
 			factor = 0
@@ -2682,6 +2687,19 @@
 				has_nickname = nick_the_confessor
 				has_nickname = nick_the_monk
 			}
+		}
+		modifier = {
+			factor = 0
+			age = 18
+			trait = uncouth
+		}
+		modifier = {
+			factor = 10
+			trait = groomed
+		}
+		modifier = {
+			factor = 10
+			culture = norman
 		}
 		modifier = {
 			factor = 100
@@ -2739,6 +2757,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -2800,6 +2819,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -2861,6 +2881,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -2925,6 +2946,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -2989,6 +3011,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3050,6 +3073,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3129,6 +3153,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3222,6 +3247,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3303,6 +3329,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3402,6 +3429,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3470,6 +3498,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3538,6 +3567,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3608,6 +3638,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
@@ -3678,6 +3709,7 @@
 				has_job_title = job_spiritual
 			}
 			NOT = { trait = bad_priest_christian }
+			NOT = { trait = uncouth }
 		}
 		modifier = {
 			factor = 0
