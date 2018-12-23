@@ -1295,7 +1295,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Basque female midage
@@ -1388,7 +1388,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Basque female oldage
@@ -1482,7 +1482,7 @@ spriteTypes = {
 			{ 54 43 34 } #Dark Brown 2
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 }

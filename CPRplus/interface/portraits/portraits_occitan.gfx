@@ -1323,7 +1323,7 @@ spriteTypes = {
  			{ 105 155 93 } #Green 
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Occitan female midage
@@ -1415,7 +1415,7 @@ spriteTypes = {
  			{ 105 155 93 } #Green 
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# Occitan female oldage
@@ -1508,7 +1508,7 @@ spriteTypes = {
  			{ 105 155 93 } #Green 
 		}
 		
-		headgear_that_hides_hair = { 9 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 }
