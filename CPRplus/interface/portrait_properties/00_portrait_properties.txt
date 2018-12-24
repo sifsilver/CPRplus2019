@@ -13755,6 +13755,10 @@
 				any_artifact = { artifact_type = crown_wrapped_helmet is_artifact_equipped = yes } 
 			}
 		}
+		modifier = { #Unicorn
+			factor = 0
+			any_artifact = { artifact_type = crown_unicorn_helmet is_artifact_equipped = yes } 
+		}
 	}
 	1 = { #Templar special headgear.
 		factor = 100
@@ -14140,6 +14144,37 @@
 			NOR = {
 				has_landed_title = d_livonian_order 
 				liege = { has_landed_title = d_livonian_order }
+			}
+		}
+	}
+	10 = { #Unicorn headgear.
+		factor = 100
+		hide_layers = { 12 = { } } #Hide layer 12 (disfigured masks) when this frame is picked.
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		hide_layers = { 1 = { } } #Hide Hair.
+		hide_layers = { 3 = { } } #Hide Clothes.
+		hide_layers = { 18 = { } } #Hide layers with special crowns.
+		hide_layers = { 19 = { } } #Hide layers with special crowns.
+		hide_layers = { 31 = { } } #Veil overload.
+		hide_layers = { 32 = { } } 
+		hide_layers = { 33 = { } }
+		#modifier = {
+		#	factor = 0
+		#	NAND = { 
+		#		in_command = yes 
+		#		has_game_rule = {
+		#			name = martial_headgear
+		#			value = on
+		#		}
+		#	}
+		#}
+		modifier = {
+			factor = 0
+			NOT = { 
+				any_artifact = {
+					artifact_type = crown_unicorn_helmet
+					is_artifact_equipped = yes 
+				}
 			}
 		}
 	}
