@@ -271,7 +271,7 @@ arabic = {
 		graphical_cultures = { levantinegfx arabicgfx muslimgfx }
 	}
 	egyptian_arabic = {
-		graphical_cultures = { egyptiangfx arabicgfx muslimgfx }
+		graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
 	}
 	andalusian_arabic = {
 		graphical_cultures = { andalusiangfx arabicgfx muslimgfx } #westerngfx
