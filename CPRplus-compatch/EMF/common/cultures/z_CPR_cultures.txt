@@ -265,7 +265,7 @@ arabic = {
 		graphical_cultures = { arabicgfx muslimgfx }
 	}
 	maghreb_arabic = { # Berber
-		graphical_cultures = { maghrebgfx arabicgfx muslimgfx }
+		graphical_cultures = { maghrebgfx berbergfx arabicgfx muslimgfx }
 	}
 	levantine_arabic = {
 		graphical_cultures = { levantinegfx arabicgfx muslimgfx }

@@ -331,7 +331,7 @@ arabic = {
 		graphical_cultures = {arabicgfx muslimgfx}
 	}
 	maghreb_arabic = { 
-		graphical_cultures = {maghrebgfx arabicgfx muslimgfx}
+		graphical_cultures = {maghrebgfx berbergfx arabicgfx muslimgfx}
 	}
 	levantine_arabic = {
 		graphical_cultures = {levantinegfx arabicgfx muslimgfx}
@@ -521,10 +521,10 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	sanhaja = {
-		graphical_cultures = {maghrebgfx muslimgfx}
+		graphical_cultures = {maghrebgfx berbergfx muslimgfx}
 	}
   	tagelmust = {
-		graphical_cultures = {southernberbergfx africangfx}
+		graphical_cultures = {southernberbergfx berbergfx africangfx}
 	}
 	masmuda = {
 		graphical_cultures = {berbergfx muslimgfx}
@@ -533,7 +533,7 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	tuareg = {
-		graphical_cultures = {southernberbergfx africangfx}
+		graphical_cultures = {southernberbergfx berbergfx africangfx}
 	}
 	canarian = {
 		graphical_cultures = {guanchegfx africangfx}
