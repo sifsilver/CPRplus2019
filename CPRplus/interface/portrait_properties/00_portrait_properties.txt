@@ -5269,8 +5269,8 @@
 						#culture = somali
 						#culture = kurdish
 						#culture = sephardi
-						culture = sanhaja
-						culture = zaghawa
+						#culture = sanhaja
+						#culture = zaghawa
 						culture = bashkir
 					}
 					year = 950
