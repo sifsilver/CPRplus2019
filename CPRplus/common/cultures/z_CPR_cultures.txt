@@ -313,7 +313,7 @@ south_slavic = {
 		graphical_cultures = { croatsouthslavicgfx westernslavicgfx }
 	}
 	carantanian = {
-		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
+		graphical_cultures = { bohemiangfx westernslavicgfx }
 	}
 	bosnian = {
 		graphical_cultures = { serbsouthslavicgfx westernslavicgfx }
