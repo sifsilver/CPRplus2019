@@ -4813,8 +4813,12 @@
 			#	AND = { 
 			#		NOT = { culture = frankish }
 			#		NOT = { culture = occitan }
+			#		NOT = { culture = arpitan }
+			#		NOT = { culture = ligurian }
 			#		NOT = { culture = breton }
 			#		NOT = { culture = welsh }
+			#		NOT = { culture = cumbric }
+			#		NOT = { culture = cornish }
 			#		NOT = { culture = dutch }
 			#		NOT = { culture = low_saxon }
 			#		NOT = { culture = low_frankish }
@@ -4931,8 +4935,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -5023,8 +5031,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -5124,8 +5136,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -5232,8 +5248,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10551,8 +10571,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10579,8 +10603,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10594,6 +10622,7 @@
 				}
 				has_portrait_property = { layer = 5 index = 10 }
 			}
+			year = 950
 			NOR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
 				trait = dead_crown_byzantine #Dead kings don't have artifacts
@@ -10642,6 +10671,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -10652,13 +10685,24 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
 			}
 		}
 		modifier = {
@@ -10680,6 +10724,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -10688,15 +10736,26 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = breton
+				#culture = frankish
+				#culture = occitan
+				#culture = arpitan
+				#culture = ligurian
+				#culture = breton
 				culture = welsh
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
+				culture = cumbric
+				culture = cornish
+				#culture = dutch
+				#culture = low_saxon
+				#culture = low_frankish
+				#culture = frisian
+				#culture = norman
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
 			}
 		}
 		modifier = {
@@ -10718,6 +10777,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -10728,13 +10791,24 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
-				culture = welsh
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
+				#culture = welsh
+				#culture = cumbric
+				#culture = cornish
+				#culture = dutch
+				#culture = low_saxon
+				#culture = low_frankish
+				#culture = frisian
+				#culture = norman
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
 			}
 		}
 		modifier = {
@@ -10756,6 +10830,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -10764,15 +10842,26 @@
 		modifier = {
 			factor = 0
 			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = breton
-				culture = welsh
+				#culture = frankish
+				#culture = occitan
+				#culture = arpitan
+				#culture = ligurian
+				#culture = breton
+				#culture = welsh
+				#culture = cumbric
+				#culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
 			}
 		}
 		modifier = {
@@ -10791,6 +10880,10 @@
 			NOT = {
 				has_dlc = "Holy Fury"
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
@@ -10811,8 +10904,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10842,6 +10939,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -10861,8 +10962,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10892,6 +10997,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -10911,8 +11020,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10943,6 +11056,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -10962,8 +11079,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -10993,6 +11114,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11012,8 +11137,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11043,6 +11172,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11062,8 +11195,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11092,6 +11229,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11111,8 +11252,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11141,6 +11286,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11160,8 +11309,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11190,6 +11343,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11209,8 +11366,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11239,6 +11400,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11258,8 +11423,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11299,8 +11468,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11315,8 +11488,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11338,14 +11515,19 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
 			}
+			year = 950
 			NOR = { 
 				is_theocracy = yes 
 				is_in_society = yes
@@ -11396,14 +11578,19 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
 			}
+			year = 950
 			NOR = {
 				trait = dead_crown_hre #Dead kings don't have artifacts
 				trait = dead_crown_byzantine #Dead kings don't have artifacts
@@ -11452,14 +11639,19 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
 			}
+			year = 950
 			is_ruler = no
 			spouse = { is_ruler = no }
 			OR = {
@@ -11514,11 +11706,19 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11531,6 +11731,13 @@
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
 			}
 		}
 		modifier = {
@@ -11552,6 +11759,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -11559,16 +11770,27 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
+			}
+		}
+		modifier = {
+			factor = 0
 			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = breton
+				#culture = frankish
+				#culture = occitan
+				#culture = arpitan
+				#culture = ligurian
+				#culture = breton
 				culture = welsh
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
+				culture = cumbric
+				culture = cornish
+				#culture = dutch
+				#culture = low_saxon
+				#culture = low_frankish
+				#culture = frisian
+				#culture = norman
 			}
 		}
 		modifier = {
@@ -11590,6 +11812,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -11597,16 +11823,27 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
+			}
+		}
+		modifier = {
+			factor = 0
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
-				culture = welsh
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
+				#culture = welsh
+				#culture = cumbric
+				#culture = cornish
+				#culture = dutch
+				#culture = low_saxon
+				#culture = low_frankish
+				#culture = frisian
+				#culture = norman
 			}
 		}
 		modifier = {
@@ -11628,6 +11865,10 @@
 		}
 		modifier = {
 			factor = 0
+			NOT = { year = 950 }
+		}
+		modifier = {
+			factor = 0
 			OR = { 
 				is_theocracy = yes 
 				has_job_title = job_spiritual
@@ -11635,11 +11876,22 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
+			}
+		}
+		modifier = {
+			factor = 0
 			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = breton
-				culture = welsh
+				#culture = frankish
+				#culture = occitan
+				#culture = arpitan
+				#culture = ligurian
+				#culture = breton
+				#culture = welsh
+				#culture = cumbric
+				#culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11664,6 +11916,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11684,8 +11940,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11714,6 +11974,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11734,8 +11998,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11764,6 +12032,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11784,8 +12056,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11838,8 +12114,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11892,8 +12172,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11922,6 +12206,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11942,8 +12230,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -11972,6 +12264,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -11992,8 +12288,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12046,8 +12346,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12100,8 +12404,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12155,8 +12463,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12211,8 +12523,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12259,8 +12575,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12314,8 +12634,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12369,8 +12693,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12424,8 +12752,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12478,8 +12810,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12531,8 +12867,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12584,8 +12924,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12639,8 +12983,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12694,8 +13042,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12765,8 +13117,12 @@
 			OR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12843,8 +13199,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12889,8 +13249,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12935,8 +13299,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -12981,8 +13349,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13027,8 +13399,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13073,8 +13449,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13119,8 +13499,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13165,8 +13549,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13188,6 +13576,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -13216,8 +13608,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13239,6 +13635,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -13267,8 +13667,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13289,6 +13693,10 @@
 			NOT = {
 				has_dlc = "Holy Fury"
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
 		}
 		modifier = { #Incompatible with most society clothes.
 			factor = 0
@@ -13316,8 +13724,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13371,8 +13783,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13426,8 +13842,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13449,6 +13869,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -13478,8 +13902,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13501,6 +13929,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -13530,8 +13962,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13553,6 +13989,10 @@
 				has_dlc = "Holy Fury"
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT = { year = 950 }
+		}
 		modifier = { #Incompatible with most society and religious clothes.
 			factor = 0
 			OR = { 
@@ -13582,8 +14022,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13638,8 +14082,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
@@ -13694,8 +14142,12 @@
 			NOR = {
 				culture = frankish
 				culture = occitan
+				culture = arpitan
+				culture = ligurian
 				culture = breton
 				culture = welsh
+				culture = cumbric
+				culture = cornish
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
