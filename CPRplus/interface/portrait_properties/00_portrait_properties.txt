@@ -1888,6 +1888,21 @@
 			age = 81
 			is_female = no
 		}
+		modifier = { # Norman haircut
+			factor = 20
+			culture = norman
+			is_female = no
+			OR = {
+				graphical_culture = englishgfx
+				graphical_culture = dutchgfx
+				graphical_culture = saxongfx
+				AND = {
+					graphical_culture = normangfx
+					NOT = { religion_group = pagan_group }
+				}
+			}
+			NOT = { year = 1150 }
+		}
 		modifier = {
 			factor = 0
 			is_female = yes
@@ -1966,7 +1981,7 @@
 			graphical_culture = easternslavicgfx
 			NOT = { religion_group = pagan_group }
 		}
-		modifier = { # Norman bowl cut
+		modifier = { # bowl cut
 			factor = 20
 			culture = norman
 			is_female = no
@@ -1979,7 +1994,7 @@
 					NOT = { religion_group = pagan_group }
 				}
 			}
-			NOT = { year = 1100 }
+			year = 1300
 		}
 		modifier = {
 			factor = 0
