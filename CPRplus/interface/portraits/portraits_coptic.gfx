@@ -219,7 +219,7 @@ spriteTypes = {
 			"GFX_egyptian_male_chin_oldage:d1"
 			"GFX_character_muslim_male_physique:p21" 
 			"GFX_egyptian_male_cheeks_oldage:d4"
-			"GFX_egyptian_male_mouth_oldage:d2"
+			"GFX_egyptian_male_mouth_oldage:d2:o74x46"
 			"GFX_egyptian_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
