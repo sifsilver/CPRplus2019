@@ -5509,13 +5509,13 @@
 					combat_rating = 30
 				}
 			}
-			OR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
+			#OR = {
+			#	martial = 20
+			#	AND = {
+			#		martial = 18
+			#		trait = mujahid
+			#	}
+			#}
 			OR = {
 				culture_group = arabic
 				culture_group = iranian
@@ -5553,17 +5553,17 @@
 					combat_rating = 30
 				}
 			}
-			OR = {
-				martial = 20
-				AND = {
-					martial = 18
-					OR = {
-						trait = ukkos_shield
-						trait = peruns_chosen
-						trait = tengri_warrior
-					}
-				}
-			}
+			#OR = {
+			#	martial = 20
+			#	AND = {
+			#		martial = 18
+			#		OR = {
+			#			trait = ukkos_shield
+			#			trait = peruns_chosen
+			#			trait = tengri_warrior
+			#		}
+			#	}
+			#}
 			OR = {
 				AND = {
 					culture_group = east_slavic
@@ -5609,7 +5609,7 @@
 					combat_rating = 30
 				}
 			}
-			martial = 20
+			#martial = 20
 			OR = {
 				AND = {
 					culture_group = byzantine
@@ -5709,10 +5709,10 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			martial = 20
-		}
+		#modifier = {
+		#	factor = 0
+		#	martial = 20
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -5809,10 +5809,10 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			martial = 20
-		}
+		#modifier = {
+		#	factor = 0
+		#	martial = 20
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -5896,10 +5896,10 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = { martial = 20 }
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = { martial = 20 }
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -5983,10 +5983,10 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = { martial = 20 }
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = { martial = 20 }
+		#}
 		modifier = {
 			factor = 0
 			OR = {
@@ -6085,10 +6085,8 @@
 		}
 		modifier = {
 			factor = 0
-			NOR = {
+			NOT = {
 				trait = crusader
-				trait = crusader_king
-				trait = crusader_queen
 			}
 		}
 		modifier = {
@@ -6166,16 +6164,14 @@
 				}
 			}
 		}
+		#modifier = {
+		#	factor = 0
+		#	martial = 25
+		#}
 		modifier = {
 			factor = 0
-			martial = 25
-		}
-		modifier = {
-			factor = 0
-			NOR = {
+			NOT = {
 				trait = crusader
-				trait = crusader_king
-				trait = crusader_queen
 			}
 		}
 		modifier = {
@@ -6240,27 +6236,26 @@
 				culture_group = italian_group
 			}
 		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		AND = {
+		#			has_global_flag = EMF
+		#			combat_rating = 40
+		#		}
+		#		AND = {
+		#			NOT = { has_global_flag = EMF }
+		#			combat_rating = 30
+		#		}
+		#	}
+		#}
+		#modifier = {
+		#	factor = 0
+		#	NOT = { martial = 25 }
+		#}
 		modifier = {
 			factor = 0
 			NOR = {
-				AND = {
-					has_global_flag = EMF
-					combat_rating = 40
-				}
-				AND = {
-					NOT = { has_global_flag = EMF }
-					combat_rating = 30
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { martial = 25 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				trait = crusader
 				trait = crusader_king
 				trait = crusader_queen
 			}
@@ -6332,16 +6327,16 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			trait = mujahid
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6409,16 +6404,16 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			trait = mujahid
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6486,16 +6481,16 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			trait = mujahid
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6563,16 +6558,16 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			trait = mujahid
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6640,16 +6635,16 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					trait = mujahid
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			trait = mujahid
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6725,20 +6720,20 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					OR = {
-						trait = ukkos_shield
-						trait = peruns_chosen
-						trait = tengri_warrior
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			OR = {
+		#				trait = ukkos_shield
+		#				trait = peruns_chosen
+		#				trait = tengri_warrior
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6814,20 +6809,20 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					OR = {
-						trait = ukkos_shield
-						trait = peruns_chosen
-						trait = tengri_warrior
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			OR = {
+		#				trait = ukkos_shield
+		#				trait = peruns_chosen
+		#				trait = tengri_warrior
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6903,20 +6898,20 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					OR = {
-						trait = ukkos_shield
-						trait = peruns_chosen
-						trait = tengri_warrior
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			OR = {
+		#				trait = ukkos_shield
+		#				trait = peruns_chosen
+		#				trait = tengri_warrior
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -6992,20 +6987,20 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				martial = 20
-				AND = {
-					martial = 18
-					OR = {
-						trait = ukkos_shield
-						trait = peruns_chosen
-						trait = tengri_warrior
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOR = {
+		#		martial = 20
+		#		AND = {
+		#			martial = 18
+		#			OR = {
+		#				trait = ukkos_shield
+		#				trait = peruns_chosen
+		#				trait = tengri_warrior
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -7072,12 +7067,12 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				martial = 20
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = {
+		#		martial = 20
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -7144,12 +7139,12 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				martial = 20
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = {
+		#		martial = 20
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
@@ -7216,12 +7211,12 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				martial = 20
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	NOT = {
+		#		martial = 20
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			NOT = { year = 950 }
