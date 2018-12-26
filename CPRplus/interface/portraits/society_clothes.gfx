@@ -383,16 +383,18 @@ spriteTypes = {
 			"GFX_empty:c3"
 			"GFX_society_orthodox_monk_female_headgear_behind:c1"
 			"GFX_society_orthodox_monk_female_headgear_front:c5"
+			"GFX_english_male_hair_behind_midage"
+			"GFX_english_male_hair_midage"
 			"GFX_empty:c4"
 		}
 		
 		# Hide hair, ranks, slot 3 is for Greek orthodox, 4 for Russian orthodox.
 		allow_property_values = {
-			#1 = {
-			#	0 = {
-			#		always = yes
-			#	}
-			#}
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
 			3 = {
 				0 = {
 					always = yes
@@ -938,19 +940,21 @@ spriteTypes = {
 			"GFX_society_monastic_order_buddhist_vajrayana_female_clothing_behind:c0"
 			"GFX_society_monastic_order_buddhist_vajrayana_female_clothing_front:c2"
 			"GFX_empty:c3"
+			"GFX_english_male_hair_behind_midage"
+			"GFX_english_male_hair_midage"
 			"GFX_empty:c1"
 			"GFX_empty:c5"
 			"GFX_empty:c4"
 		}
 		
 		# Hide hair
-		#allow_property_values = {
-		#	1 = {
-		#		0 = {
-		#			always = yes
-		#		}
-		#	}
-		#}
+		allow_property_values = {
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	# Theravada
@@ -1043,19 +1047,21 @@ spriteTypes = {
 			"GFX_society_monastic_order_buddhist_theravada_female_clothing_behind:c0"
 			"GFX_society_monastic_order_buddhist_theravada_female_clothing_front:c2"
 			"GFX_empty:c3"
+			"GFX_english_male_hair_behind_midage"
+			"GFX_english_male_hair_midage"
 			"GFX_empty:c1"
 			"GFX_empty:c5"
 			"GFX_empty:c4"
 		}
 		
 		# Hide hair
-		#allow_property_values = {
-		#	1 = {
-		#		0 = {
-		#			always = yes
-		#		}
-		#	}
-		#}
+		allow_property_values = {
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	# Mahayana
@@ -1148,19 +1154,21 @@ spriteTypes = {
 			"GFX_society_monastic_order_buddhist_mahayana_female_clothing_behind:c0"
 			"GFX_society_monastic_order_buddhist_mahayana_female_clothing_front:c2"
 			"GFX_empty:c3"
+			"GFX_english_male_hair_behind_midage"
+			"GFX_english_male_hair_midage"
 			"GFX_empty:c1"
 			"GFX_empty:c5"
 			"GFX_empty:c4"
 		}
 		
 		# Hide hair
-		#allow_property_values = {
-		#	1 = {
-		#		0 = {
-		#			always = yes
-		#		}
-		#	}
-		#}
+		allow_property_values = {
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	# monastic_order_jain
@@ -2020,16 +2028,18 @@ spriteTypes = {
 			"GFX_empty:c3"
 			"GFX_society_satanist_female_headgear_front:c5"
 			"GFX_society_satanist_female_headgear_behind:c1"
+			"GFX_english_male_hair_behind_midage"
+			"GFX_english_male_hair_midage"
 			"GFX_empty:c4"
 		}
 		
 		# No hair, correct rank
 		allow_property_values = {
-			#1 = {
-			#	0 = {
-			#		always = yes
-			#	}
-			#}
+			1 = {
+				0 = {
+					always = yes
+				}
+			}
 			3 = {
 				0 = {
 					portrait_society_rank = 1
