@@ -5472,7 +5472,10 @@
 				culture_group = north_germanic
 				culture_group = central_germanic
 				culture_group = west_germanic
-				culture_group = latin
+				AND = {
+					culture_group = latin
+					NOT = { culture = roman }
+				}
 				AND = {
 					culture_group = iberian
 					NOT = { culture = andalusian_arabic }
@@ -5488,7 +5491,10 @@
 						culture = romanian
 					}
 				}
-				culture_group = italian_group
+				AND = {
+					culture_group = italian_group
+					NOT = { culture = roman }
+				}
 			}
 		}
 		modifier = {
@@ -5664,7 +5670,10 @@
 				culture_group = north_germanic
 				culture_group = central_germanic
 				culture_group = west_germanic
-				culture_group = latin
+				AND = {
+					culture_group = latin
+					NOT = { culture = roman }
+				}
 				AND = {
 					culture_group = iberian
 					NOT = { culture = andalusian_arabic }
@@ -5680,7 +5689,10 @@
 						culture = romanian
 					}
 				}
-				culture_group = italian_group
+				AND = {
+					culture_group = italian_group
+					NOT = { culture = roman }
+				}
 			}
 		}
 		modifier = {
@@ -5764,7 +5776,10 @@
 				culture_group = north_germanic
 				culture_group = central_germanic
 				culture_group = west_germanic
-				culture_group = latin
+				AND = {
+					culture_group = latin
+					NOT = { culture = roman }
+				}
 				AND = {
 					culture_group = iberian
 					NOT = { culture = andalusian_arabic }
@@ -5780,7 +5795,10 @@
 						culture = romanian
 					}
 				}
-				culture_group = italian_group
+				AND = {
+					culture_group = italian_group
+					NOT = { culture = roman }
+				}
 			}
 		}
 		modifier = {
@@ -5864,7 +5882,10 @@
 				culture_group = north_germanic
 				culture_group = central_germanic
 				culture_group = west_germanic
-				culture_group = latin
+				AND = {
+					culture_group = latin
+					NOT = { culture = roman }
+				}
 				AND = {
 					culture_group = iberian
 					NOT = { culture = andalusian_arabic }
@@ -5880,7 +5901,10 @@
 						culture = romanian
 					}
 				}
-				culture_group = italian_group
+				AND = {
+					culture_group = italian_group
+					NOT = { culture = roman }
+				}
 			}
 		}
 		modifier = {
@@ -5951,7 +5975,10 @@
 				culture_group = north_germanic
 				culture_group = central_germanic
 				culture_group = west_germanic
-				culture_group = latin
+				AND = {
+					culture_group = latin
+					NOT = { culture = roman }
+				}
 				AND = {
 					culture_group = iberian
 					NOT = { culture = andalusian_arabic }
@@ -5967,7 +5994,10 @@
 						culture = romanian
 					}
 				}
-				culture_group = italian_group
+				AND = {
+					culture_group = italian_group
+					NOT = { culture = roman }
+				}
 			}
 		}
 		modifier = {
