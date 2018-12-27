@@ -55,10 +55,10 @@ west_germanic = {
 		graphical_cultures = { saxongfx }
 	}
 	old_saxon = {
-		graphical_cultures = { germangfx }
+		graphical_cultures = { dutchgfx germangfx }
 	}
 	frisian = {
-		graphical_cultures = { dutchgfx saxongfx }
+		graphical_cultures = { dutchgfx germangfx }
 	}
 	dutch = {
 		graphical_cultures = { dutchgfx germangfx }
