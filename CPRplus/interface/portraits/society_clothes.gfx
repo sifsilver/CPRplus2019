@@ -1826,6 +1826,7 @@ spriteTypes = {
                 portrait_age > child
                 portrait_society = the_assassins
 				portrait_clothing = yes
+				NOT = { portrait_tier = king }
             }
         }
         
@@ -2019,6 +2020,7 @@ spriteTypes = {
 					portrait_society = the_cold_ones
 					portrait_society = the_plaguebringers
 				}
+				NOT = { portrait_tier = king }
 			}
 		}
 		
