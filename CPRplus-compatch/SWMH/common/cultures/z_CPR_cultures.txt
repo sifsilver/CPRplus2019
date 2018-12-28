@@ -102,7 +102,7 @@ latin = {
 	}
 
 	outremer = {
-		graphical_cultures = {outremergfx}
+		graphical_cultures = {outremergfx muslimgfx}
 	}
 }
 
@@ -113,7 +113,7 @@ iberian = {
 		graphical_cultures = {basquegfx southerngfx}
 	}
     andalusian_arabic = {
-		graphical_cultures = {andalusiangfx arabicgfx muslimgfx}
+		graphical_cultures = {andalusiangfx levantinegfx arabicgfx muslimgfx}
 	}
     occitan = {
 		graphical_cultures = {occitangfx}
@@ -521,7 +521,7 @@ north_african = {
 		graphical_cultures = {berbergfx muslimgfx}
 	}
 	sanhaja = {
-		graphical_cultures = {maghrebgfx berbergfx muslimgfx}
+		graphical_cultures = {maghrebgfx arabicgfx muslimgfx}
 	}
   	tagelmust = {
 		graphical_cultures = {southernberbergfx berbergfx africangfx}
@@ -558,40 +558,40 @@ italian_group = {
 	graphical_cultures = {westerngfx}
 
 	sardinian = {
-		graphical_cultures = {italiangfx}
+		graphical_cultures = {italiangfx occitangfx}
 	}
 	sicilian = {
-		graphical_cultures = { siciliangfx italiangfx }
+		graphical_cultures = { siciliangfx italiangfx occitangfx }
 	}
 	umbrian = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	laziale = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	neapolitan = {
-		graphical_cultures = { siciliangfx italiangfx }
+		graphical_cultures = { siciliangfx italiangfx occitangfx }
 	}
 	tuscan = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	ligurian = {
 		graphical_cultures = { occitangfx italiangfx }
 	}
 	langobardisch = {
-		graphical_cultures = {lombardgfx italiangfx}
+		graphical_cultures = {lombardgfx italiangfx occitangfx }
 	}
 	italian = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	venetian = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	dalmatian = {		
-		graphical_cultures = { dalmatiangfx }
+		graphical_cultures = { dalmatiangfx occitangfx }
 	}
 	roman = {
-		graphical_cultures = { romangfx }
+		graphical_cultures = { romangfx occitangfx }
 	}
 }
 mesoamerican = {

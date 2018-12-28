@@ -67,16 +67,16 @@ latin = {
 		graphical_cultures = { normangfx }
 	}
 	italian = {
-		graphical_cultures = { italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	occitan = {
 		graphical_cultures = { occitangfx }
 	}
 	roman = {
-		graphical_cultures = { romangfx }
+		graphical_cultures = { romangfx occitangfx }
 	}
 	dalmatian = {
-		graphical_cultures = { dalmatiangfx italiangfx }
+		graphical_cultures = { dalmatiangfx occitangfx }
 	}
 	outremer = {
 		graphical_cultures = { outremergfx muslimgfx }
@@ -259,7 +259,7 @@ arabic = {
 		graphical_cultures = { egyptiangfx levantinegfx arabicgfx muslimgfx }
 	}
 	andalusian_arabic = {
-		graphical_cultures = { andalusiangfx arabicgfx muslimgfx } #westerngfx
+		graphical_cultures = { andalusiangfx levantinegfx arabicgfx muslimgfx } #westerngfx
 	}
 }
 
