@@ -1,18 +1,25 @@
+- Wikimedia Commons
 Jamguo: Wikimedia Commons image of Xi'an's city wall
 (https://commons.wikimedia.org/wiki/File:XiAn_CityWall_DiLou.jpg)
 
+
+- Paradox Forums users
 LordPeter: retouched portrait background images from Wikimedia Commons image ("tribal" interior)
 
 SirRitter: retouched military headgear assets for Georgian and Baltic portrait sets
 
+Lysten: taoist religious clothes and late-era papal tiara
+
+
+- Other CK2 mods
 Lux Invicta: various headgear
 (https://forum.paradoxplaza.com/forum/index.php?threads/mod-lux-invicta.612823/)
 
 A Game of Thrones: various headgear
 (https://forum.paradoxplaza.com/forum/index.php?threads/release-a-game-of-thrones-v1-0.889743/)
 
-Huanglukuzhu: headgear assets for Uyghur, Khitan, and non-pagan Mongol portrait sets, taken from Horse Lords Remake + New Portraits & Units mod
+Horse Lords Remake + New Portraits & Units mod: headgear assets for Uyghur, Khitan, and non-pagan Mongol portrait sets
 (https://steamcommunity.com/sharedfiles/filedetails/?id=485482054)
 
-CrackdToothGrin: beard, hair, cloth, and headgear assets in the steppe area from Steppe Faces mod
+Steppe Faces mod: beard, hair, cloth, and headgear assets in the steppe area
 (https://forum.paradoxplaza.com/forum/index.php?threads/mod-crackdtoothgrins-graphical-goodies.603794/)
