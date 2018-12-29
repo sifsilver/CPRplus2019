@@ -8874,6 +8874,11 @@
 			OR = {
 				has_minor_title = title_cardinal
 				has_minor_title = title_fraticelli_cardinal
+				AND = {
+					year = 1200
+					religion = catholic
+					controls_religion = yes
+				}
 			}
 		}
 		modifier = {
@@ -9374,6 +9379,25 @@
 			NOR = {
 				has_minor_title = title_cardinal
 				has_minor_title = title_fraticelli_cardinal
+			}
+		}
+	}
+	16 = { 
+		factor = 100
+		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
+		modifier = {
+			factor = 0
+			NOT = {
+				year = 1200
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				AND = {
+					religion = catholic
+					controls_religion = yes
+				}
 			}
 		}
 	}
