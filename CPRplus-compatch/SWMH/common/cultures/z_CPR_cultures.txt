@@ -466,7 +466,7 @@ east_african = {
 		graphical_cultures = {somaligfx africangfx westafricangfx}
 	}
   	afar = {
-		graphical_cultures = {bejagfx africangfx westafricangfx}
+		graphical_cultures = {centralafricangfx africangfx westafricangfx}
 	}
 	daju = {
 		graphical_cultures = {centralafricangfx africangfx westafricangfx}
