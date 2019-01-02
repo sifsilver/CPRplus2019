@@ -3880,6 +3880,7 @@
 		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -3887,15 +3888,9 @@
 			real_tier = EMPEROR
 			is_feudal = yes
 			is_alive = yes
-			OR = { 
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						religion = catholic
-						religion = fraticelli
-					}
-				}
-				has_global_flag = EMF
+			OR = {
+				religion = catholic
+				religion = fraticelli
 			}
 			NOR = { 
 				trait = crowned_by_priest 
@@ -3904,9 +3899,27 @@
 				trait = crowned_by_myself 
 			}
 		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown. (EMF version)
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = EMPEROR
+			is_feudal = yes
+			is_alive = yes
+			NOT = { 
+				emf_is_crowned = yes
+			}
+		}
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -3920,6 +3933,7 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -3928,22 +3942,34 @@
 			spouse = { 
 				real_tier = EMPEROR
 				is_feudal = yes
-				is_alive = yes 
-				OR = { 
-					AND = {
-						NOT = { has_global_flag = EMF }
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
-					has_global_flag = EMF
+				is_alive = yes
+				OR = {
+					religion = catholic
+					religion = fraticelli
 				}
 				NOR = { 
 					trait = crowned_by_priest 
 					trait = crowned_by_bishop
 					trait = crowned_by_pope
 					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			NOT = { real_tier = EMPEROR }
+			spouse = { 
+				real_tier = EMPEROR
+				is_feudal = yes
+				is_alive = yes
+				NOT = { 
+					emf_is_crowned = yes
 				}
 			} 
 		}
@@ -4094,13 +4120,17 @@
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
 		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4108,15 +4138,9 @@
 			real_tier = KING
 			is_feudal = yes
 			is_alive = yes
-			OR = { 
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						religion = catholic
-						religion = fraticelli
-					}
-				}
-				has_global_flag = EMF
+			OR = {
+				religion = catholic
+				religion = fraticelli
 			}
 			NOR = { 
 				trait = crowned_by_priest 
@@ -4125,9 +4149,27 @@
 				trait = crowned_by_myself 
 			}
 		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown. (EMF version)
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_feudal = yes
+			is_alive = yes
+			NOT = { 
+				emf_is_crowned = yes
+			}
+		}
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4141,6 +4183,7 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4150,21 +4193,33 @@
 				real_tier = KING
 				is_feudal = yes
 				is_alive = yes 
-				OR = { 
-					AND = {
-						NOT = { has_global_flag = EMF }
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
-					has_global_flag = EMF
+				OR = {
+					religion = catholic
+					religion = fraticelli
 				}
 				NOR = { 
 					trait = crowned_by_priest 
 					trait = crowned_by_bishop
 					trait = crowned_by_pope
 					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			lower_real_tier_than = KING
+			spouse = { 
+				real_tier = KING
+				is_feudal = yes
+				is_alive = yes 
+				NOT = { 
+					emf_is_crowned = yes
 				}
 			} 
 		}
@@ -4319,13 +4374,17 @@
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
 		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4334,14 +4393,8 @@
 			is_feudal = yes
 			is_alive = yes
 			OR = { 
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						religion = catholic
-						religion = fraticelli
-					}
-				}
-				has_global_flag = EMF
+				religion = catholic
+				religion = fraticelli
 			}
 			NOR = { 
 				trait = crowned_by_priest 
@@ -4350,9 +4403,27 @@
 				trait = crowned_by_myself 
 			}
 		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown. (EMF version)
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_feudal = yes
+			is_alive = yes
+			NOT = { 
+				emf_is_crowned = yes
+			}
+		}
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4366,6 +4437,7 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4375,21 +4447,33 @@
 				real_tier = KING
 				is_feudal = yes
 				is_alive = yes 
-				OR = { 
-					AND = {
-						NOT = { has_global_flag = EMF }
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
-					has_global_flag = EMF
+				OR = {
+					religion = catholic
+					religion = fraticelli
 				}
 				NOR = { 
 					trait = crowned_by_priest 
 					trait = crowned_by_bishop
 					trait = crowned_by_pope
 					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			lower_real_tier_than = KING
+			spouse = { 
+				real_tier = KING
+				is_feudal = yes
+				is_alive = yes 
+				NOT = { 
+					emf_is_crowned = yes
 				}
 			} 
 		}
@@ -4545,13 +4629,17 @@
 		}
 		modifier = { #If you are Emperor and died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			real_tier = KING
 			trait = uncrowned # Only on death of uncrowned Catholics/Fraticelli
 		}
 		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown.
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4560,14 +4648,8 @@
 			is_feudal = yes
 			is_alive = yes
 			OR = { 
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						religion = catholic
-						religion = fraticelli
-					}
-				}
-				has_global_flag = EMF
+				religion = catholic
+				religion = fraticelli
 			}
 			NOR = { 
 				trait = crowned_by_priest 
@@ -4576,9 +4658,27 @@
 				trait = crowned_by_myself 
 			}
 		}
+		modifier = { #If you are a living Emperor and are not crowned, you don't wear a crown. (EMF version)
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			real_tier = KING
+			is_feudal = yes
+			is_alive = yes
+			NOT = { 
+				emf_is_crowned = yes
+			}
+		}
 		modifier = { #If you are the spouse of an Emperor while not being Empress yourself, and your husband died without being crowned, you don't wear a crown.
 			factor = 0
-			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			OR = {
+				has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+				has_global_flag = EMF
+			}
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4592,6 +4692,7 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			OR = { 
 				has_game_started = yes
 				is_save_game = yes
@@ -4601,21 +4702,33 @@
 				real_tier = KING
 				is_feudal = yes
 				is_alive = yes 
-				OR = { 
-					AND = {
-						NOT = { has_global_flag = EMF }
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
-					has_global_flag = EMF
+				OR = {
+					religion = catholic
+					religion = fraticelli
 				}
 				NOR = { 
 					trait = crowned_by_priest 
 					trait = crowned_by_bishop
 					trait = crowned_by_pope
 					trait = crowned_by_myself 
+				}
+			} 
+		}
+		modifier = {
+			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			OR = { 
+				has_game_started = yes
+				is_save_game = yes
+			} 
+			lower_real_tier_than = KING
+			spouse = { 
+				real_tier = KING
+				is_feudal = yes
+				is_alive = yes 
+				NOT = { 
+					emf_is_crowned = yes
 				}
 			} 
 		}
@@ -4687,18 +4800,13 @@
 		modifier = {
 			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			higher_real_tier_than = DUKE
 			is_feudal = yes
 			#NOT = { government = order_government }
 			OR = { 
-				AND = {
-					NOT = { has_global_flag = EMF }
-					OR = {
-						religion = catholic
-						religion = fraticelli
-					}
-				}
-				has_global_flag = EMF
+				religion = catholic
+				religion = fraticelli
 			}
 			OR = { 
 				trait = crowned_by_priest
@@ -4718,20 +4826,35 @@
 		}
 		modifier = {
 			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			higher_real_tier_than = DUKE
+			is_feudal = yes
+			#NOT = { government = order_government }
+			OR = { 
+				emf_is_crowned = yes
+				AND = {
+					is_alive = no
+					NOT = { trait = uncrowned }
+				}
+				AND = { 
+					has_game_started = no
+					is_save_game = no
+					is_alive = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled.
+			NOT = { has_global_flag = EMF }
 			spouse = { 
 				higher_real_tier_than = DUKE
 				is_feudal = yes
 				#NOT = { government = order_government }
 				OR = { 
-					AND = {
-						NOT = { has_global_flag = EMF }
-						OR = {
-							religion = catholic
-							religion = fraticelli
-						}
-					}
-					has_global_flag = EMF
+					religion = catholic
+					religion = fraticelli
 				}
 				OR = { 
 					trait = crowned_by_priest
@@ -4752,10 +4875,32 @@
 		}
 		modifier = {
 			factor = 0
+			#has_dlc = "Holy Fury" #Ignore Coronation triggers if Holy Fury is disabled. (EMF version)
+			has_global_flag = EMF
+			spouse = { 
+				higher_real_tier_than = DUKE
+				is_feudal = yes
+				#NOT = { government = order_government }
+				OR = { 
+					emf_is_crowned = yes
+					AND = {
+						is_alive = no
+						NOT = { trait = uncrowned }
+					}
+					AND = { 
+						has_game_started = no
+						is_save_game = no
+						is_alive = yes
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
 			has_dlc = "Holy Fury" #Ignore Coronation triggers if neither Catholic nor Fraticelli with vanilla Holy Fury.
+			NOT = { has_global_flag = EMF }
 			higher_real_tier_than = DUKE
 			is_feudal = yes
-			NOT = { has_global_flag = EMF }
 			NOR = {
 				religion = catholic
 				religion = fraticelli
