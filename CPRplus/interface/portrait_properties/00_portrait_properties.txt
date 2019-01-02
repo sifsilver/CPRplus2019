@@ -2102,6 +2102,28 @@
 			is_female = no
 			has_portrait_property = { layer = 5 index = 0 }
 		}
+		modifier = { # Cloth with the Leonese and Castilian CoA disabled unless the character owns one of the relevant titles
+			factor = 0
+			OR = {
+				culture = castillan
+				culture = portuguese
+				culture = catalan
+				culture = basque
+				culture = visigothic
+				culture = suebi
+				culture = aragonese
+				culture = leonese
+				culture = galician
+			}
+			is_female = no
+			year = 950
+			NOR = {
+				has_landed_title = k_castille
+				has_landed_title = d_castilla
+				has_landed_title = k_leon
+				has_landed_title = d_leon
+			}
+		}
 	}
 	
 	1 = { # Royal clothes 2
