@@ -1,0 +1,231 @@
+defined_text = {
+	name = GetFaceDescription
+
+	text = {
+		trigger = { 
+			trait = fair 
+			is_female = yes
+			NOT = { trait = horse }
+		}
+		localisation_key = String_beautiful
+	}
+	text = {
+		trigger = { 
+			trait = fair 
+			is_female = no
+			NOT = { trait = horse }
+		}
+		localisation_key = String_handsome
+	}
+	text = {
+		trigger = { trait = ugly }
+		localisation_key = String_hideous
+	}
+	text = {
+		trigger = { trait = scarred }
+		localisation_key = String_scarred
+	}
+	text = {
+		trigger = { is_ill_trigger = yes }
+		localisation_key = String_sickly
+	}
+	text = {
+		trigger = {
+			OR = {
+				trait = disfigured
+				trait = blinded
+				trait = one_eyed
+				trait = leper
+			}
+		}
+		localisation_key = String_disfigured
+	}
+	text = {
+		trigger = { trait = harelip }
+		localisation_key = String_harelipped
+	}
+	text = {
+		trigger = { 
+			is_strong_trigger = yes 
+			NOT = { trait = horse }
+		}
+		localisation_key = String_strong_jawed
+	}
+	text = {
+		trigger = { is_weak_trigger = yes }
+		localisation_key = String_thin
+	}
+	text = {
+		trigger = { 
+			OR = {
+				trait = lunatic
+				trait = possessed
+				trait = rabies
+			}
+		}
+		localisation_key = String_crazed
+	}
+	text = {
+		trigger = { 
+			interesting_face_trigger = no
+			graphical_culture = norsegfx
+			graphical_culture = norsegaelgfx
+			graphical_culture = crimeangfx
+		}
+		localisation_key = String_ruddy
+	}
+	text = {
+		trigger = { 
+			interesting_face_trigger = no
+			OR = {
+				graphical_culture = occitangfx 
+				graphical_culture = italiangfx 
+				graphical_culture = southerngfx
+				graphical_culture = byzantinegfx
+				#graphical_culture = easternslavicgfx
+				graphical_culture = cumangfx
+				graphical_culture = mongolgfx
+				graphical_culture = basquegfx
+				graphical_culture = georgiangfx
+				graphical_culture = alangfx
+				graphical_culture = chinesegfx
+				graphical_culture = khitangfx
+				graphical_culture = bodpagfx
+				graphical_culture = tangutgfx
+				graphical_culture = uyghurgfx
+				graphical_culture = centralasiangfx
+				graphical_culture = oghuzgfx
+				graphical_culture = khotanesegfx
+				graphical_culture = steppegfx
+				graphical_culture = bulgargfx
+				graphical_culture = siciliangfx
+				graphical_culture = dalmatiangfx
+				graphical_culture = romangfx
+			}
+		}
+		localisation_key = String_tanned
+	}
+	text = {
+		trigger = { 
+			interesting_face_trigger = no
+			OR = {
+				graphical_culture = arabicgfx
+				graphical_culture = andalusiangfx
+				graphical_culture = muslimgfx
+				graphical_culture = mesoamericangfx
+				graphical_culture = turkishgfx 
+				graphical_culture = persiangfx
+				graphical_culture = levantinegfx
+				graphical_culture = kurdishgfx
+				graphical_culture = assyriangfx
+				graphical_culture = egyptiangfx
+				graphical_culture = copticgfx
+				graphical_culture = pecheneggfx
+				graphical_culture = afghangfx
+				graphical_culture = sogdiangfx
+				graphical_culture = southindiangfx
+				graphical_culture = northindiangfx
+				graphical_culture = centralindiangfx
+				graphical_culture = assamesegfx
+				graphical_culture = sindhigfx
+			}
+		}
+		localisation_key = String_bronzed
+	}
+	text = {
+		trigger = {
+			interesting_face_trigger = no 
+			OR = {
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = centralafricangfx
+				graphical_culture = nubiangfx
+				graphical_culture = somaligfx
+				graphical_culture = bejagfx
+				graphical_culture = southernberbergfx
+				graphical_culture = indiangfx
+			}
+		}
+		localisation_key = String_dark_skinned
+	}
+	text = {
+		trigger = { 
+			interesting_face_trigger = no
+			OR = {
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = guanchegfx
+			}
+		}
+		localisation_key = String_copper_skinned
+	}
+	text = {
+		trigger = { trait = horse }
+		localisation_key = String_long
+	}
+	text = {
+		weight_multiplier = { factor = 100 }
+		trigger = {
+			NOR = {
+				interesting_face_trigger = yes
+				graphical_culture = occitangfx 
+				graphical_culture = italiangfx 
+				graphical_culture = southerngfx
+				graphical_culture = byzantinegfx
+				#graphical_culture = easternslavicgfx
+				graphical_culture = cumangfx
+				graphical_culture = mongolgfx
+				graphical_culture = basquegfx
+				graphical_culture = georgiangfx
+				graphical_culture = alangfx
+				graphical_culture = chinesegfx
+				graphical_culture = khitangfx
+				graphical_culture = bodpagfx
+				graphical_culture = tangutgfx
+				graphical_culture = uyghurgfx
+				graphical_culture = centralasiangfx
+				graphical_culture = oghuzgfx
+				graphical_culture = khotanesegfx
+				graphical_culture = steppegfx
+				graphical_culture = bulgargfx
+				graphical_culture = siciliangfx
+				graphical_culture = dalmatiangfx
+				graphical_culture = romangfx
+				graphical_culture = arabicgfx
+				graphical_culture = andalusiangfx
+				graphical_culture = muslimgfx
+				graphical_culture = mesoamericangfx
+				graphical_culture = turkishgfx 
+				graphical_culture = persiangfx
+				graphical_culture = levantinegfx
+				graphical_culture = kurdishgfx
+				graphical_culture = assyriangfx
+				graphical_culture = egyptiangfx
+				graphical_culture = copticgfx
+				graphical_culture = pecheneggfx
+				graphical_culture = afghangfx
+				graphical_culture = sogdiangfx
+				graphical_culture = southindiangfx
+				graphical_culture = northindiangfx
+				graphical_culture = centralindiangfx
+				graphical_culture = assamesegfx
+				graphical_culture = sindhigfx
+				graphical_culture = africangfx
+				graphical_culture = westafricangfx
+				graphical_culture = centralafricangfx
+				graphical_culture = nubiangfx
+				graphical_culture = somaligfx
+				graphical_culture = bejagfx
+				graphical_culture = southernberbergfx
+				graphical_culture = indiangfx
+				graphical_culture = maghrebgfx
+				graphical_culture = berbergfx
+				graphical_culture = guanchegfx
+			}
+		}
+		localisation_key = String_pale
+	}
+	fallback_text = {
+		localisation_key = String_face_description_fallback
+	}
+}
