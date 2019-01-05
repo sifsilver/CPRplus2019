@@ -10813,895 +10813,183 @@
 31 = {
 	0 = { # Blank
 		factor = 100
-		modifier = {
-			factor = 100
-			has_game_started = no
-		}
-		modifier = {
-			factor = 100
-			OR = { 
-				is_theocracy = yes 
-				is_in_society = yes
-				has_job_title = job_spiritual
-				higher_real_tier_than = DUKE
-			}
-		}
-		modifier = {
-			factor = 100
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 100
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury"
-			has_game_started = yes
-			is_in_society = no
-			NOR = { 
-				is_theocracy = yes 
-				is_in_society = yes
-				has_job_title = job_spiritual
-			}
+		trigger = {
 			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-			OR = {
-				AND = { 
-					lower_real_tier_than = KING
-					has_portrait_property = { layer = 5 index = 4 } 
-				}
-				has_portrait_property = { layer = 5 index = 10 }
-			}
-			year = 950
-			NOR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-				any_artifact = {
-					OR = {
-						artifact_type = crown_hre
-						artifact_type = crown_byzantine
-						artifact_type = crown_pahlavi
-						artifact_type = crown_fylkir
-						artifact_type = crown_tengri_fylkir
-						artifact_type = crown_finnish_fylkir
-						artifact_type = crown_slavic_fylkir
-						artifact_type = crown_romuva_fylkir
-						artifact_type = crown_zun_fylkir
-						artifact_type = crown_west_african_fylkir
-						artifact_type = crown_aztec_fylkir
-						artifact_type = iron_crown_of_lombardy
-						artifact_type = cursed_diamond_crown
-					}
-					is_artifact_equipped = yes 
+				has_game_started = no
+				is_in_society = yes
+				is_theocracy = yes
+				is_merchant_republic = yes
+				has_job_title = job_spiritual
+				french_overlayer_special_crown_trigger = yes
+				NOR = {
+					#has_portrait_property = { layer = 5 index = 0 }
+					#has_portrait_property = { layer = 5 index = 1 }
+					#has_portrait_property = { layer = 5 index = 2 }
+					#has_portrait_property = { layer = 5 index = 3 }
+					#has_portrait_property = { layer = 5 index = 4 }
+					#has_portrait_property = { layer = 5 index = 10 }
+					french_martial_overlayer_trigger = yes
+					french_count_overlayer_trigger = yes
+					french_duke_overlayer_trigger = yes
 				}
 			}
 		}
 	}
 	1 = { # Military Helm 01
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
+			OR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
 		}
 	}
 	2 = { # Military Helm 02
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				#culture = frankish
-				#culture = occitan
-				#culture = arpitan
-				#culture = ligurian
-				#culture = breton
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
+			OR = {
 				culture = welsh
 				culture = cumbric
 				culture = cornish
-				#culture = dutch
-				#culture = low_saxon
-				#culture = low_frankish
-				#culture = frisian
-				#culture = norman
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
+			NOR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
-		}
 	}
 	3 = { # Military Helm 03
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
+			OR = {
+				culture = frankish
+				culture = occitan
 				culture = frankish
 				culture = occitan
 				culture = arpitan
 				culture = ligurian
 				culture = breton
-				#culture = welsh
-				#culture = cumbric
-				#culture = cornish
-				#culture = dutch
-				#culture = low_saxon
-				#culture = low_frankish
-				#culture = frisian
-				#culture = norman
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
+			NOR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
 		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
-		}
 	}
 	4 = { # Military Helm 04
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				#culture = frankish
-				#culture = occitan
-				#culture = arpitan
-				#culture = ligurian
-				#culture = breton
-				#culture = welsh
-				#culture = cumbric
-				#culture = cornish
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
+			OR = {
 				culture = dutch
 				culture = low_saxon
 				culture = low_frankish
 				culture = frisian
 				culture = norman
 			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
+			NOR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
 		}
 	}
 	5 = { # Count Accessories
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-				spouse = { has_minor_title = title_prince }
+		trigger = {
+			french_count_overlayer_trigger = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	6 = { # Count Accessories
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-				spouse = { has_minor_title = title_prince }
+		trigger = {
+			french_count_overlayer_trigger = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	7 = { # Count Accessories
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-				spouse = { has_minor_title = title_prince }
+		trigger = {
+			french_count_overlayer_trigger = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	8 = { # Count Accessories
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-				spouse = { has_minor_title = title_prince }
+		trigger = {
+			french_count_overlayer_trigger = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	9 = { # Count Accessories
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-				spouse = { has_minor_title = title_prince }
+		trigger = {
+			french_count_overlayer_trigger = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	10 = { # Duke Accessories
-		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duke_overlayer_trigger = yes
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	11 = { # Duke Accessories
-		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duke_overlayer_trigger = yes
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	12 = { # Duke Accessories
-		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duke_overlayer_trigger = yes
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	13 = { # Duke Accessories
-		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duke_overlayer_trigger = yes
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	14 = { # Duke Accessories
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duke_overlayer_trigger = yes
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
@@ -11711,1624 +10999,288 @@
 32 = {
 	0 = { # Blank
 	factor = 100
-		modifier = {
-			factor = 100
-			has_game_started = no
-		}
-		modifier = {
-			factor = 100
-			OR = { 
-				is_theocracy = yes 
-				is_in_society = yes
-				is_republic = yes
-			}
-		}
-		modifier = {
-			factor = 100
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 10
-			has_game_started = yes
-			has_portrait_property = { layer = 5 index = 4 }
+		trigger = {
 			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 100
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury"
-			has_game_started = yes
-			has_portrait_property = { layer = 5 index = 10 }
-			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-			year = 950
-			NOR = { 
-				is_theocracy = yes 
+				has_game_started = no
 				is_in_society = yes
-				is_republic = yes
+				is_theocracy = yes
+				is_merchant_republic = yes
 				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-			NOR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-				any_artifact = {
-					OR = {
-						artifact_type = crown_hre
-						artifact_type = crown_byzantine
-						artifact_type = crown_pahlavi
-						artifact_type = crown_fylkir
-						artifact_type = crown_tengri_fylkir
-						artifact_type = crown_finnish_fylkir
-						artifact_type = crown_slavic_fylkir
-						artifact_type = crown_romuva_fylkir
-						artifact_type = crown_zun_fylkir
-						artifact_type = crown_west_african_fylkir
-						artifact_type = crown_aztec_fylkir
-						artifact_type = iron_crown_of_lombardy
-						artifact_type = cursed_diamond_crown
-					}
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury"
-			has_game_started = yes
-			is_in_society = no
-			has_portrait_property = { layer = 5 index = 10 }
-			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-			year = 950
-			NOR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-				any_artifact = {
-					OR = {
-						artifact_type = crown_hre
-						artifact_type = crown_byzantine
-						artifact_type = crown_pahlavi
-						artifact_type = crown_fylkir
-						artifact_type = crown_tengri_fylkir
-						artifact_type = crown_finnish_fylkir
-						artifact_type = crown_slavic_fylkir
-						artifact_type = crown_romuva_fylkir
-						artifact_type = crown_zun_fylkir
-						artifact_type = crown_west_african_fylkir
-						artifact_type = crown_aztec_fylkir
-						artifact_type = iron_crown_of_lombardy
-						artifact_type = cursed_diamond_crown
-					}
-					is_artifact_equipped = yes 
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury"
-			has_game_started = yes
-			NOR = { 
-				is_theocracy = yes 
-				is_in_society = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-			year = 950
-			is_ruler = no
-			spouse = { is_ruler = no }
-			OR = {
-				is_married = yes
-				any_spouse = { is_alive = no }
-			}
-			NOR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-				any_artifact = {
-					OR = {
-						artifact_type = crown_hre
-						artifact_type = crown_byzantine
-						artifact_type = crown_pahlavi
-						artifact_type = crown_fylkir
-						artifact_type = crown_tengri_fylkir
-						artifact_type = crown_finnish_fylkir
-						artifact_type = crown_slavic_fylkir
-						artifact_type = crown_romuva_fylkir
-						artifact_type = crown_zun_fylkir
-						artifact_type = crown_west_african_fylkir
-						artifact_type = crown_aztec_fylkir
-						artifact_type = iron_crown_of_lombardy
-						artifact_type = cursed_diamond_crown
-					}
-					is_artifact_equipped = yes 
+				french_overlayer_special_crown_trigger = yes
+				NOR = {
+					#has_portrait_property = { layer = 5 index = 0 }
+					#has_portrait_property = { layer = 5 index = 1 }
+					#has_portrait_property = { layer = 5 index = 2 }
+					#has_portrait_property = { layer = 5 index = 3 }
+					#has_portrait_property = { layer = 5 index = 4 }
+					#has_portrait_property = { layer = 5 index = 10 }
+					french_martial_overlayer_trigger = yes
+					french_duchess_overlayer_trigger = yes
+					french_countess_overlayer_trigger = yes
+					french_courtier_overlayer_trigger = yes
 				}
 			}
 		}
 	}
 	1 = { # Military Helm 01
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
+			OR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
 		}
 	}
 	2 = { # Military Helm 02
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
 			OR = {
-				primary_title = { mercenary = yes }
-				is_landed = no
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				#culture = frankish
-				#culture = occitan
-				#culture = arpitan
-				#culture = ligurian
-				#culture = breton
 				culture = welsh
 				culture = cumbric
 				culture = cornish
-				#culture = dutch
-				#culture = low_saxon
-				#culture = low_frankish
-				#culture = frisian
-				#culture = norman
 			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
+			NOR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
+			}
 		}
 	}
 	3 = { # Military Helm 03
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
 			OR = {
-				primary_title = { mercenary = yes }
-				is_landed = no
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
+				culture = frankish
+				culture = occitan
 				culture = frankish
 				culture = occitan
 				culture = arpitan
 				culture = ligurian
 				culture = breton
-				#culture = welsh
-				#culture = cumbric
-				#culture = cornish
-				#culture = dutch
-				#culture = low_saxon
-				#culture = low_frankish
-				#culture = frisian
-				#culture = norman
 			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
+			NOR = {
+				primary_title = { mercenary = yes }
+				is_landed = no
+			}
 		}
 	}
 	4 = { # Military Helm 04
-		factor = 100
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = {
-			factor = 0
-			OR = { 
-				is_theocracy = yes 
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
+		factor = 1
+		trigger = {
+			french_martial_overlayer_trigger = yes
 			OR = {
+				culture = dutch
+				culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = norman
+			}
+			NOR = {
 				primary_title = { mercenary = yes }
 				is_landed = no
 			}
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				#culture = frankish
-				#culture = occitan
-				#culture = arpitan
-				#culture = ligurian
-				#culture = breton
-				#culture = welsh
-				#culture = cumbric
-				#culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_portrait_property = { layer = 5 index = 10 } }
-		}
 	}
-	5 = { # Duchess Accessories - Whole timeline
+	5 = { # Duchess Accessories - Early
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			NOT = { year = 1180 }
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
-	6 = { # Duchess Accessories - Whole timeline
+	6 = { # Duchess Accessories - Early
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			NOT = { year = 1180 }
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
-	7 = { # Duchess Accessories - Whole timeline
+	7 = { # Duchess Accessories - Early
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			NOT = { year = 1180 }
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	8 = { # Duchess Accessories - Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			year = 1180
 			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	9 = { # Duchess Accessories - Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			year = 1180
+			OR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
-		modifier = {
-			factor = 0
+	}
+	10 = { # Countess Accessories - Early
+		factor = 1
+		trigger = {
+			french_countess_overlayer_trigger = yes
 			NOT = { year = 1180 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-				is_vice_royalty = yes
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
-	10 = { # Countess Accessories - Whole timeline
+	11 = { # Countess Accessories - Early
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-	}
-	11 = { # Countess Accessories - Whole timeline
-		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			NOT = { year = 1180 }
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	12 = { # Countess Accessories - Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	13 = { # Countess Accessories - Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	14 = { # Countess Accessories - Post-1180
 		factor = 1
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	15 = { # Countess Accessories - Post-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { 
-				has_portrait_property = { layer = 5 index = 4 } 
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
+			NOR = { 
+				higher_real_tier_than = COUNT
+				spouse = { higher_real_tier_than = COUNT }
 			}
 		}
 	}
 	16 = { # Non-noble Pre-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			year = 1180
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	17 = { # Non-noble Pre-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			year = 1180
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	18 = { # Non-noble Pre-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			year = 1180
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	19 = { # Non-noble Pre-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			year = 1180
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	20 = { # Non-noble Post-1180
 		factor = 1
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 	21 = { # Non-noble Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 	22 = { # Non-noble Post-1180
 		factor = 1
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 	23 = { # Non-noble Post-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 	24 = { # Non-noble Post-1180
 		factor = 1
-		hide_layers = { 1 = { } }
-		hide_layers = { 33 = { } } #Veil overload.
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-				has_job_title = job_marshal
-				has_job_title = job_spymaster
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_ruler = yes
-				spouse = { is_ruler = yes }
-			}
-		}
-		modifier = {
-			factor = 10
-			piety = 100
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
+		#hide_layers = { 1 = { } }
+		#hide_layers = { 33 = { } } #Veil overload.
+		trigger = {
+			french_courtier_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 }
@@ -13337,88 +11289,24 @@
 33 = {
 	0 = { # Blank
 		factor = 100
-		modifier = {
-			factor = 100
-			has_game_started = no
-		}
-		modifier = {
-			factor = 100
-			OR = { 
-				is_republic = yes
-				is_theocracy = yes 
-				is_in_society = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 100
-			NOT = { 
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			has_dlc = "Holy Fury"
-			has_game_started = yes
-			is_in_society = no
-			is_theocracy = no
-			NOR = {
-				is_republic = yes
-				is_theocracy = yes 
-				is_in_society = yes
-				has_job_title = job_spiritual
-				has_portrait_property = { layer = 5 index = 9 }
-				has_portrait_property = { layer = 5 index = 10 }
-			}
+		trigger = {
 			OR = {
-				higher_real_tier_than = BARON
-				spouse = { higher_real_tier_than = BARON }
-			}
-			OR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-			NOR = {
-				trait = dead_crown_hre #Dead kings don't have artifacts
-				trait = dead_crown_byzantine #Dead kings don't have artifacts
-				trait = dead_crown_pahlavi #Dead kings don't have artifacts
-				trait = dead_crown_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_tengri_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_finnish_fylkir #Dead kings don't have artifacts
-				trait = dead_crown_slavic_fylkir
-				trait = dead_crown_romuva_fylkir
-				trait = dead_crown_zun_fylkir
-				trait = dead_crown_west_african_fylkir
-				trait = dead_crown_aztec_fylkir
-				trait = augustus # Laurels
-				any_artifact = {
-					OR = {
-						artifact_type = crown_hre
-						artifact_type = crown_byzantine
-						artifact_type = crown_pahlavi
-						artifact_type = crown_fylkir
-						artifact_type = crown_tengri_fylkir
-						artifact_type = crown_finnish_fylkir
-						artifact_type = crown_slavic_fylkir
-						artifact_type = crown_romuva_fylkir
-						artifact_type = crown_zun_fylkir
-						artifact_type = crown_west_african_fylkir
-						artifact_type = crown_aztec_fylkir
-						artifact_type = iron_crown_of_lombardy
-						artifact_type = cursed_diamond_crown
-					}
-					is_artifact_equipped = yes 
+				has_game_started = no
+				is_in_society = yes
+				is_theocracy = yes
+				is_merchant_republic = yes
+				has_job_title = job_spiritual
+				french_overlayer_special_crown_trigger = yes
+				NOR = {
+					#has_portrait_property = { layer = 5 index = 0 }
+					#has_portrait_property = { layer = 5 index = 1 }
+					#has_portrait_property = { layer = 5 index = 2 }
+					#has_portrait_property = { layer = 5 index = 3 }
+					#has_portrait_property = { layer = 5 index = 4 }
+					#has_portrait_property = { layer = 5 index = 10 }
+					french_queen_underlayer_trigger = yes
+					french_duchess_overlayer_trigger = yes
+					french_countess_overlayer_trigger = yes
 				}
 			}
 		}
@@ -13426,994 +11314,153 @@
 	1 = { # Empress / Queen Pre-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			year = 1180
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	2 = { # Empress / Queen Pre-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			year = 1180
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	3 = { # Empress / Queen Pre-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			year = 1180
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	4 = { # Empress / Queen Pre-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			year = 1180
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	5 = { # Empress / Queen Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			year = 1180
 		}
 	}
 	6 = { # Empress / Queen Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			year = 1180
 		}
 	}
 	7 = { # Empress / Queen Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			year = 1180
 		}
 	}
 	8 = { # Empress / Queen Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
+		trigger = {
+			french_queen_underlayer_trigger = yes
+			year = 1180
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			lower_real_tier_than = KING
-			spouse = { lower_real_tier_than = KING }
-		}
-		modifier = {
-			factor = 0
+	}
+	9 = { # Duchess Early
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_duchess_overlayer_trigger = yes
 			NOT = { year = 1180 }
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
 	}
-	9 = { # Duchess Whole Timeline
+	10 = { # Duchess Early
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = DUKE
-				spouse = { higher_real_tier_than = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	10 = { # Duchess Whole Timeline
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = DUKE
-				spouse = { higher_real_tier_than = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	11 = { # Duchess Whole Timeline
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society clothes.
-			factor = 0
-			OR = {
-				is_in_society = yes
-				is_republic = yes
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = DUKE
-				spouse = { higher_real_tier_than = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	12 = { # Duchess Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = DUKE
-				spouse = { higher_real_tier_than = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
+		trigger = {
+			french_duchess_overlayer_trigger = yes
 			NOT = { year = 1180 }
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+	}
+	11 = {  # Duchess Early
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			NOT = { year = 1180 }
+		}
+	}
+	12 = { # Duchess Early
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	13 = { # Duchess Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			year = 1180
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
+	}
+	14 = { # Duchess Post-1180
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_duchess_overlayer_trigger = yes
+			year = 1180
 		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = DUKE
-				spouse = { real_tier = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = DUKE
-				spouse = { higher_real_tier_than = DUKE }
-			}
-		}
-		modifier = {
-			factor = 0
+	}
+	15 = { # Countess Early
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_countess_overlayer_trigger = yes
 			NOT = { year = 1180 }
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
 	}
-	14 = { # Countess Whole Timeline
+	16 = { # Countess Early
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	15 = { # Countess Whole Timeline
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	16 = { # Countess Whole Timeline
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 950 }
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
-		}
-	}
-	17 = { # Countess Post-1180
-		factor = 1
-		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-		modifier = {
-			factor = 0
+		trigger = {
+			french_countess_overlayer_trigger = yes
 			NOT = { year = 1180 }
 		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+	}
+	17 = { # Countess Early
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			NOT = { year = 1180 }
 		}
 	}
 	18 = { # Countess Post-1180
 		factor = 1
 		hide_layers = { 1 = { } }
-		modifier = {
-			factor = 0
-			has_game_started = no
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				has_dlc = "Holy Fury"
-			}
-		}
-		modifier = { #Incompatible with most society and religious clothes.
-			factor = 0
-			OR = { 
-				is_in_society = yes
-				is_theocracy = yes
-				is_republic = yes
-				has_job_title = job_spiritual
-			}
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				real_tier = COUNT
-				spouse = { real_tier = COUNT }
-				has_minor_title = title_prince
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				higher_real_tier_than = COUNT
-				spouse = { higher_real_tier_than = COUNT }
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1180 }
-		}
-		modifier = {
-			factor = 0
-			NOR = {
-				culture = frankish
-				culture = occitan
-				culture = arpitan
-				culture = ligurian
-				culture = breton
-				culture = welsh
-				culture = cumbric
-				culture = cornish
-				culture = dutch
-				culture = low_saxon
-				culture = low_frankish
-				culture = frisian
-				culture = norman
-			}
+	}
+	19 = { # Countess Post-1180
+		factor = 1
+		hide_layers = { 1 = { } }
+		trigger = {
+			french_countess_overlayer_trigger = yes
+			year = 1180
 		}
 	}
 }
