@@ -256,7 +256,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth:d2:o75x49"
 			"GFX_occitan_male_ear:d7:o27x54"	
-			"GFX_occitan_male_nose:d3:o80x65"
+			"GFX_southern_male_nose:d3:o2x-1"
 			"GFX_occitan_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
@@ -347,7 +347,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth_midage:d2:o80x51"
 			"GFX_occitan_male_ear_midage:d7:o27x54"					#15
-			"GFX_occitan_male_nose_midage:d3:o81x65"					#10
+			"GFX_southern_male_nose_midage:d3:o2x-1"					#10
 			"GFX_occitan_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
@@ -438,7 +438,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth_oldage:d2:o75x52"
 			"GFX_occitan_male_ear_oldage:d7:o25x51"
-			"GFX_occitan_male_nose_oldage:d3:o80x66"
+			"GFX_southern_male_nose_oldage:d3:o2x-1"
 			"GFX_occitan_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
@@ -529,7 +529,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth:d2:o75x49"
 			"GFX_occitan_male_ear:d7:o27x54"	
-			"GFX_occitan_male_nose:d3:o80x65"
+			"GFX_southern_male_nose:d3:o2x-1"
 			"GFX_occitan_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
@@ -620,7 +620,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth_midage:d2:o80x51"
 			"GFX_occitan_male_ear_midage:d7:o27x54"					#15
-			"GFX_occitan_male_nose_midage:d3:o81x65"					#10
+			"GFX_southern_male_nose_midage:d3:o2x-1"					#10
 			"GFX_occitan_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
@@ -711,7 +711,7 @@ spriteTypes = {
 			"GFX_character_western_male_physique:p21"
 			"GFX_occitan_male_mouth_oldage:d2:o75x52"
 			"GFX_occitan_male_ear_oldage:d7:o25x51"
-			"GFX_occitan_male_nose_oldage:d3:o80x66"
+			"GFX_southern_male_nose_oldage:d3:o2x-1"
 			"GFX_occitan_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
