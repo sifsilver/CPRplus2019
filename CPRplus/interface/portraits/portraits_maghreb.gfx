@@ -41,21 +41,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_maghreb_male_hair_behind"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_behind_1.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_maghreb_male_hair_behind_midage"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_behind_2.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_maghreb_male_hair_behind_oldage"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_behind_3.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 
@@ -252,21 +252,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_maghreb_male_hair"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_1.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_maghreb_male_hair_midage"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_2.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_maghreb_male_hair_oldage"
 		texturefile = "gfx\\characters\\maghreb_male\\maghreb_male_hair_3.dds"
-		noOfFrames = 10
+		noOfFrames = 11
 		norefcount = yes
 	}
 	
@@ -370,8 +370,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -450,8 +452,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -530,8 +534,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -787,7 +793,7 @@ spriteTypes = {
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind:p1:y" 
+			"GFX_maghreb_female_hair_behind:p1:h:y" 
 			":p5:c6"
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
@@ -815,7 +821,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_muslim_female_headgear_mid:p5:c3"
-			"GFX_maghreb_female_hair:p1:y"
+			"GFX_maghreb_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -870,7 +876,7 @@ spriteTypes = {
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_midage:p1:y"
+			"GFX_maghreb_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
@@ -898,7 +904,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_muslim_female_headgear_mid:p5:c3"
-			"GFX_maghreb_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -953,7 +959,7 @@ spriteTypes = {
 			"GFX_muslim_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_oldage:p1:y"
+			"GFX_maghreb_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
@@ -981,7 +987,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes:p3:c2"
 			"GFX_muslim_female_headgear_mid:p5:c3"
-			"GFX_maghreb_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1000,9 +1006,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		
 		}
@@ -1085,8 +1091,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -1165,8 +1173,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -1245,8 +1255,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -1283,7 +1295,7 @@ spriteTypes = {
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind:p1:y" 
+			"GFX_maghreb_female_hair_behind:p1:h:y" 
 			":p5:c6"
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
@@ -1311,7 +1323,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_maghreb_female_hair:p1:y"
+			"GFX_maghreb_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1366,7 +1378,7 @@ spriteTypes = {
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_midage:p1:y"
+			"GFX_maghreb_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
@@ -1394,7 +1406,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_maghreb_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1449,7 +1461,7 @@ spriteTypes = {
 			"GFX_maghreb_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_oldage:p1:y"
+			"GFX_maghreb_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
@@ -1477,7 +1489,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_muslim_female_headgear_mid_early:p5:c3"
-			"GFX_maghreb_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1496,9 +1508,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 }
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		
 		}

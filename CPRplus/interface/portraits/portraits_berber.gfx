@@ -30,7 +30,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_maghreb_male_hair_behind:p1:h:y"
-			"GFX_maghreb_male_beard_behind:p4:y"
+			"GFX_maghreb_male_beard_behind:p4:h:y"
 			":p5:c6"
 			"GFX_maghreb_male_base:p2"
 			"GFX_maghreb_male_neck:d0"
@@ -58,7 +58,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"	
 			"GFX_maghreb_male_ear:d7"			
-			"GFX_maghreb_male_beard:p4:y"
+			"GFX_maghreb_male_beard:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_maghreb_male_hair:p1:h:y"
 			":p5:c7"
@@ -77,8 +77,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -110,7 +112,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_maghreb_male_hair_behind_midage:p1:h:y"
-			"GFX_maghreb_male_beard_behind_midage:p4:y"
+			"GFX_maghreb_male_beard_behind_midage:p4:h:y"
 			":p5:c6"
 			"GFX_maghreb_male_base_midage:p2"
 			"GFX_maghreb_male_neck_midage:d0"
@@ -138,7 +140,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"	
 			"GFX_maghreb_male_ear_midage:d7"
-			"GFX_maghreb_male_beard_midage:p4:y"
+			"GFX_maghreb_male_beard_midage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_male_hair_midage:p1:h:y"
 			":p5:c7"
@@ -157,8 +159,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
+			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -190,7 +194,7 @@ spriteTypes = {
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_maghreb_male_hair_behind_oldage:p1:h:y"
-			"GFX_maghreb_male_beard_behind_oldage:p4:y"
+			"GFX_maghreb_male_beard_behind_oldage:p4:h:y"
 			":p5:c6"
 			"GFX_maghreb_male_base_oldage:p2"
 			"GFX_maghreb_male_neck_oldage:d0"
@@ -218,7 +222,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"	
 			"GFX_maghreb_male_ear_oldage:d7"
-			"GFX_maghreb_male_beard_oldage:p4:y"
+			"GFX_maghreb_male_beard_oldage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_maghreb_male_hair_oldage:p1:h:y"
 			":p5:c7"
@@ -237,8 +241,10 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
 			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 115 115 115 } { 255 255 255 } #Dark Brown but turned white
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
+			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		}
 
 		eye_color_index = 9
@@ -275,7 +281,7 @@ spriteTypes = {
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind:p1:y" 
+			"GFX_maghreb_female_hair_behind:p1:h:y" 
 			":p5:c6"
 			"GFX_maghreb_female_base:p2"
 			"GFX_maghreb_female_neck:d0"
@@ -303,7 +309,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_african_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_maghreb_female_hair:p1:y"
+			"GFX_maghreb_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -323,7 +329,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
@@ -358,7 +364,7 @@ spriteTypes = {
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_midage:p1:y"
+			"GFX_maghreb_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_midage:p2"
 			"GFX_maghreb_female_neck_midage:d0"
@@ -386,7 +392,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_african_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_maghreb_female_hair_midage:p1:y"
+			"GFX_maghreb_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -406,7 +412,7 @@ spriteTypes = {
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
+			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
 			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
@@ -441,7 +447,7 @@ spriteTypes = {
 			"GFX_westafrican_female_headgear_behind_christian:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_maghreb_female_hair_behind_oldage:p1:y"
+			"GFX_maghreb_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
 			"GFX_maghreb_female_base_oldage:p2"
 			"GFX_maghreb_female_neck_oldage:d0"
@@ -469,7 +475,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_african_female_clothes:p3:c2"
 			"GFX_empty:p5:c3"
-			"GFX_maghreb_female_hair_oldage:p1:y"
+			"GFX_maghreb_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -488,9 +494,9 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
+			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
+			{ 20 12 8 } { 115 115 115 } { 255 255 255 } #Dark Brown but turned white
+			{ 10 10 10 } { 143 134 127 } { 255 255 255 }
 			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
 		
 		}
