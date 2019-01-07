@@ -79,7 +79,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 10 10 10 } { 77 77 77 } { 255 255 255 } #Was Black and stayed dark
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
@@ -161,7 +161,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 10 10 10 } { 77 77 77 } { 255 255 255 } #Was Black and stayed dark
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
@@ -330,7 +330,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 10 10 10 } { 77 77 77 } { 255 255 255 } #Was Black and stayed dark
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
@@ -413,7 +413,7 @@ spriteTypes = {
 		hair_color = { # dark, base, highlight
 			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
 			{ 17 13 8 } { 80 64 38 } { 255 255 255 } #Dark Brown but eventually turns white
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
+			{ 10 10 10 } { 77 77 77 } { 255 255 255 } #Was Black and stayed dark
 			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
 		}
 
