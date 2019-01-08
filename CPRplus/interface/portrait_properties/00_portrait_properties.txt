@@ -4990,6 +4990,7 @@
 			#		NOT = { culture = low_saxon }
 			#		NOT = { culture = low_frankish }
 			#		NOT = { culture = frisian }
+			#		NOT = { culture = old_saxon }
 			#		NOT = { culture = norman }
 			#	}
 			#	AND = { 
@@ -5109,9 +5110,10 @@
 				culture = cumbric
 				culture = cornish
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			OR = {
@@ -5205,9 +5207,10 @@
 				culture = cumbric
 				culture = cornish
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			OR = {
@@ -5310,9 +5313,10 @@
 				culture = cumbric
 				culture = cornish
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			OR = {
@@ -5422,9 +5426,10 @@
 				culture = cumbric
 				culture = cornish
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			OR = {
@@ -10885,9 +10890,10 @@
 			french_martial_overlayer_trigger = yes
 			OR = {
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			NOR = {
@@ -11072,9 +11078,10 @@
 			french_martial_overlayer_trigger = yes
 			OR = {
 				culture = dutch
-				culture = low_saxon
+				#culture = low_saxon
 				culture = low_frankish
 				culture = frisian
+				culture = old_saxon
 				culture = norman
 			}
 			NOR = {
