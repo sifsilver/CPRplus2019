@@ -12109,6 +12109,13 @@
 		}
 		modifier = {
 			factor = 0
+			OR = {
+				in_command = no
+				has_game_rule = {
+					name = martial_headgear
+					value = off
+				}
+			}
 			any_artifact = {
 				OR = {
 					artifact_type = scepter_bon_fylkir
