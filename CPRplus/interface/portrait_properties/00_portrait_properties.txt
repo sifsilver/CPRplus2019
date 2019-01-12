@@ -1711,6 +1711,7 @@
 				}
 				graphical_culture = englishgfx
 				graphical_culture = frankishgfx
+				graphical_culture = occitangfx
 				graphical_culture = westernslavicgfx
 				graphical_culture = croatsouthslavicgfx
 				graphical_culture = serbsouthslavicgfx
