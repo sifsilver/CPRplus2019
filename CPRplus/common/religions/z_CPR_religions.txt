@@ -1,0 +1,6 @@
+indian_group = {
+	taoist = {
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+	}
+}
