@@ -5633,11 +5633,11 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 			#religion_group = christian
@@ -5681,11 +5681,11 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 			#OR = {
@@ -5725,11 +5725,11 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 			#OR = {
@@ -5781,11 +5781,11 @@
 			OR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 			#martial = 20
@@ -5873,11 +5873,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -5890,7 +5890,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -5979,11 +5979,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -5996,7 +5996,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -6089,7 +6089,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -6182,7 +6182,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -6265,11 +6265,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6282,7 +6282,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -6363,7 +6363,7 @@
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 40
+					combat_rating = 80
 				}
 			}
 		}
@@ -6444,11 +6444,11 @@
 		#	NOR = {
 		#		AND = {
 		#			has_global_flag = EMF
-		#			combat_rating = 40
+		#			combat_rating = 80
 		#		}
 		#		AND = {
 		#			NOT = { has_global_flag = EMF }
-		#			combat_rating = 30
+		#			combat_rating = 50
 		#		}
 		#	}
 		#}
@@ -6522,11 +6522,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6599,11 +6599,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6676,11 +6676,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6753,11 +6753,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6830,11 +6830,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -6915,11 +6915,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7004,11 +7004,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7093,11 +7093,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7182,11 +7182,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7262,11 +7262,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7334,11 +7334,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
@@ -7406,11 +7406,11 @@
 			NOR = {
 				AND = {
 					has_global_flag = EMF
-					combat_rating = 40
+					combat_rating = 80
 				}
 				AND = {
 					NOT = { has_global_flag = EMF }
-					combat_rating = 30
+					combat_rating = 50
 				}
 			}
 		}
