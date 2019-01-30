@@ -410,7 +410,7 @@ spriteTypes = {
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_midage:d3
+			"GFX_muslim_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -957,7 +957,7 @@ spriteTypes = {
 			"GFX_german_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
 			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_midage:d3
+			"GFX_muslim_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
