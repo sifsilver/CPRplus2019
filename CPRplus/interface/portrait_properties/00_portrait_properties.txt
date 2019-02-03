@@ -1256,28 +1256,28 @@
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				is_nomadic = yes
-				is_tribal = yes
-				AND = {
-					liege = {
-						OR = {
-							is_nomadic = yes
-							is_tribal = yes
-						}
-					}
-					OR = {
-						is_landed = no
-						AND = {
-							is_landed = yes
-							has_job_title = yes
-						}
-					}
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0
+		#	OR = {
+		#		is_nomadic = yes
+		#		is_tribal = yes
+		#		AND = {
+		#			liege = {
+		#				OR = {
+		#					is_nomadic = yes
+		#					is_tribal = yes
+		#				}
+		#			}
+		#			OR = {
+		#				is_landed = no
+		#				AND = {
+		#					is_landed = yes
+		#					has_job_title = yes
+		#				}
+		#			}
+		#		}
+		#	}
+		#}
 		modifier = {
 			factor = 0
 			siege = { is_attacker = no }
@@ -5099,6 +5099,25 @@
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			year = 950
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
+			}
 			NOT = {
 				french_courtier_overlayer_trigger = yes
 			}
@@ -5203,6 +5222,25 @@
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			year = 950
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
+			}
 			NOT = {
 				french_courtier_overlayer_trigger = yes
 			}
@@ -5316,6 +5354,25 @@
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			year = 950
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
+			}
 			NOT = {
 				french_courtier_overlayer_trigger = yes
 			}
@@ -5436,6 +5493,25 @@
 		}
 		modifier = { # Specific rules for frankish / Occitanian layering
 			factor = 0
+			has_dlc = "Holy Fury"
+			is_female = yes
+			year = 950
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
+			}
 			NOT = {
 				french_courtier_overlayer_trigger = yes
 			}
