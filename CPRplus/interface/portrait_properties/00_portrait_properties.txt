@@ -601,7 +601,7 @@
 		}
 	}
 	11 = { # Steppe
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 0
 			location = {
@@ -611,6 +611,9 @@
 					region = world_persia
 					region = world_asia_minor
 					terrain = marsh
+					region = world_asia_minor
+					region = emf_region_etelkoz
+					region = emf_region_carpathia
 				}
 			}
 		}
@@ -633,7 +636,13 @@
 			factor = 0
 			location = {
 				OR = {
-					region = world_europe
+					AND = {
+						region = world_europe
+						NOR = {
+							region = emf_region_etelkoz
+							region = emf_region_carpathia
+						}
+					}
 					region = world_persia
 				}
 				NOR = {
@@ -641,6 +650,24 @@
 					terrain = marsh
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			location = {
+				OR = {
+					region = emf_region_etelkoz
+					region = emf_region_carpathia
+				}
+				NOR = {
+					terrain = steppe
+					terrain = plains
+					terrain = marsh
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			terrain = steppe
 		}
 		modifier = {
 			factor = 2
@@ -1256,28 +1283,29 @@
 				}
 			}
 		}
-		#modifier = {
-		#	factor = 0
-		#	OR = {
-		#		is_nomadic = yes
-		#		is_tribal = yes
-		#		AND = {
-		#			liege = {
-		#				OR = {
-		#					is_nomadic = yes
-		#					is_tribal = yes
-		#				}
-		#			}
-		#			OR = {
-		#				is_landed = no
-		#				AND = {
-		#					is_landed = yes
-		#					has_job_title = yes
-		#				}
-		#			}
-		#		}
-		#	}
-		#}
+		modifier = {
+			factor = 0
+			OR = {
+				is_nomadic = yes
+				is_tribal = yes
+				AND = {
+					liege = {
+						OR = {
+							is_nomadic = yes
+							is_tribal = yes
+						}
+					}
+					OR = {
+						is_landed = no
+						AND = {
+							is_landed = yes
+							has_job_title = yes
+						}
+					}
+				}
+			}
+			in_command = no
+		}
 		modifier = {
 			factor = 0
 			siege = { is_attacker = no }
