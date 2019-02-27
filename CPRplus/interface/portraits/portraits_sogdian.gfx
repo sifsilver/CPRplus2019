@@ -108,7 +108,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind:p1:h:y"
 			"GFX_turkish_male_beard_behind:p4:o-3x2:h:y"
-			":p5:c6"			"GFX_persian_male_base:p2"					
+			":p5:c6"
+			"GFX_persian_male_base:p2"					
 			"GFX_persian_male_neck:d0"
 			"GFX_persian_male_chin:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -137,7 +138,8 @@ spriteTypes = {
 			"GFX_turkish_male_beard:p4:o-3x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_sogdian_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -174,7 +176,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -189,7 +191,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind_midage:p1:h:y"
 			"GFX_turkish_male_beard_behind_midage:p4:o-3x2:h:y"
-			":p5:c6"			"GFX_persian_male_base_midage:p2"
+			":p5:c6"
+			"GFX_persian_male_base_midage:p2"
 			"GFX_persian_male_neck_midage:d0"
 			"GFX_persian_male_chin_midage:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -218,7 +221,8 @@ spriteTypes = {
 			"GFX_turkish_male_beard_midage:p4:o-3x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_sogdian_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -255,7 +259,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -270,7 +274,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind_oldage:p1:h:y"
 			"GFX_turkish_male_beard_behind_oldage:p4:o-3x2:h:y"
-			":p5:c6"			"GFX_persian_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_persian_male_base_oldage:p2"
 			"GFX_persian_male_neck_oldage:d0"
 			"GFX_persian_male_chin_oldage:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -299,7 +304,8 @@ spriteTypes = {
 			"GFX_turkish_male_beard_oldage:p4:o-3x2:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_sogdian_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -336,7 +342,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 #### sogdian FEMALE ####
@@ -355,7 +361,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_turkish_female_hair_behind:p1:o0x-1:h:y"
-			":p5:c6"			"GFX_persian_female_base:p2"
+			":p5:c6"
+			"GFX_persian_female_base:p2"
 			"GFX_persian_female_neck:d0"
 			"GFX_persian_female_chin:d1"
 			"GFX_character_persian_female_physique:p21"
@@ -383,7 +390,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_turkish_female_hair:p1:o0x-1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -438,7 +446,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_turkish_female_hair_behind_midage:p1:o0x-1:h:y"
-			":p5:c6"			"GFX_persian_female_base_midage:p2"
+			":p5:c6"
+			"GFX_persian_female_base_midage:p2"
 			"GFX_persian_female_neck_midage:d0"
 			"GFX_persian_female_chin_midage:d1"
 			"GFX_character_persian_female_physique:p21" 
@@ -466,7 +475,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_turkish_female_hair_midage:p1:o0x-1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -521,7 +531,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_turkish_female_hair_behind_oldage:p1:o0x-1:h:y"
-			":p5:c6"			"GFX_persian_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_persian_female_base_oldage:p2"
 			"GFX_persian_female_neck_oldage:d0"
 			"GFX_persian_female_chin_oldage:d1"
 			"GFX_character_persian_female_physique:p21" 
@@ -549,7 +560,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_turkish_female_hair_oldage:p1:o0x-1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -603,7 +615,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind:p1:h:y"
 			"GFX_steppe_male_beard_behind:p4:o-2x5:h:y"
-			":p5:c6"			"GFX_persian_male_base:p2"					
+			":p5:c6"
+			"GFX_persian_male_base:p2"					
 			"GFX_persian_male_neck:d0"
 			"GFX_persian_male_chin:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -632,7 +645,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard:p4:o-2x5:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 		   	"GFX_sogdian_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -669,7 +683,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# middle age
@@ -684,7 +698,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind_midage:p1:h:y"
 			"GFX_steppe_male_beard_behind_midage:p4:o-2x5:h:y"
-			":p5:c6"			"GFX_persian_male_base_midage:p2"
+			":p5:c6"
+			"GFX_persian_male_base_midage:p2"
 			"GFX_persian_male_neck_midage:d0"
 			"GFX_persian_male_chin_midage:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -713,7 +728,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard_midage:p4:o-2x5:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_sogdian_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -750,7 +766,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 	# old age
@@ -765,7 +781,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_sogdian_male_hair_behind_oldage:p1:h:y"
 			"GFX_steppe_male_beard_behind_oldage:p4:o-2x5:h:y"
-			":p5:c6"			"GFX_persian_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_persian_male_base_oldage:p2"
 			"GFX_persian_male_neck_oldage:d0"
 			"GFX_persian_male_chin_oldage:d1"
 			"GFX_character_persian_male_physique:p21" 
@@ -794,7 +811,8 @@ spriteTypes = {
 			"GFX_steppe_male_beard_oldage:p4:o-2x5:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_sogdian_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_sogdian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -831,7 +849,7 @@ spriteTypes = {
 			{ 174 98 49 } #redAuburn 
 		}
 		
-		headgear_that_hides_hair = { 6 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 #### sogdian FEMALE ####
@@ -850,7 +868,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_cuman_female_hair_behind:p1:o3x0:h:y"
-			":p5:c6"			"GFX_persian_female_base:p2"
+			":p5:c6"
+			"GFX_persian_female_base:p2"
 			"GFX_persian_female_neck:d0"
 			"GFX_persian_female_chin:d1"
 			"GFX_character_persian_female_physique:p21"
@@ -878,7 +897,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_cuman_female_hair:p1:o3x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -933,7 +953,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_cuman_female_hair_behind_midage:p1:o3x0:h:y"
-			":p5:c6"			"GFX_persian_female_base_midage:p2"
+			":p5:c6"
+			"GFX_persian_female_base_midage:p2"
 			"GFX_persian_female_neck_midage:d0"
 			"GFX_persian_female_chin_midage:d1"
 			"GFX_character_persian_female_physique:p21" 
@@ -961,7 +982,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_cuman_female_hair_midage:p1:o3x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1016,7 +1038,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_cuman_female_hair_behind_oldage:p1:o3x0:h:y"
-			":p5:c6"			"GFX_persian_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_persian_female_base_oldage:p2"
 			"GFX_persian_female_neck_oldage:d0"
 			"GFX_persian_female_chin_oldage:d1"
 			"GFX_character_persian_female_physique:p21" 
@@ -1044,7 +1067,8 @@ spriteTypes = {
 			"GFX_sogdian_male_headgear_mid:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
 			"GFX_cuman_female_hair_oldage:p1:o3x0:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
