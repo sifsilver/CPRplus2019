@@ -428,15 +428,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
-			"GFX_german_male_chin:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks:d4"
 			"GFX_norse_male_mouth:d2"
 			"GFX_norse_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose:d3"
+			"GFX_english_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -486,7 +486,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -512,15 +512,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base_midage:p2"
 			"GFX_german_male_neck_midage:d0"
-			"GFX_german_male_chin_midage:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin_midage:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks_midage:d4"
 			"GFX_norse_male_mouth_midage:d2"
 			"GFX_norse_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose_midage:d3"
+			"GFX_english_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -570,7 +570,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -596,15 +596,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
-			"GFX_german_male_chin_oldage:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin_oldage:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks_oldage:d4"
 			"GFX_norse_male_mouth_oldage:d2"
 			"GFX_norse_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose_oldage:d3"
+			"GFX_english_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -648,7 +648,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -674,15 +674,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base:p2"
 			"GFX_german_male_neck:d0"
-			"GFX_german_male_chin:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks:d4"
 			"GFX_norse_male_mouth:d2"
 			"GFX_norse_male_eyes:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose:d3"
+			"GFX_english_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -732,7 +732,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -758,15 +758,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base_midage:p2"
 			"GFX_german_male_neck_midage:d0"
-			"GFX_german_male_chin_midage:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin_midage:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks_midage:d4"
 			"GFX_norse_male_mouth_midage:d2"
 			"GFX_norse_male_eyes_midage:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose_midage:d3"
+			"GFX_english_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -816,7 +816,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -842,15 +842,15 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_male_base_oldage:p2"
 			"GFX_german_male_neck_oldage:d0"
-			"GFX_german_male_chin_oldage:d1"
-			"GFX_character_german_male_physique:p21" 
+			"GFX_english_male_chin_oldage:d1"
+			"GFX_character_english_male_physique:p21" 
 			"GFX_german_male_cheeks_oldage:d4"
 			"GFX_norse_male_mouth_oldage:d2"
 			"GFX_norse_male_eyes_oldage:d6"
 			"GFX_english_male_eyes2:d6:e:o-2x0"
 			"GFX_character_freckles:p20"
 			"GFX_character_german_male_pale:p22"
-			"GFX_german_male_nose_oldage:d3"
+			"GFX_english_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -894,7 +894,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1216,8 +1216,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base:p2"
 			"GFX_german_female_neck:d0"
-			"GFX_german_female_chin:d1"
-			"GFX_character_german_female_physique:p21"
+			"GFX_english_female_chin:d1"
+			"GFX_character_english_female_physique:p21"
 			"GFX_german_female_cheeks:d4"
 			"GFX_norse_female_eyes:d6:o0x4"
 			"GFX_norse_female_eyes2:d6:o0x4:e"
@@ -1274,7 +1274,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1301,8 +1301,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
-			"GFX_german_female_chin_midage:d1"
-			"GFX_character_german_female_physique:p21" 
+			"GFX_english_female_chin_midage:d1"
+			"GFX_character_english_female_physique:p21" 
 			"GFX_german_female_cheeks_midage:d4"
 			"GFX_norse_female_eyes_midage:d6:o0x4"
 			"GFX_norse_female_eyes2:d6:o0x4:e"
@@ -1359,7 +1359,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1386,8 +1386,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
-			"GFX_german_female_chin_oldage:d1"
-			"GFX_character_german_female_physique:p21" 
+			"GFX_english_female_chin_oldage:d1"
+			"GFX_character_english_female_physique:p21" 
 			"GFX_german_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
 			"GFX_norse_female_eyes_oldage:d6:o0x4"
@@ -1439,7 +1439,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1466,8 +1466,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base:p2"
 			"GFX_german_female_neck:d0"
-			"GFX_german_female_chin:d1"
-			"GFX_character_german_female_physique:p21"
+			"GFX_english_female_chin:d1"
+			"GFX_character_english_female_physique:p21"
 			"GFX_german_female_cheeks:d4"
 			"GFX_norse_female_mouth:d2"
 			"GFX_norse_female_eyes:d6:o0x4"
@@ -1524,7 +1524,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1551,8 +1551,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base_midage:p2"
 			"GFX_german_female_neck_midage:d0"
-			"GFX_german_female_chin_midage:d1"
-			"GFX_character_german_female_physique:p21" 
+			"GFX_english_female_chin_midage:d1"
+			"GFX_character_english_female_physique:p21" 
 			"GFX_german_female_cheeks_midage:d4"
 			"GFX_norse_female_mouth_midage:d2"
 			"GFX_norse_female_eyes_midage:d6:o0x4"
@@ -1609,7 +1609,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
@@ -1636,8 +1636,8 @@ spriteTypes = {
 			":p5:c6"
 			"GFX_german_female_base_oldage:p2"
 			"GFX_german_female_neck_oldage:d0"
-			"GFX_german_female_chin_oldage:d1"
-			"GFX_character_german_female_physique:p21" 
+			"GFX_english_female_chin_oldage:d1"
+			"GFX_character_english_female_physique:p21" 
 			"GFX_german_female_cheeks_oldage:d4"
 			"GFX_norse_female_mouth_oldage:d2"
 			"GFX_norse_female_eyes_oldage:d6:o0x4"
@@ -1689,7 +1689,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
-			{ 170 125 72 } #Lighter Hazel
+			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 85 122 209 } #Light blue 01
 			{ 80 145 185 } #Light blue 02
