@@ -83,7 +83,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue
@@ -172,7 +172,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel
+ 			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue
@@ -261,7 +261,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel
+ 			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue
@@ -355,7 +355,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel
+ 			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue
@@ -447,7 +447,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel
+ 			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue
@@ -539,7 +539,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown
 			{ 77 54 21 } #Medium Brown
 			{ 134 97 34 } #Light Hazel
- 			{ 170 125 72 } #Lighter Hazel
+ 			{ 170 116 40 } #Lighter Hazel
 			{ 47 52 121 } #Dark blue
 			{ 98 120 164 } #Light blue 01
 			{ 22 44 85 } #Dark Blue

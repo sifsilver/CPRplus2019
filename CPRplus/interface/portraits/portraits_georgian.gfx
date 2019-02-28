@@ -110,7 +110,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind:p1:h:y"
 			"GFX_persian_male_beard_behind:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base:p2"
 			"GFX_byzantine_male_neck:d0"
 			"GFX_byzantine_male_chin:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -139,7 +140,8 @@ spriteTypes = {
 			"GFX_persian_male_beard:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 		   	"GFX_persian_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -166,7 +168,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -189,7 +191,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_midage:p1:h:y"
 			"GFX_persian_male_beard_behind_midage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_midage:p2"
 			"GFX_byzantine_male_neck_midage:d0"
 			"GFX_byzantine_male_chin_midage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -218,7 +221,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_midage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -245,7 +249,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -268,7 +272,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_oldage:p1:h:y"
 			"GFX_persian_male_beard_behind_oldage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_oldage:p2"
 			"GFX_byzantine_male_neck_oldage:d0"
 			"GFX_byzantine_male_chin_oldage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -297,7 +302,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_oldage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -324,7 +330,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -346,7 +352,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind:p1:h:y"
 			"GFX_persian_male_beard_behind:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base:p2"
 			"GFX_byzantine_male_neck:d0"
 			"GFX_byzantine_male_chin:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -375,7 +382,8 @@ spriteTypes = {
 			"GFX_persian_male_beard:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 		   	"GFX_persian_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -402,7 +410,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -425,7 +433,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_midage:p1:h:y"
 			"GFX_persian_male_beard_behind_midage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_midage:p2"
 			"GFX_byzantine_male_neck_midage:d0"
 			"GFX_byzantine_male_chin_midage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -454,7 +463,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_midage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -481,7 +491,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -504,7 +514,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_oldage:p1:h:y"
 			"GFX_persian_male_beard_behind_oldage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_oldage:p2"
 			"GFX_byzantine_male_neck_oldage:d0"
 			"GFX_byzantine_male_chin_oldage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -533,7 +544,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_oldage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_early:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -560,7 +572,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -582,7 +594,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind:p1:h:y"
 			"GFX_persian_male_beard_behind:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base:p2"
 			"GFX_byzantine_male_neck:d0"
 			"GFX_byzantine_male_chin:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -611,7 +624,8 @@ spriteTypes = {
 			"GFX_persian_male_beard:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 		   	"GFX_persian_male_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_late:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -638,7 +652,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -661,7 +675,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_midage:p1:h:y"
 			"GFX_persian_male_beard_behind_midage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_midage:p2"
 			"GFX_byzantine_male_neck_midage:d0"
 			"GFX_byzantine_male_chin_midage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -690,7 +705,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_midage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_late:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -717,7 +733,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -740,7 +756,8 @@ spriteTypes = {
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_male_hair_behind_oldage:p1:h:y"
 			"GFX_persian_male_beard_behind_oldage:p4:o2x0:h:y"
-			":p5:c6"			"GFX_byzantine_male_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_male_base_oldage:p2"
 			"GFX_byzantine_male_neck_oldage:d0"
 			"GFX_byzantine_male_chin_oldage:d1"
 			"GFX_character_byzantine_male_physique:p21" 
@@ -769,7 +786,8 @@ spriteTypes = {
 			"GFX_persian_male_beard_oldage:p4:o2x0:h:y"
 			"GFX_character_eyepatch:p13:y:o30x63"
 			"GFX_persian_male_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_byzantine_male_headgear_late:p5:c5"
 			"GFX_frankish_male_overlayer:p31"
@@ -796,7 +814,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -824,7 +842,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base:p2"
 			"GFX_byzantine_female_neck:d0"
 			"GFX_byzantine_female_chin:d1"
 			"GFX_character_byzantine_female_physique:p21"
@@ -851,7 +870,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_georgian_female_headgear_mid:p5:c3"
 			"GFX_persian_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -880,7 +900,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -904,7 +924,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_midage:p2"
 			"GFX_byzantine_female_neck_midage:d0"
 			"GFX_byzantine_female_chin_midage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -931,7 +952,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_georgian_female_headgear_mid:p5:c3"
 			"GFX_persian_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -960,7 +982,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -984,7 +1006,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_oldage:p2"
 			"GFX_byzantine_female_neck_oldage:d0"
 			"GFX_byzantine_female_chin_oldage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -1011,7 +1034,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_georgian_female_headgear_mid:p5:c3"
 			"GFX_persian_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1040,7 +1064,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1063,7 +1087,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base:p2"
 			"GFX_byzantine_female_neck:d0"
 			"GFX_byzantine_female_chin:d1"
 			"GFX_character_byzantine_female_physique:p21"
@@ -1090,7 +1115,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_persian_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1119,7 +1145,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1143,7 +1169,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_midage:p2"
 			"GFX_byzantine_female_neck_midage:d0"
 			"GFX_byzantine_female_chin_midage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -1170,7 +1197,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_persian_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1199,7 +1227,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1223,7 +1251,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_oldage:p2"
 			"GFX_byzantine_female_neck_oldage:d0"
 			"GFX_byzantine_female_chin_oldage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -1250,7 +1279,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_early:p5:c3"
 			"GFX_persian_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1279,7 +1309,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1302,7 +1332,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base:p2"
 			"GFX_byzantine_female_neck:d0"
 			"GFX_byzantine_female_chin:d1"
 			"GFX_character_byzantine_female_physique:p21"
@@ -1329,7 +1360,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_late:p5:c3"
 			"GFX_persian_female_hair:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1358,7 +1390,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1382,7 +1414,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_midage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_midage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_midage:p2"
 			"GFX_byzantine_female_neck_midage:d0"
 			"GFX_byzantine_female_chin_midage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -1409,7 +1442,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_late:p5:c3"
 			"GFX_persian_female_hair_midage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1438,7 +1472,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
@@ -1462,7 +1496,8 @@ spriteTypes = {
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
 			"GFX_persian_female_hair_behind_oldage:p1:h:y"
-			":p5:c6"			"GFX_byzantine_female_base_oldage:p2"
+			":p5:c6"
+			"GFX_byzantine_female_base_oldage:p2"
 			"GFX_byzantine_female_neck_oldage:d0"
 			"GFX_byzantine_female_chin_oldage:d1"
 			"GFX_character_byzantine_female_physique:p21" 
@@ -1489,7 +1524,8 @@ spriteTypes = {
 			"GFX_easternslavic_female_clothes:p3:c2"
 			"GFX_byzantine_female_headgear_mid_late:p5:c3"
 			"GFX_persian_female_hair_oldage:p1:h:y"
-			":p5:c7"			"GFX_character_mask:p12:y:o40x45"
+			":p5:c7"
+			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
 			"GFX_frankish_female_undermain_hair:p33:h"
 			"GFX_frankish_female_undermain:p33"
@@ -1518,7 +1554,7 @@ spriteTypes = {
 			{ 80 64 38 } #Dark Brown 
  			{ 77 54 21 } #Medium Brown 
  			{ 134 97 34 } #Light Hazel 
- 			{ 170 125 72 } #Lighter Hazel 
+ 			{ 170 116 40 } #Lighter Hazel 
  			{ 47 52 121 } #Dark blue 
  			{ 85 122 209 } #Light blue 01 
  			{ 98 165 221 } #Light blue 02 
