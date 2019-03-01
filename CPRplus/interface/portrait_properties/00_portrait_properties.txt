@@ -4982,15 +4982,20 @@
 			NOT = { real_tier = KING }
 			NOT = { spouse = { real_tier = KING } }
 		}
-		#modifier = {
-		#	factor = 0
-		#	is_ruler = yes
-		#	NOT = { trait = uncrowned }
-		#	NOT = { religion = catholic }
-		#	NOT = { religion = fraticelli }
-		#	NOT = { government = order_government }
-		#	higher_real_tier_than = DUKE
-		#}
+		modifier = {
+			factor = 0
+			is_ruler = yes
+			is_tribal = yes
+			higher_real_tier_than = DUKE
+		}
+		modifier = {
+			factor = 0
+			spouse = {
+				is_ruler = yes
+				is_tribal = yes
+				higher_real_tier_than = DUKE
+			}
+		}
 		#modifier = {
 		#	factor = 0 #Dead Doges should not wear crowns.
 		#	is_republic = yes
