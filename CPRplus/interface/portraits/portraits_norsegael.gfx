@@ -371,7 +371,7 @@ spriteTypes = {
 		
 		}
 
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -463,7 +463,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -541,7 +541,7 @@ spriteTypes = {
 			
 		}
 
-		headgear_that_hides_hair = { 10 }
+		headgear_that_hides_hair = { }
 	}
 
 #### norsegael FEMALE ####
