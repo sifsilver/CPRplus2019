@@ -321,7 +321,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 2 3 10 }
+		headgear_that_hides_hair = { 3 10 }
 	}
 
 	# bodpa female midage
@@ -400,7 +400,7 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 2 3 10 }
+		headgear_that_hides_hair = { 3 10 }
 	}
 
 	# bodpa female oldage
@@ -479,6 +479,6 @@ spriteTypes = {
 			{ 30 22 16 } #Super Dark Brown
 		}
 
-		headgear_that_hides_hair = { 2 3 10 }
+		headgear_that_hides_hair = { 3 10 }
 	}
 }
