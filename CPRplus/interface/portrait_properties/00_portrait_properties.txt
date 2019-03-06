@@ -2073,6 +2073,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2166,6 +2174,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2217,6 +2233,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2264,6 +2288,14 @@
 			OR = { #Prevent clothes switching on portrait refresh.
 				has_portrait_property = { layer = 3 index = 4 }
 				has_portrait_property = { layer = 3 index = 5 } 
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
 			}
 		}
 		modifier = {
@@ -2328,6 +2360,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			trait = in_hiding
 		}
 		modifier = {
@@ -2384,6 +2424,14 @@
 			OR = { #Prevent clothes switching on portrait refresh.
 				has_portrait_property = { layer = 3 index = 3 }
 				has_portrait_property = { layer = 3 index = 4 } 
+			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
 			}
 		}
 		modifier = {
@@ -2448,6 +2496,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2477,6 +2533,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2501,6 +2565,14 @@
 		}
 		modifier = {
 			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
+		modifier = {
+			factor = 0
 			NOT = { trait = in_hiding }
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -2518,6 +2590,14 @@
 		hide_layers = { 31 = { } } #Veil overload.
 		hide_layers = { 32 = { } } 
 		hide_layers = { 33 = { } }
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -2544,9 +2624,22 @@
 		}
 		modifier = {
 			factor = 0
-			in_command = no
+			NOT = { trait = shieldmaiden }
 			NOT = { has_job_title  = job_marshal }
-			NOT = {
+			NAND = { 
+				has_minor_title = title_commander 
+				is_ruler = no 
+			}
+			#NOT = { martial = 12 }
+			NAND = { 
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
+				}
+			}
+			NOR = {
+				government = order_government
 				primary_title = {
 					OR = {
 						mercenary = yes
@@ -2554,6 +2647,58 @@
 						title = e_china_west_governor
 					}
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				AND = {
+					is_female = yes
+					NOT = { trait = shieldmaiden }
+					NOT = { has_minor_title = title_commander }
+					NAND = { 
+						in_command = yes 
+						has_game_rule = {
+							name = martial_headgear
+							value = on
+						}
+					}
+				}
+			#	real_tier = king
+			#	real_tier = emperor
+				AND = {
+					NOT = { government = order_government }
+					real_tier = duke
+					NAND = { 
+						in_command = yes 
+						has_game_rule = {
+							name = martial_headgear
+							value = on
+						}
+					}
+					any_demesne_title = {
+						real_tier = baron
+					}
+					NOT = {
+						primary_title = {
+							OR = {
+								mercenary = yes
+								holy_order = yes
+								title = e_china_west_governor
+							}
+						}
+					}
+				}
+				#AND = {
+				#	religion_group = christian
+				#	OR = {
+				#		AND = {
+				#			is_ruler = yes
+				#			is_theocracy = yes
+				#		}
+				#		has_job_title = job_spiritual
+				#	}
+				#}
 			}
 		}
 		modifier = {
@@ -5630,17 +5775,16 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOR = {
-				has_portrait_property = { layer = 3 index = 10 }
-				AND = {
-					trait = shieldmaiden
-					NAND = { 
-						in_command = yes 
-						has_game_rule = {
-							name = martial_headgear
-							value = on
-						}
-					}
+			NOT = { has_portrait_property = { layer = 3 index = 10 } } 
+		}
+		modifier = {
+			factor = 0
+			trait = shieldmaiden
+			NAND = {
+				in_command = yes 
+				has_game_rule = {
+					name = martial_headgear
+					value = on
 				}
 			}
 		}
@@ -5663,6 +5807,15 @@
 					value = on
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			in_command = yes
+			has_game_rule = {
+				name = martial_headgear
+				value = on
+			}
+			NOT = { trait = saint }
 		}
 		modifier = {
 			factor = 0
