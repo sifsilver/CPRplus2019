@@ -104,11 +104,12 @@ chinese_martial_modifier_trigger = {			### Similar to the default "Martial" gear
 			has_job_title = job_marshal
 			liege = {
 				real_tier = king
-				OR = {
-					culture_group = chinese_group
-					culture = khitan
-					culture = jurchen
-				}
+				is_feudal = yes
+				#OR = {
+				#	culture_group = chinese_group
+				#	culture = khitan
+				#	culture = jurchen
+				#}
 			}
 		}
 	}
@@ -146,12 +147,13 @@ chinese_generals_modifier_trigger = {				### Like the above, but for characters 
 			has_job_title = job_marshal
 			liege = {
 				real_tier = emperor
+				is_feudal = yes
 				NOT = { primary_title = { title = e_china_west_governor } }
-				OR = {
-					culture_group = chinese_group
-					culture = khitan
-					culture = jurchen
-				}
+				#OR = {
+				#	culture_group = chinese_group
+				#	culture = khitan
+				#	culture = jurchen
+				#}
 			}
 		}
 	}
