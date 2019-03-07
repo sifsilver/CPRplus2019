@@ -6075,8 +6075,12 @@
 		hide_layers = { 18 = { } } #Hide layers with special crowns.
 		hide_layers = { 19 = { } } #Hide layers with special crowns.
 		hide_layers = { 5 = { } } #Hide layer 5 (headgear) when this frame is picked.
-		hide_layers = { 34 = { } } #Hide layer 34 (headgear) when this frame is picked.
-		hide_layers = { 35 = { } } #Hide layer 35 (headgear) when this frame is picked.
+		hide_layers = { 31 = { } } #Hide layer 31 (headgear) when this frame is picked.
+		hide_layers = { 32 = { } } #Hide layer 32 (headgear) when this frame is picked.
+		hide_layers = { 33 = { } } #Hide layer 33 (underlayer) when this frame is picked.
+		hide_layers = { 34 = { } } #Hide layer 34 (special helmets) when this frame is picked.
+		hide_layers = { 35 = { } } #Hide layer 35 (special masks) when this frame is picked.
+		hide_layers = { 36 = { } } #Hide layer 36 (special sceptres) when this frame is picked.
 	}
 	
 	2 = { # Western knight armor #1
