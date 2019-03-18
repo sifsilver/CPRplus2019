@@ -6726,6 +6726,10 @@
 		}
 		modifier = {
 			factor = 0
+			any_artifact = { artifact_type = crown_crusader_king is_artifact_equipped = yes } 
+		}
+		modifier = {
+			factor = 0
 			NOT = { year = 950 }
 		}
 		modifier = {
