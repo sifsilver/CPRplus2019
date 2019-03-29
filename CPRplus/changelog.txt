@@ -1,0 +1,70 @@
+CPRplus 3.0.3
+Feature Changes
+- White Bodpa king-tier headgear no longer hides hair
+- Adjustment to Norse chin
+- Adjustment to Egyptian nose
+- CPRplus’s crusader armors are no longer worn if the character in question has the crusader king crown equipped
+
+Bug Fixes
+- Military helmet game rule should now work properly
+- Early-era Basque female no longer loses hair while wearing the Spymaster hood
+- Early-era Norse-Gael male no longer loses hair while wearing military helmet
+
+
+CPRplus 3.0.2
+Feature Changes:
+- Norse portraits revision (including Norman and Norse-Gael): more German and English face assets
+- Celtic and Breton portraits now use English fat chins
+- The brown Persian headgear no longer hides hair
+- Toned down hazel pupil colors
+
+Bug Fixes:
+- Tribal kings no longer wear ducal headgear
+- Early-era Egyptian portraits are no longer missing ears
+
+
+CPRplus 3.0.1
+New Features
+- Incorporated all new portraits from Holy Fury, complete with skin tone adjustment and new portrait backgrounds
+- New portrait background for the emperor of China and the Western Protectorate General
+- Tangut portrait set added
+- Oghuz portrait set added [SWMH only]
+- Nubian portrait set added
+- Newly created beard set for the Occitan and Italian portraits
+- Characters who “left for/went back to China” get the China background
+- New religious clothes for Taoist priests (original author Lysten)
+- Pope wears a more decorated papal tiara after the year 1200 (original author Lysten)
+- Catholic priests over the age of 18 with the Uncouth trait now grow beard
+- Catholic characters with the Groomed trait are more likely to stay beardless
+- Norman characters with the Groomed trait stay beardless
+
+Feature Changes
+- Revised looks for the Occitan and Egyptian portraits
+- Counts now wear the same headgear as dukes
+- Mid-era Central Asian portrait now uses Sogdian headgear
+- Tang emperors now wear putou
+- Basque portrait set now uses CPRplus’s old Italian face
+- Occitan portrait set now uses Frankish headgear and clothes
+- Bohemian portrait set now uses German headgear and Western Slavic clothes
+- Volga Bulgar portrait set now uses Ugric eyes
+- Beard and hair placement changes for portraits in India for smoother transitions within the area
+- Coptic portrait set now uses East African headgear
+- Eastern Slavic face now makes use of Western Slavic face assets
+- Warrior Lodge society clothes are no longer worn if higher in rank than Baron
+- Holders of Military Order government and Merchant Republic no longer wear king- or emperor-tier headgear
+- “Celtic” castle background is now available for characters located in Brittania and France regions
+- CPRplus’s special armors no longer check Martial stats
+-  Black-clad Crusader armor is now available for characters with the Crusader King or Crusader Queen trait, regardless of Personal Combat Skill value
+- Quf culture now uses the Afghan portrait set [SWMH only]
+- Old Saxon culture now uses Dutch portrait
+- Reverted female Buddhist religious clothes to pre-CK2 3.0’s (taken after Lysten’s change)
+- Iberian king- and empire-tier cloth with the Leonese and Castilian CoA’s is now disabled unless the character owns one of the relevant titles (kingdom or duchy of Leon or Castile)
+- Incorporated some new Muslim hair assets to the Maghreb male hair set
+- Removed the Urzhailian portrait set
+
+Bug Fixes
+- Fixed an issue with the disappearing nostril on the French female [Vanilla issue]
+- Various beard and hair alignment fixes
+- Adjusted the Norse male’s slightly misaligned pupil location
+- Adjusted Steppe and Volga Bolghar characters’ misaligned eyes
+- All four of Frankish military helms are now used [Vanilla issue]
