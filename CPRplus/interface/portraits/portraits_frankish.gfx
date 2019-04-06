@@ -825,6 +825,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -903,6 +904,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -982,6 +984,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1060,6 +1063,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1138,6 +1142,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1217,6 +1222,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1298,7 +1304,8 @@ spriteTypes = {
 			"GFX_character_special_masks:p35"
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
-			"GFX_character_imprisoned:p6"                       #21
+			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"                       #21
 			"GFX_player_overlay:p11"
 		}
 
@@ -1378,6 +1385,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1457,6 +1465,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1536,7 +1545,8 @@ spriteTypes = {
 			"GFX_character_special_masks:p35"
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
-			"GFX_character_imprisoned:p6"                       #21
+			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"                       #21
 			"GFX_player_overlay:p11"
 		}
 
@@ -1616,6 +1626,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 
@@ -1695,6 +1706,7 @@ spriteTypes = {
 			"GFX_character_special_scepters:p36"
 			"GFX_character_blood_splatter:p27"
 			"GFX_character_imprisoned:p6"
+			"GFX_lover_overlay:p37"
 			"GFX_player_overlay:p11"
 		}
 

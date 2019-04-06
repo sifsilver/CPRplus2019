@@ -1,3 +1,7 @@
+CPRplus 3.0.4
+New Features
+- Compatibility patch for vanilla Lover/Rival layer
+
 CPRplus 3.0.3
 Feature Changes
 - White Bodpa king-tier headgear no longer hides hair
@@ -12,13 +16,13 @@ Bug Fixes
 
 
 CPRplus 3.0.2
-Feature Changes:
+Feature Changes
 - Norse portraits revision (including Norman and Norse-Gael): more German and English face assets
 - Celtic and Breton portraits now use English fat chins
 - The brown Persian headgear no longer hides hair
 - Toned down hazel pupil colors
 
-Bug Fixes:
+Bug Fixes
 - Tribal kings no longer wear ducal headgear
 - Early-era Egyptian portraits are no longer missing ears
 
