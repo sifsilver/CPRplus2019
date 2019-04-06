@@ -12467,6 +12467,7 @@
 			NOR = {
 				any_player = { is_rival = PREV }
 				any_player = { is_lover = PREV }
+				any_player = { is_friend = PREV }
 			}
 		}
 	}
@@ -12480,6 +12481,12 @@
 		factor = 100
 		trigger = {
 			any_player = { is_lover = PREV }
+		}
+	}
+	3 = { 
+		factor = 100
+		trigger = {
+			any_player = { is_friend = PREV }
 		}
 	}
 }

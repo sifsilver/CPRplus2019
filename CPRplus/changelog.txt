@@ -1,6 +1,7 @@
 CPRplus 3.0.4
 New Features
-- Compatibility patch for vanilla Lover/Rival layer
+- Compatibility patch for vanilla Lover/Rival multiplayer layer
+- Added a glow effect for Friend in the Lover/Rival multiplayer layer
 
 CPRplus 3.0.3
 Feature Changes
