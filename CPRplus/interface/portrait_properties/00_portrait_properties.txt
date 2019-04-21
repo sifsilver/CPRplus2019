@@ -5155,29 +5155,50 @@
 			NOT = { spouse = { real_tier = EMPEROR } }
 			NOT = { spouse = { real_tier = KING } }
 			NOT = { spouse = { real_tier = DUKE } }
-			#OR = { 
-			#	AND = { 
-			#		NOT = { culture = frankish }
-			#		NOT = { culture = occitan }
-			#		NOT = { culture = arpitan }
-			#		NOT = { culture = ligurian }
-			#		NOT = { culture = breton }
-			#		NOT = { culture = welsh }
-			#		NOT = { culture = cumbric }
-			#		NOT = { culture = cornish }
-			#		NOT = { culture = dutch }
-			#		NOT = { culture = low_saxon }
-			#		NOT = { culture = low_frankish }
-			#		NOT = { culture = frisian }
-			#		NOT = { culture = old_saxon }
-			#		NOT = { culture = norman }
-			#	}
-			#	AND = { 
+			OR = { 
+				AND = { 
+					NOR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
 					NOT = { real_tier = COUNT }
-			#		NOT = { has_minor_title = title_prince }
 					NOT = { spouse = { real_tier = COUNT } }
-			#	} 
-			#}
+				}
+				AND = { 
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					NOT = { real_tier = COUNT }
+					NOT = { spouse = { real_tier = COUNT } }
+					NOT = { real_tier = BARON }
+					NOT = { spouse = { real_tier = BARON } }
+				}
+			}
 		}
         modifier = {
             factor = 0
@@ -5215,8 +5236,50 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = BARON
-				spouse = { higher_real_tier_than = BARON }
+				AND = {
+					NOR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						higher_real_tier_than = BARON
+						spouse = { higher_real_tier_than = BARON }
+					}
+				}
+				AND = { 
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						is_ruler = yes
+						spouse = { is_ruler = yes }
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -5359,8 +5422,50 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = BARON
-				spouse = { higher_real_tier_than = BARON }
+				AND = {
+					NOR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						higher_real_tier_than = BARON
+						spouse = { higher_real_tier_than = BARON }
+					}
+				}
+				AND = { 
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						is_ruler = yes
+						spouse = { is_ruler = yes }
+					}
+				}
 				has_minor_title = title_prince
 			}
 			NOT = { tang_dynasty_putou_trigger = yes }
@@ -5492,8 +5597,50 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = BARON
-				spouse = { higher_real_tier_than = BARON }
+				AND = {
+					NOR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						higher_real_tier_than = BARON
+						spouse = { higher_real_tier_than = BARON }
+					}
+				}
+				AND = { 
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						is_ruler = yes
+						spouse = { is_ruler = yes }
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
@@ -5613,8 +5760,50 @@
 			NOT = { trait = heresiarch }
 			OR = {
 				is_or_was_offmap_power_ruler = yes
-				higher_real_tier_than = BARON
-				spouse = { higher_real_tier_than = BARON }
+				AND = {
+					NOR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						higher_real_tier_than = BARON
+						spouse = { higher_real_tier_than = BARON }
+					}
+				}
+				AND = { 
+					OR = {
+						culture = frankish
+						culture = occitan
+						culture = arpitan
+						culture = ligurian
+						culture = breton
+						culture = welsh
+						culture = cumbric
+						culture = cornish
+						culture = dutch
+						#culture = low_saxon
+						culture = low_frankish
+						culture = frisian
+						culture = old_saxon
+						culture = norman
+					}
+					OR = {
+						is_ruler = yes
+						spouse = { is_ruler = yes }
+					}
+				}
 				has_minor_title = title_prince
 			}
 		}
