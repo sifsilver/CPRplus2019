@@ -5148,6 +5148,22 @@
 		#}
 		modifier = {
 			factor = 0
+			NOR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
+			}
 			NOT = { real_tier = DUKE }
 			NOT = { real_tier = KING }
 			NOT = { real_tier = EMPEROR }
@@ -5155,50 +5171,36 @@
 			NOT = { spouse = { real_tier = EMPEROR } }
 			NOT = { spouse = { real_tier = KING } }
 			NOT = { spouse = { real_tier = DUKE } }
-			OR = { 
-				AND = { 
-					NOR = {
-						culture = frankish
-						culture = occitan
-						culture = arpitan
-						culture = ligurian
-						culture = breton
-						culture = welsh
-						culture = cumbric
-						culture = cornish
-						culture = dutch
-						#culture = low_saxon
-						culture = low_frankish
-						culture = frisian
-						culture = old_saxon
-						culture = norman
-					}
-					NOT = { real_tier = COUNT }
-					NOT = { spouse = { real_tier = COUNT } }
-				}
-				AND = { 
-					OR = {
-						culture = frankish
-						culture = occitan
-						culture = arpitan
-						culture = ligurian
-						culture = breton
-						culture = welsh
-						culture = cumbric
-						culture = cornish
-						culture = dutch
-						#culture = low_saxon
-						culture = low_frankish
-						culture = frisian
-						culture = old_saxon
-						culture = norman
-					}
-					NOT = { real_tier = COUNT }
-					NOT = { spouse = { real_tier = COUNT } }
-					NOT = { real_tier = BARON }
-					NOT = { spouse = { real_tier = BARON } }
-				}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				culture = frankish
+				culture = occitan
+				culture = arpitan
+				culture = ligurian
+				culture = breton
+				culture = welsh
+				culture = cumbric
+				culture = cornish
+				culture = dutch
+				#culture = low_saxon
+				culture = low_frankish
+				culture = frisian
+				culture = old_saxon
+				culture = norman
 			}
+			NOT = { real_tier = DUKE }
+			NOT = { real_tier = KING }
+			NOT = { real_tier = EMPEROR }
+			NOT = { real_tier = COUNT }
+			NOT = { real_tier = BARON }
+			NOT = { has_minor_title = title_prince }
+			NOT = { spouse = { real_tier = EMPEROR } }
+			NOT = { spouse = { real_tier = KING } }
+			NOT = { spouse = { real_tier = DUKE } }
+			NOT = { spouse = { real_tier = COUNT } }
+			NOT = { spouse = { real_tier = BARON } }
 		}
         modifier = {
             factor = 0
@@ -5254,8 +5256,8 @@
 						culture = norman
 					}
 					OR = {
-						higher_real_tier_than = BARON
-						spouse = { higher_real_tier_than = BARON }
+						higher_real_tier_than = COUNT
+						spouse = { higher_real_tier_than = COUNT }
 					}
 				}
 				AND = { 
@@ -5306,13 +5308,18 @@
 					NOT = { culture = cumbric }
 					NOT = { culture = cornish }
 				}
-				AND = {
-					culture_group = north_germanic
-					NOT = { culture = frisian }
-				}
 				culture_group = east_slavic
 			}
 			year = 950
+			is_female = no	
+		}
+		modifier = { #no hood for rulers
+			factor = 0
+			is_ruler = yes
+			culture_group = north_germanic
+			NOT = { culture = frisian }
+			religion_group = pagan_group
+			is_female = no
 		}
 		#modifier = {
 		#	factor = 10
@@ -5410,13 +5417,6 @@
 			trait = shieldmaiden
 		}
 		modifier = {
-			factor = 2
-			OR = {
-				real_tier = BARON
-				spouse = { real_tier = BARON }
-			}
-		}
-		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -5440,8 +5440,8 @@
 						culture = norman
 					}
 					OR = {
-						higher_real_tier_than = BARON
-						spouse = { higher_real_tier_than = BARON }
+						higher_real_tier_than = COUNT
+						spouse = { higher_real_tier_than = COUNT }
 					}
 				}
 				AND = { 
@@ -5585,13 +5585,6 @@
 			trait = shieldmaiden
 		}
 		modifier = {
-			factor = 2
-			OR = {
-				real_tier = BARON
-				spouse = { real_tier = BARON }
-			}
-		}
-		modifier = {
 			factor = 0
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
@@ -5615,8 +5608,8 @@
 						culture = norman
 					}
 					OR = {
-						higher_real_tier_than = BARON
-						spouse = { higher_real_tier_than = BARON }
+						higher_real_tier_than = COUNT
+						spouse = { higher_real_tier_than = COUNT }
 					}
 				}
 				AND = { 
@@ -5778,8 +5771,8 @@
 						culture = norman
 					}
 					OR = {
-						higher_real_tier_than = BARON
-						spouse = { higher_real_tier_than = BARON }
+						higher_real_tier_than = COUNT
+						spouse = { higher_real_tier_than = COUNT }
 					}
 				}
 				AND = { 
@@ -5882,6 +5875,13 @@
 			NOT = {
 				french_courtier_overlayer_trigger = yes
 			}
+		}
+		modifier = { #no hood for rulers
+			factor = 0
+			is_ruler = yes
+			culture_group = east_slavic
+			year = 950
+			is_female = no
 		}
 		modifier = {
 			factor = 2
@@ -11276,7 +11276,33 @@
 		trigger = {
 			OR = {
 				has_game_started = no
-				is_in_society = yes
+				AND = {
+					is_in_society = yes
+					lower_real_tier_than = COUNT
+					OR = {
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = on
+							}
+							NOR = {
+								in_command = yes
+								has_minor_title = title_commander
+								has_job_title = job_marshal
+							}
+						}
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = off
+							}
+							NOR = {
+								has_minor_title = title_commander 
+								has_job_title = job_marshal
+							}
+						}
+					}
+				}
 				is_theocracy = yes
 				is_merchant_republic = yes
 				has_job_title = job_spiritual
@@ -11463,7 +11489,33 @@
 		trigger = {
 			OR = {
 				has_game_started = no
-				is_in_society = yes
+				AND = {
+					is_in_society = yes
+					lower_real_tier_than = COUNT
+					OR = {
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = on
+							}
+							NOR = {
+								in_command = yes
+								has_minor_title = title_commander
+								has_job_title = job_marshal
+							}
+						}
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = off
+							}
+							NOR = {
+								has_minor_title = title_commander 
+								has_job_title = job_marshal
+							}
+						}
+					}
+				}
 				is_theocracy = yes
 				is_merchant_republic = yes
 				has_job_title = job_spiritual
@@ -11754,7 +11806,33 @@
 		trigger = {
 			OR = {
 				has_game_started = no
-				is_in_society = yes
+				AND = {
+					is_in_society = yes
+					lower_real_tier_than = COUNT
+					OR = {
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = on
+							}
+							NOR = {
+								in_command = yes
+								has_minor_title = title_commander
+								has_job_title = job_marshal
+							}
+						}
+						AND = {
+							has_game_rule = {
+								name = martial_headgear
+								value = off
+							}
+							NOR = {
+								has_minor_title = title_commander
+								has_job_title = job_marshal
+							}
+						}
+					}
+				}
 				is_theocracy = yes
 				is_merchant_republic = yes
 				has_job_title = job_spiritual
