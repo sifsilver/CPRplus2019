@@ -576,7 +576,7 @@ italian_group = {
 		graphical_cultures = { italiangfx occitangfx }
 	}
 	ligurian = {
-		graphical_cultures = { occitangfx italiangfx }
+		graphical_cultures = { italiangfx occitangfx }
 	}
 	langobardisch = {
 		graphical_cultures = {lombardgfx italiangfx occitangfx }

@@ -1,17 +1,23 @@
 CPRplus 3.0.5
+New Features
+- Buddhist, Hindu, and Jain ascetics now wear the same clothes as their corresponding monastic orders
+
 Feature Changes
 - Count-tier characters that do not use portrait sets with Frankish headgear reverted to wearing headgear frames 5-8 (temporary change until a better solution)
 - Baron-tier characters that use portrait sets with Frankish headgear now wear the same headgear as count-tier characters rather than courtiers
-- Catholic (and its heresies) nuns now wear a white hood from the Frankish female overlayer
+- Catholic (and its heresies) nuns who don't belong to the Benedectine or Dominican Order now wear a white hood from the Frankish female overlayer
+- Ligurian characters now use the Italian portrait set (SWMH-only)
 
 Bug Fixes
 - Being a society member no longer removes the extra Frankish martial headgear layer
 - Unlanded spouse of a baron-tier character with Frankish headgear no longer wears inappropriate headgear 
 
+
 CPRplus 3.0.4
 New Features
 - Compatibility patch for vanilla Lover/Rival multiplayer layer
 - Added a glow effect for Friend in the Lover/Rival multiplayer layer
+
 
 CPRplus 3.0.3
 Feature Changes

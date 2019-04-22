@@ -466,7 +466,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasi
+				}
 				portrait_has_trait = vaishnavist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -512,7 +515,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasini
+				}
 				portrait_has_trait = vaishnavist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -579,7 +585,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasi
+				}
 				portrait_has_trait = smartist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -637,7 +646,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasini
+				}
 				portrait_has_trait = smartist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -685,7 +697,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasi
+				}
 				portrait_has_trait = shaktist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -731,7 +746,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasini
+				}
 				portrait_has_trait = shaktist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -779,7 +797,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasi
+				}
 				portrait_has_trait = shaivist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -825,7 +846,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_hindu
+				OR = {
+					portrait_society = monastic_order_hindu
+					portrait_has_trait = sanyasini
+				}
 				portrait_has_trait = shaivist_hindu
 				NOT = { portrait_tier = count }
 			}
@@ -876,7 +900,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = monk
+					portrait_has_trait = bhikkhu
+				}
 				portrait_has_trait = vajrayana_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -930,7 +958,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = nun
+					portrait_has_trait = bhikkhuni
+				}
 				portrait_has_trait = vajrayana_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -983,7 +1015,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = monk
+					portrait_has_trait = bhikkhu
+				}
 				portrait_has_trait = theravada_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -1037,7 +1073,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = nun
+					portrait_has_trait = bhikkhuni
+				}
 				portrait_has_trait = theravada_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -1090,7 +1130,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = monk
+					portrait_has_trait = bhikkhu
+				}
 				portrait_has_trait = mahayana_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -1144,7 +1188,11 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_buddhist
+				OR = {
+					portrait_society = monastic_order_buddhist
+					portrait_has_trait = nun
+					portrait_has_trait = bhikkhuni
+				}
 				portrait_has_trait = mahayana_buddhist
 				NOT = { portrait_tier = count }
 			}
@@ -1193,7 +1241,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_jain
+				OR = {
+					portrait_society = monastic_order_jain
+					portrait_has_trait = muni
+				}
 				portrait_has_trait = digambara_jain
 				NOT = { portrait_tier = count }
 			}
@@ -1247,7 +1298,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_jain
+				OR = {
+					portrait_society = monastic_order_jain
+					portrait_has_trait = aryika
+				}
 				portrait_has_trait = digambara_jain
 				NOT = { portrait_tier = count }
 			}
@@ -1301,7 +1355,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = no
 				portrait_clothing = yes
-				portrait_society = monastic_order_jain
+				OR = {
+					portrait_society = monastic_order_jain
+					portrait_has_trait = muni
+				}
 				portrait_has_trait = svetambara_jain
 				NOT = { portrait_tier = count }
 			}
@@ -1353,7 +1410,10 @@ spriteTypes = {
 				portrait_age > child
 				portrait_is_female = yes
 				portrait_clothing = yes
-				portrait_society = monastic_order_jain
+				OR = {
+					portrait_society = monastic_order_jain
+					portrait_has_trait = aryika
+				}
 				portrait_has_trait = svetambara_jain
 				NOT = { portrait_tier = count }
 			}
