@@ -2,6 +2,7 @@ CPRplus 3.0.5
 Feature Changes
 - Count-tier characters that do not use portrait sets with Frankish headgear reverted to wearing headgear frames 5-8 (temporary change until a better solution)
 - Baron-tier characters that use portrait sets with Frankish headgear now wear the same headgear as count-tier characters rather than courtiers
+- Catholic (and its heresies) nuns now wear a white hood from the Frankish female overlayer
 
 Bug Fixes
 - Being a society member no longer removes the extra Frankish martial headgear layer

@@ -153,19 +153,18 @@ spriteTypes = {
 			"GFX_society_benedictine_female_clothing_behind:c0"
 			"GFX_society_benedictine_female_clothing_front:c2"
 			"GFX_empty:c3"
-			"GFX_society_benedictine_female_headgear_behind:c1"
-			"GFX_society_benedictine_female_headgear_front:c5"
+			"GFX_frankish_female_overlayer_behind:c1"
+			"GFX_frankish_female_overlayer:c5"
 			"GFX_empty:c4"
 		}
 		
-		# Hide hair
-		#allow_property_values = {
-		#	1 = {
-		#		0 = {
-		#			always = yes
-		#		}
-		#	}
-		#}
+		allow_property_values = {
+			5 = {
+				17 = {
+					always = yes
+				}
+			}
+		}
 	}
 	
 	portraitType = {
