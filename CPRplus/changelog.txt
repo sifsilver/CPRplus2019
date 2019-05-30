@@ -1,3 +1,8 @@
+CPRplus 3.0.6
+Bug Fixes
+- (SWMH-only) Moravian culture will now use the proper graphical culture
+
+
 CPRplus 3.0.5
 New Features
 - Buddhist, Hindu, and Jain ascetics now wear the same clothes as their corresponding monastic orders

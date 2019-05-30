@@ -373,7 +373,7 @@ west_slavic = {
 	bohemian = {
 		graphical_cultures = {bohemiangfx westernslavicgfx}
 	}
-	moravian = {
+	slovieni = {
 		graphical_cultures = {bohemiangfx westernslavicgfx}
 	}
 }
