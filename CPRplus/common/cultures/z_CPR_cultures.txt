@@ -81,6 +81,9 @@ latin = {
 	outremer = {
 		graphical_cultures = { outremergfx muslimgfx }
 	}
+	sardinian = {
+		graphical_cultures = { italiangfx occitangfx }
+	}
 }
 
 iberian = {
@@ -291,6 +294,9 @@ west_slavic = {
 	}
 	polish = {
 		graphical_cultures = { westernslavicgfx }
+	}
+	slovieni = {
+		graphical_cultures = { bohemiangfx westernslavicgfx }
 	}
 }
 
