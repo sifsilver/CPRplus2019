@@ -1,6 +1,7 @@
 CPRplus 3.0.7
 Bug Fixes
 - Adjusted Personal Combat Skill value necessary for special armor (EMF-only)
+- Fixed the wrong headgear assignment to the early-era Kurdish male portraits
 
 
 CPRplus 3.0.6
