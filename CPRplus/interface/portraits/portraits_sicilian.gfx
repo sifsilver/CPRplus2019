@@ -609,7 +609,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -705,7 +705,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -801,7 +801,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_male_clothes_behind_early:p3:c0"
 			"GFX_western_male_headgear_behind_early:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -903,7 +903,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
@@ -999,7 +999,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
@@ -1095,7 +1095,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_early_behind_early:p3:c0"
+			"GFX_byzantine_female_clothes_behind_early:p3:c0"
 			"GFX_western_female_headgear_behind_early:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
@@ -1191,7 +1191,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_male_clothes_behind_late:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -1287,7 +1287,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_male_clothes_behind_late:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -1383,7 +1383,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_male_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_male_clothes_behind_late:p3:c0"
 			"GFX_german_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -1485,7 +1485,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_female_clothes_behind_late:p3:c0"
 			"GFX_german_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
@@ -1581,7 +1581,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_female_clothes_behind_late:p3:c0"
 			"GFX_german_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
@@ -1677,7 +1677,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_byzantine_female_clothes_late_behind_late:p3:c0"
+			"GFX_byzantine_female_clothes_behind_late:p3:c0"
 			"GFX_german_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"

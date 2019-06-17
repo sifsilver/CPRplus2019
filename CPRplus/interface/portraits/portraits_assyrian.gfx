@@ -1179,7 +1179,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind_late_late:p3:c0"
+			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_late:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -1275,7 +1275,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind_late_late:p3:c0"
+			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_late:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
@@ -1370,7 +1370,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind_late_late:p3:c0"
+			"GFX_muslim_male_clothes_behind:p3:c0"
 			"GFX_byzantine_male_headgear_behind_late:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"

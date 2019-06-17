@@ -461,7 +461,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_steppe_female_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid_christian:p5:c3"
-			"GFX_frankish_male_overlayer_mid:p31"
+			"GFX_centralasian_female_hair_oldage:p1:o-1x-3:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
