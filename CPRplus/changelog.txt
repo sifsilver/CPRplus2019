@@ -2,6 +2,9 @@ CPRplus 3.0.7
 Bug Fixes
 - Adjusted Personal Combat Skill value necessary for special armor (EMF-only)
 - Fixed the wrong headgear assignment to the early-era Kurdish male portraits
+- Fixed a hair issue with the old-aged Alan female portrait
+- Fixed typos in Assyrian and Sicilian portrait files
+- Dalmatian children now use the Italian child icons (Vanilla issue)
 
 
 CPRplus 3.0.6
