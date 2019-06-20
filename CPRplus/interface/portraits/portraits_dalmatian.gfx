@@ -3,6 +3,20 @@ spriteTypes = {
 	
 ############## Dalmatian mixed culture ##########################
 
+	spriteType = {
+		name = "PORTRAIT_dalmatiangfx_child_male"
+		texturefile = "gfx\\characters\\default_son_italian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_dalmatiangfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_italian.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
 	# Dalmatian MALE 
