@@ -237,7 +237,7 @@ altaic = {
 	}
 	
 	avar = { # Oghur Turkish
-		graphical_cultures = { magyargfx turkishgfx easterngfx }
+		graphical_cultures = { avargfx turkishgfx easterngfx }
 	}
 	
 	karluk = {

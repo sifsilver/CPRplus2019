@@ -17,12 +17,15 @@ magyargfx = {
 }
 
 bulgargfx = {
-	skin_tone = 0
+	skin_tone = 1
 }
 centralasiangfx = {
 	skin_tone = 1
 }
 steppegfx = {
+	skin_tone = 1
+}
+avargfx = {
 	skin_tone = 1
 }
 siberiangfx = {
