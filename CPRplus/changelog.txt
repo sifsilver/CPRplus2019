@@ -2,6 +2,9 @@ CPRplus 3.0.8
 New Features
 - Added a new portrait set for the Avar culture
 
+Bug Fixes
+- Adjusted hair position of the non-pagan Hungarian portraits
+
 
 CPRplus 3.0.7
 Bug Fixes
