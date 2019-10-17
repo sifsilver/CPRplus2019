@@ -5152,7 +5152,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5178,7 +5178,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5243,7 +5243,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5265,7 +5265,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5354,7 +5354,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5427,7 +5427,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5449,7 +5449,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5479,7 +5479,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5512,7 +5512,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5595,7 +5595,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5617,7 +5617,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5646,7 +5646,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5679,7 +5679,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5758,7 +5758,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5780,7 +5780,7 @@
 						culture = frankish
 						culture = occitan
 						culture = arpitan
-						culture = ligurian
+						#culture = ligurian
 						culture = breton
 						culture = welsh
 						culture = cumbric
@@ -5827,7 +5827,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -5860,7 +5860,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 				culture = welsh
 				culture = cumbric
@@ -11364,7 +11364,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 			}
 			NOR = {
@@ -11578,7 +11578,7 @@
 				culture = frankish
 				culture = occitan
 				culture = arpitan
-				culture = ligurian
+				#culture = ligurian
 				culture = breton
 			}
 			NOR = {

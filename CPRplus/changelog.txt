@@ -4,6 +4,7 @@ New Features
 
 Bug Fixes
 - Adjusted hair position of the non-pagan Hungarian portraits
+- Fixed a bug where Ligurian characters were erroneously wearing French headgear ornaments [SWMH only]
 
 
 CPRplus 3.0.7
