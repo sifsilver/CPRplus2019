@@ -782,7 +782,7 @@ spriteTypes = {
 			{ 37 54 24 } #Brown-Green
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 4 5 9 }
 	}
 
 	# Egyptian male midage
@@ -860,7 +860,7 @@ spriteTypes = {
 			{ 37 54 24 } #Brown-Green
 		}
 		
-		headgear_that_hides_hair = { }
+		headgear_that_hides_hair = { 4 5 9 }
 	}
 
 	# Egyptian male oldage
@@ -938,7 +938,7 @@ spriteTypes = {
 			{ 37 54 24 } #Brown-Green
 		}
 		
-		headgear_that_hides_hair = {  }
+		headgear_that_hides_hair = { 4 5 9 }
 	}
 
 ### EGYPTIAN FEMALE ####
