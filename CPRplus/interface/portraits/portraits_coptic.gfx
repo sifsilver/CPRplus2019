@@ -17,6 +17,207 @@ spriteTypes = {
 		norefcount = yes
 		can_be_lowres = yes
 	}
+
+	spriteType = {
+		name = "GFX_coptic_male_base"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_base_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_base_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_neck"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_neck_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_neck_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_cheeks"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+	
+
+	spriteType = {
+		name = "GFX_coptic_male_cheeks_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_cheeks_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_chin"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_chin_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_chin_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_mouth"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_mouth_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_mouth_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+#	spriteType = {
+#		name = "GFX_coptic_male_head"
+#		texturefile = "gfx\\characters\\coptic_male\\coptic_male_head_1.dds"
+#		noOfFrames = 3
+#		norefcount = yes
+#		can_be_lowres = yes
+#	}
+
+	spriteType = {
+		name = "GFX_coptic_male_eyes"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_eyes_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_eyes_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_nose"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_nose_1.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_nose_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_nose_2.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_nose_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_nose_3.dds"
+		noOfFrames = 13
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_ear"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_ear_1.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_ear_midage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_ear_2.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_male_ear_oldage"
+		texturefile = "gfx\\characters\\coptic_male\\coptic_male_ear_3.dds"
+		noOfFrames = 11
+		norefcount = yes
+		can_be_lowres = yes
+	}
 	
 ### COPTIC MALE ####
 
@@ -26,24 +227,24 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind:p3:c0"
+			"GFX_egyptian_male_clothes_behind:p3:c0"
 			"GFX_african_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind:p1:h:y"
+			"GFX_egyptian_male_beard_behind:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base:p2"
 			"GFX_egyptian_male_neck:d0"
 			"GFX_egyptian_male_chin:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks:d4"
-			"GFX_muslim_male_mouth:d2"
+			"GFX_egyptian_male_mouth:d2"
 			"GFX_egyptian_male_eyes:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -55,13 +256,13 @@ spriteTypes = {
 			"GFX_character_harelip_muslim:p24"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
-			"GFX_muslim_male_clothes:p3:c2"
+			"GFX_egyptian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear:d7:o24x48"			
-			"GFX_byzantine_male_beard:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear:d7"			
+			"GFX_egyptian_male_beard:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -118,24 +319,24 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind:p3:c0"
+			"GFX_egyptian_male_clothes_behind:p3:c0"
 			"GFX_african_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind_midage:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind_midage:p1:h:y"
+			"GFX_egyptian_male_beard_behind_midage:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base_midage:p2"
 			"GFX_egyptian_male_neck_midage:d0"
 			"GFX_egyptian_male_chin_midage:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks_midage:d4"
-			"GFX_muslim_male_mouth_midage:d2"
+			"GFX_egyptian_male_mouth_midage:d2"
 			"GFX_egyptian_male_eyes_midage:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose_midage:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -147,13 +348,13 @@ spriteTypes = {
 			"GFX_character_harelip_muslim:p24"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
-			"GFX_muslim_male_clothes:p3:c2"
+			"GFX_egyptian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear_midage:d7:o25x53"
-			"GFX_byzantine_male_beard_midage:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear_midage:d7"
+			"GFX_egyptian_male_beard_midage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair_midage:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -209,24 +410,24 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
-			"GFX_muslim_male_clothes_behind:p3:c0"
+			"GFX_egyptian_male_clothes_behind:p3:c0"
 			"GFX_african_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind_oldage:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind_oldage:p1:h:y"
+			"GFX_egyptian_male_beard_behind_oldage:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base_oldage:p2"
 			"GFX_egyptian_male_neck_oldage:d0"
 			"GFX_egyptian_male_chin_oldage:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks_oldage:d4"
-			"GFX_muslim_male_mouth_oldage:d2"
+			"GFX_egyptian_male_mouth_oldage:d2"
 			"GFX_egyptian_male_eyes_oldage:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose_oldage:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -238,13 +439,13 @@ spriteTypes = {
 			"GFX_character_harelip_muslim:p24"
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
-			"GFX_muslim_male_clothes:p3:c2"
+			"GFX_egyptian_male_clothes:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear_oldage:d7:o23x50"
-			"GFX_byzantine_male_beard_oldage:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear_oldage:d7"
+			"GFX_egyptian_male_beard_oldage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair_oldage:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -295,6 +496,207 @@ spriteTypes = {
 	}
 
 #### COPTIC FEMALE ####
+
+	spriteType = {
+		name = "GFX_coptic_female_base"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_base_1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_base_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_base_2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_base_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_base_3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_neck"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_neck_1.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_neck_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_neck_2.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_neck_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_neck_3.dds"
+		noOfFrames = 4
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_cheeks"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_cheeks_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_cheeks_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_cheeks_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_cheeks_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_cheeks_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_chin"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_chin_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_chin_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_chin_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_chin_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_chin_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_mouth"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_mouth_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_mouth_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_mouth_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_mouth_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_mouth_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_nose"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_nose_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_nose_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_nose_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_nose_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_nose_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+#	spriteType = {
+#		name = "GFX_coptic_female_head"
+#		texturefile = "gfx\\characters\\coptic_female\\coptic_female_head_1.dds"
+#		noOfFrames = 3
+#		norefcount = yes
+#		can_be_lowres = yes
+#	}
+
+	spriteType = {
+		name = "GFX_coptic_female_eyes"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_eyes_1.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_eyes_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_eyes_2.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_eyes_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_eyes_3.dds"
+		noOfFrames = 10
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_coptic_female_ear"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_ear_1.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_ear_midage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_ear_2.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+	spriteType = {
+		name = "GFX_coptic_female_ear_oldage"
+		texturefile = "gfx\\characters\\coptic_female\\coptic_female_ear_3.dds"
+		noOfFrames = 6
+		norefcount = yes
+		can_be_lowres = yes
+	}
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
@@ -306,24 +708,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
-			"GFX_muslim_female_clothes_behind:p3:c0"
+			"GFX_egyptian_female_clothes_behind:p3:c0"
 			"GFX_african_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind:p1:o0x-1:h:y" 
+			"GFX_byzantine_female_hair_behind:p1:h:y" 
 			":p5:c6"
 			"GFX_egyptian_female_base:p2"
 			"GFX_egyptian_female_neck:d0"
 			"GFX_egyptian_female_chin:d1"
-			"GFX_character_muslim_female_physique:p21"
-			"GFX_egyptian_female_cheeks:d4::o0x2"
-			"GFX_muslim_female_mouth:d2"
-			"GFX_egyptian_female_ear:d7:o28x51"
-			"GFX_egyptian_female_eyes:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21"
+			"GFX_egyptian_female_cheeks:d4:o0x2"
+			"GFX_egyptian_female_mouth:d2"
+			"GFX_egyptian_female_ear:d7"
+			"GFX_egyptian_male_eyes:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -336,9 +738,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_muslim_female_clothes:p3:c2"
+			"GFX_egyptian_female_clothes:p3:c2"
 			"GFX_african_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -397,24 +799,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
-			"GFX_muslim_female_clothes_behind:p3:c0"
+			"GFX_egyptian_female_clothes_behind:p3:c0"
 			"GFX_african_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind_midage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
 			"GFX_egyptian_female_base_midage:p2"
 			"GFX_egyptian_female_neck_midage:d0"
 			"GFX_egyptian_female_chin_midage:d1"
-			"GFX_character_muslim_female_physique:p21" 
-			"GFX_egyptian_female_cheeks_midage:d4::o0x2"
-			"GFX_muslim_female_mouth_midage:d2"
-			"GFX_egyptian_female_ear_midage:d7:o28x52"
-			"GFX_egyptian_female_eyes_midage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21" 
+			"GFX_egyptian_female_cheeks_midage:d4:o0x2"
+			"GFX_egyptian_female_mouth_midage:d2"
+			"GFX_egyptian_female_ear_midage:d7"
+			"GFX_egyptian_male_eyes_midage:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_midage:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -427,9 +829,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_muslim_female_clothes:p3:c2"
+			"GFX_egyptian_female_clothes:p3:c2"
 			"GFX_african_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair_midage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -488,24 +890,24 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_frankish_female_undermain_behind:p33"
 			"GFX_frankish_female_undermain_hair_behind:p33:h"
-			"GFX_muslim_female_clothes_behind:p3:c0"
+			"GFX_egyptian_female_clothes_behind:p3:c0"
 			"GFX_african_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind_oldage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
 			"GFX_egyptian_female_base_oldage:p2"
 			"GFX_egyptian_female_neck_oldage:d0"
 			"GFX_egyptian_female_chin_oldage:d1"
-			"GFX_character_muslim_female_physique:p21" 
-			"GFX_egyptian_female_cheeks_oldage:d4::o0x2"
-			"GFX_muslim_female_mouth_oldage:d2"
-			"GFX_egyptian_female_ear_oldage:d7:o28x60"
-			"GFX_egyptian_female_eyes_oldage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21" 
+			"GFX_egyptian_female_cheeks_oldage:d4:o0x2"
+			"GFX_egyptian_female_mouth_oldage:d2"
+			"GFX_egyptian_female_ear_oldage:d7"
+			"GFX_egyptian_male_eyes_oldage:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_oldage:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -518,9 +920,9 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_character_possessed:p30"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_muslim_female_clothes:p3:c2"
+			"GFX_egyptian_female_clothes:p3:c2"
 			"GFX_african_female_headgear_mid:p5:c3"
-			"GFX_byzantine_female_hair_oldage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -583,20 +985,20 @@ spriteTypes = {
 			"GFX_ethiopian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind:p1:h:y"
+			"GFX_egyptian_male_beard_behind:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base:p2"
 			"GFX_egyptian_male_neck:d0"
 			"GFX_egyptian_male_chin:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks:d4"
-			"GFX_muslim_male_mouth:d2"
+			"GFX_egyptian_male_mouth:d2"
 			"GFX_egyptian_male_eyes:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -611,10 +1013,10 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear:d7:o24x48"			
-			"GFX_byzantine_male_beard:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear:d7"			
+			"GFX_egyptian_male_beard:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -675,20 +1077,20 @@ spriteTypes = {
 			"GFX_ethiopian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind_midage:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind_midage:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind_midage:p1:h:y"
+			"GFX_egyptian_male_beard_behind_midage:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base_midage:p2"
 			"GFX_egyptian_male_neck_midage:d0"
 			"GFX_egyptian_male_chin_midage:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks_midage:d4"
-			"GFX_muslim_male_mouth_midage:d2"
+			"GFX_egyptian_male_mouth_midage:d2"
 			"GFX_egyptian_male_eyes_midage:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose_midage:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -703,10 +1105,10 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear_midage:d7:o25x53"
-			"GFX_byzantine_male_beard_midage:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear_midage:d7"
+			"GFX_egyptian_male_beard_midage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair_midage:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -766,20 +1168,20 @@ spriteTypes = {
 			"GFX_ethiopian_male_headgear_behind:p5:c1"
 			"GFX_frankish_male_overlayer_behind:p31"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_male_hair_behind_oldage:p1:o2x0:h:y"
-			"GFX_byzantine_male_beard_behind_oldage:p4:o3x-2:h:y"
+			"GFX_byzantine_male_hair_behind_oldage:p1:h:y"
+			"GFX_egyptian_male_beard_behind_oldage:p4:h:y"
 			":p5:c6"
 			"GFX_egyptian_male_base_oldage:p2"
 			"GFX_egyptian_male_neck_oldage:d0"
 			"GFX_egyptian_male_chin_oldage:d1"
-			"GFX_character_muslim_male_physique:p21" 
+			"GFX_character_egyptian_male_physique:p21" 
 			"GFX_egyptian_male_cheeks_oldage:d4"
-			"GFX_muslim_male_mouth_oldage:d2"
+			"GFX_egyptian_male_mouth_oldage:d2"
 			"GFX_egyptian_male_eyes_oldage:d6"
-			"GFX_english_male_eyes2:d6:e"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_male_pale:p22"
-			"GFX_muslim_male_nose_oldage:d3"
+			"GFX_character_egyptian_male_pale:p22"
+			"GFX_egyptian_male_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -794,10 +1196,10 @@ spriteTypes = {
 			"GFX_muslim_male_clothes_early:p3:c2"
 			"GFX_empty:p5:c3"
 			"GFX_frankish_male_overlayer_mid:p31"
-			"GFX_egyptian_male_ear_oldage:d7:o23x50"
-			"GFX_byzantine_male_beard_oldage:p4:o3x-2:h:y"
+			"GFX_egyptian_male_ear_oldage:d7"
+			"GFX_egyptian_male_beard_oldage:p4:h:y"
 			"GFX_character_eyepatch:p13:y:o32x63"
-			"GFX_byzantine_male_hair_oldage:p1:o2x0:h:y"
+			"GFX_byzantine_male_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -863,20 +1265,20 @@ spriteTypes = {
 			"GFX_ethiopian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind:p1:o0x-1:h:y" 
+			"GFX_byzantine_female_hair_behind:p1:h:y" 
 			":p5:c6"
 			"GFX_egyptian_female_base:p2"
 			"GFX_egyptian_female_neck:d0"
 			"GFX_egyptian_female_chin:d1"
-			"GFX_character_muslim_female_physique:p21"
-			"GFX_egyptian_female_cheeks:d4::o0x2"
-			"GFX_muslim_female_mouth:d2"
-			"GFX_egyptian_female_ear:d7:o28x51"
-			"GFX_egyptian_female_eyes:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21"
+			"GFX_egyptian_female_cheeks:d4:o0x2"
+			"GFX_egyptian_female_mouth:d2"
+			"GFX_egyptian_female_ear:d7"
+			"GFX_egyptian_male_eyes:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -891,7 +1293,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_african_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -954,20 +1356,20 @@ spriteTypes = {
 			"GFX_ethiopian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind_midage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_behind_midage:p1:h:y"
 			":p5:c6"
 			"GFX_egyptian_female_base_midage:p2"
 			"GFX_egyptian_female_neck_midage:d0"
 			"GFX_egyptian_female_chin_midage:d1"
-			"GFX_character_muslim_female_physique:p21" 
-			"GFX_egyptian_female_cheeks_midage:d4::o0x2"
-			"GFX_muslim_female_mouth_midage:d2"
-			"GFX_egyptian_female_ear_midage:d7:o28x52"
-			"GFX_egyptian_female_eyes_midage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21" 
+			"GFX_egyptian_female_cheeks_midage:d4:o0x2"
+			"GFX_egyptian_female_mouth_midage:d2"
+			"GFX_egyptian_female_ear_midage:d7"
+			"GFX_egyptian_male_eyes_midage:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_midage:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose_midage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -982,7 +1384,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_african_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair_midage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_midage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"
@@ -1045,20 +1447,20 @@ spriteTypes = {
 			"GFX_ethiopian_female_headgear_behind:p5:c1"
 			"GFX_frankish_female_overlayer_behind:p32"
 			"GFX_character_special_crowns_behind:p18"
-			"GFX_byzantine_female_hair_behind_oldage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_behind_oldage:p1:h:y"
 			":p5:c6"
 			"GFX_egyptian_female_base_oldage:p2"
 			"GFX_egyptian_female_neck_oldage:d0"
 			"GFX_egyptian_female_chin_oldage:d1"
-			"GFX_character_muslim_female_physique:p21" 
-			"GFX_egyptian_female_cheeks_oldage:d4::o0x2"
-			"GFX_muslim_female_mouth_oldage:d2"
-			"GFX_egyptian_female_ear_oldage:d7:o28x60"
-			"GFX_egyptian_female_eyes_oldage:d6"
-			"GFX_german_male_eyes2:d6:e"
+			"GFX_character_egyptian_female_physique:p21" 
+			"GFX_egyptian_female_cheeks_oldage:d4:o0x2"
+			"GFX_egyptian_female_mouth_oldage:d2"
+			"GFX_egyptian_female_ear_oldage:d7"
+			"GFX_egyptian_male_eyes_oldage:d6"
+			"GFX_egyptian_male_eyes2:d6:e"
 			"GFX_character_freckles:p20"
-			"GFX_character_muslim_female_pale:p22"
-			"GFX_muslim_female_nose_oldage:d3"
+			"GFX_character_egyptian_female_pale:p22"
+			"GFX_egyptian_female_nose_oldage:d3"
 			"GFX_character_scars:p7:y"
 			"GFX_character_scars_mid:p25"
 			"GFX_character_scars_high:p26"
@@ -1073,7 +1475,7 @@ spriteTypes = {
 			"GFX_character_eyepatch:p13:y:o32x63"
 			"GFX_muslim_female_clothes_early:p3:c2"
 			"GFX_african_female_headgear_mid_early:p5:c3"
-			"GFX_byzantine_female_hair_oldage:p1:o0x-1:h:y"
+			"GFX_byzantine_female_hair_oldage:p1:h:y"
 			":p5:c7"
 			"GFX_character_mask:p12:y:o40x45"
 			"GFX_empty:p3:c4"

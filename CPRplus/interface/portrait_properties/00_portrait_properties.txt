@@ -1756,6 +1756,7 @@
 				graphical_culture = muslimgfx
 				graphical_culture = levantinegfx
 				graphical_culture = egyptiangfx
+				graphical_culture = maghrebgfx
 				graphical_culture = kurdishgfx
 				graphical_culture = assyriangfx
 			}

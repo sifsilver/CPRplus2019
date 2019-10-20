@@ -1,10 +1,22 @@
+CPRplus 3.1.0
+New Features
+- Incorporated vanilla Egyptian portraits (as is for now)
+
+Feature Changes
+- Maghreb Arabic portraits now use vanilla Egyptian hair, beard and cloth assets
+- Berber and Southern Berber portraits now use vanilla Egyptian cloth assets [SWMH only]
+- Coptic portraits now use vanilla Egyptian face and beard assets
+
+Bug Fixes
+- Fixed a bug where Ligurian characters were erroneously wearing French headgear ornaments [SWMH only]
+
+
 CPRplus 3.0.8
 New Features
 - Added a new portrait set for the Avar culture
 
 Bug Fixes
 - Adjusted hair position of the non-pagan Hungarian portraits
-- Fixed a bug where Ligurian characters were erroneously wearing French headgear ornaments [SWMH only]
 
 
 CPRplus 3.0.7
