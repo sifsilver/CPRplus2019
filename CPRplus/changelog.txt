@@ -1,5 +1,10 @@
+CPRplus 3.1.2
+Feature Changes
+- Recolored the Egyptian face assets
+
+
 CPRplus 3.1.1
-Bug fixes
+Bug Fixes
 - Added the missing early-era Egyptian portraits
 - Actually fixed a bug where Ligurian characters were erroneously wearing French headgear ornaments [SWMH only]
 
