@@ -1,3 +1,8 @@
+CPRplus 3.1.4
+Bug Fixes
+- SWMH's special armors now properly hide French female underlayer.
+
+
 CPRplus 3.1.3
 Bug Fixes
 - Adjusted the eye positions of the Steppe and Bulgar portrait sets
